@@ -1,3 +1,7 @@
+The quadratic formula is $$-b \pm \sqrt{b^2 - 4ac} \over 2a$$
+
+---
+
 #Angular Services
 
 Simply put Angular services are components that are added to your code via dependency injection.
@@ -40,6 +44,3 @@ A factory function is really just a function that gets called, which is why we r
 Service = **Constructor Function**
 
 Factory = **Function to invoke**
-
-
-
