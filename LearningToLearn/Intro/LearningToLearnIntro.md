@@ -3,6 +3,8 @@
 #[fit] Learning
 #[fit] To Learn
 
+^Mat
+
 ---
 
 ![](img/1_sponge.jpg)
@@ -18,13 +20,23 @@
 
 By the end of this workshop, you will be able to...
 
-- Discuss the 3 stage learning process
+- Describe differentiated instruction.
 
-- Identify your personal strengths and areas of growth in the 3 stage learning process
+- Explain what type of learner you are?
+
+- Discuss the 3 stage learning process.
+
+- Identify your personal strengths and areas of growth in the 3 stage learning process.
+
+- Explain the zone of proximal development.
+
+- Explain the purpose of Bloom's Taxonomy.
 
 ---
 
 ![](img/3_Why.png)
+
+^ Quick turn and talk - why is this important?
 
 ---
 
@@ -39,13 +51,19 @@ By the end of this workshop, you will be able to...
 
 ^Differentiation means giving students multiple options for taking in information.
 
-^CFU - Turn and Talk - Your learning style.
+^Exercise: Fill out google form for their learning style.
+
+^Craig takes over.
 
 ---
 
 ![](img/23_123.jpg)
 
 ^The 3 step learning process.  Easy as 1-2-3.
+
+^ Back to Mat
+
+^ Introduce concept of "Cold Calling"
 
 ---
 
@@ -172,6 +190,8 @@ By the end of this workshop, you will be able to...
 ---
 
 ![fit](img/25_ZPD.png)
+
+^ Craig again
 
 ---
 
