@@ -65,6 +65,8 @@ By the end of this workshop, you will be able to...
 
 ^ Introduce concept of "Cold Calling"
 
+^ Cold call "What is differentiated instruction?"
+
 ---
 
 ![](img/7_Step.jpg)
@@ -79,17 +81,15 @@ By the end of this workshop, you will be able to...
 
 ---
 
-![](img/6_Brain.png)
-
-#[fit] Prime Your Brain
-
----
-
 ![right](img/8_Reset.jpg)
 
 #[fit] Clear the Stage
 
 #[fit] Reset Your Working Memory
+
+^ Turn and Talk - What are some ways you can clear your mind?
+
+^ Show hiding notifications.
 
 ---
 
@@ -99,6 +99,12 @@ By the end of this workshop, you will be able to...
 #[fit]the **What** and
 #[fit]the **Why**
 
+^ Setting your brain up for learning.  We post the objectives, but you can do this yourself.  
+
+^Whiteboard exercise - pick something you always wanted to learn, and write some "objectives" you might use during a study session.
+
+^Post them to slack
+
 ---
 ![](img/10_Pomodoro.png)
 
@@ -106,12 +112,20 @@ By the end of this workshop, you will be able to...
 #[fit] *over*
 #[fit] product
 
+^Procrastination happens when you worry about product.
+
+^Example - Writing the short story vs writing for the next 20 minutes.
+
+^Turn and Talk and give an example of product vs process.
+
 ---
 
 ![left](img/11_Key.jpg)
 
 #[fit] Focused practice
 #[fit] is the key
+
+^Cold Call - what is setting the stage?
 
 ---
 
@@ -124,6 +138,7 @@ By the end of this workshop, you will be able to...
 #[fit] Play!
 
 ---
+
 ![left](img/13_DigIn.jpg)
 #[fit] Dig In!
 
@@ -133,11 +148,23 @@ By the end of this workshop, you will be able to...
 
 #[fit] Wrestle With It
 
+^Think about it from different perspectives.
+
+^Make problems harder - example - what if I did this.
+
+^You should be able to make everything a challenge.
+
+^Talk about warm up activity.
+
 ---
 
 ![](img/15_Strive.jpg)
 
 #[fit] Strive For Fluency
+
+^Drilling
+
+^Free up cognitive load
 
 ---
 
@@ -145,6 +172,12 @@ By the end of this workshop, you will be able to...
 
 #[fit] Take
 #[fit] Risks
+
+^Here is where you should break stuff.
+
+^Effort over Intelligence
+
+^Growth Mindset
 
 ---
 ![left](img/17_FortuneCookie.jpg)
@@ -157,6 +190,10 @@ By the end of this workshop, you will be able to...
 ![](img/18_Fun.jpg)
 
 #[fit] Have fun!
+
+^Stand Up - talk to someone across the room and talk about the importance of fun with learning.
+
+^When stressed or focusing, take breaks and go for a walk.
 
 ---
 
@@ -172,15 +209,22 @@ By the end of this workshop, you will be able to...
 #[fit] Be your Own
 #[fit] Teacher
 
+
+
 ---
+
 ![left](img/20_SelfAssess.jpg)
 #[fit] Self Assess
+
+^Did you meet your objectives?  
 
 ---
 
 ![right](img/12_Ask.jpg)
 #[fit] Ask New
 #[fit] Questions
+
+^Why not?  What do I need to learn next?
 
 ---
 
