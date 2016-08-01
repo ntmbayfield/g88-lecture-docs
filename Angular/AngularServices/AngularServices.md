@@ -6,6 +6,8 @@ The quadratic formula is $$-b \pm \sqrt{b^2 - 4ac} \over 2a$$
 
 Simply put Angular services are components that are added to your code via dependency injection.
 
+---
+
 ## Services vs Factories
 
 **Service**  
