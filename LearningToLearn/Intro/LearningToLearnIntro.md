@@ -249,6 +249,10 @@ By the end of this workshop, you will be able to...
 
 ---
 
+![fit](img/27_PsychologyOfFlow.png)
+
+---
+
 ![fit](img/22_Questions.png)
 
 ^Questions
