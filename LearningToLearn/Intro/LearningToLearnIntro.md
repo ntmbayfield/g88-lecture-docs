@@ -20,7 +20,7 @@
 
 By the end of this workshop, you will be able to...
 
-- Describe differentiated instruction.
+-` Describe differentiated instruction.
 
 - Explain what type of learner you are?
 
