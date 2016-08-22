@@ -104,35 +104,9 @@
 
 ---
 
-The WIG must be achievable.
+![](img/checkered_flag.png)
 
----
-
-Ideas for success.
-
----
-
-Start by having the team brainstorm possible wigs. No involvement, no commitment.
-
----
-
-Rank by impact
-
----
-
-Test the ideas
-
-- Is the team wig aligned to the overall wig?
-- Is it measurable?
-- Does the team have at least 80% ownership of the results?
-- Can the team affect the outcome, or just the leader?
-
----
-
-Begin with a verb.
-Define the lag measure.
-Keep it simple.
-Focus on the what, not how.
+#*The WIG must be* achievable*.*
 
 ---
 
@@ -141,51 +115,29 @@ Focus on the what, not how.
 
 ---
 
-A lag measure tells you if you've achieved a goal.
+![](img/clock.jpg)
+
+##*A* lag measure *tells you if you've achieved a goal*.
 
 ---
 
-A lead measure tells you if you are likely to achieve the goal.
+![](img/binoculars.jpg)
+
+##*A* lead measure *tells you if you are likely to achieve the goal.*
 
 ---
 
-Example
+![right](img/crystal_ball.png)
+
+### A lead measure is predictive.
+### A lead measure is influenceable.
+### The more you act on the lead measure, the more likely you are to achieve the goal.
 
 ---
 
-A lead measure is predictive.
-A lead measure is influenceable.
-The more you act on the lead measure, the more likely you are to achieve the goal.
+![](img/magic-cube.jpg)
 
----
-
-Ideas for success.
-
----
-
-This is the single most difficult aspect of 4DX.
-
----
-
-Brainstorm lead measures.
-
----
-
-Rank by impact - narrow your focus.
-
----
-
-Test the ideas
-
-- Is it predictive?
-- is it influenceable?
-- Is it an ongoing process, or a one and done? (an ongoing process that becomes habit is best.
-- Can the team do it, or just the leader?
-- Can it be measures?
-- Is it worth measuring?  What is the cost of measurement?
-- Are we tracking team or individual performance?
-- How often are we tracking?
-- Is it simple?
+##*This is the single most* difficult *aspect of 4DX.*
 
 ---
 
@@ -194,68 +146,41 @@ Test the ideas
 
 ---
 
-People will disengage and focus on the whirlwind, unless they know the score.
+![](img/scoreboard.jpg)
+
+##[fit]People will disengage and focus on the whirlwind,
+##[fit]unless they know the score.
 
 ---
 
-The score is what impact the process is having.
+![left](img/domino.jpg)
+
+#*The score is what impact the* process *is having*.
 
 ---
 
-Knowing the impact also allows the team to adjust when its not working.
+![](img/scales.png)
+
+###Knowing the impact also allows the team to adjust when its not working.
+
+---
+![left](img/questions.png)
+
+##4 Questions to ask
+
+### Is it Simple?
+
+### Can I see it easily?
+
+### Does it show lead and lag measures?
+
+### Can I tell at a glance if we are successful?
 
 ---
 
-4 Questions to ask
+![](img/speedometer.jpg)
 
----
-
-1. Is it Simple?
-
----
-
-2. Can I see it easily?
-
----
-
-3. Does it show lead and lag measures?
-
----
-
-4. Can I tell at a glance if we are successful?
-
----
-
-Showing results will engage the team.
-
----
-
-Example scoreboard
-
----
-
-Ideas for success
-
----
-
-The more the team is involved in designing the scorecard, the more ownership they will have.
-
----
-
-The scorecard should clearly and instantly display the measures you are tracking.
-
----
-
-Questions to ask.
-
-- Is it simple?
-- Can the team see it easily?
-- Does it contain both the lead and lag measures?
-- Can we tell at a glance if we are successful?
-
----
-
-Keep it updated!
+##Showing results will engage the team.
 
 ---
 
@@ -264,106 +189,77 @@ Keep it updated!
 
 ---
 
-The team must meet at least weekly in a WIG session.
+![](img/arrows.jpg)
+
+###The team must meet at least weekly in a WIG session.
 
 ---
 
-The meeting lasts no longer than 20-30 minutes.
+![left ](img/stopwatch.jpg)
+
+##The meeting lasts no longer than 20-30 minutes.
 
 ---
 
-Three Part Agenda
+![](img/piechart.png)
+
+##Three Part Agenda
 
 ---
+
+![](img/speech.png)
 
 Report on commitments.
 
 ---
 
-Review the scorebard.  Learn from Successes and Failures.
+![](img/scoreboard2.png)
+
+##Review the scorebard.  Learn from Successes and Failures.
 
 ---
 
-Clear the path and plan new commitments.
+![](img/road.jpg)
+
+##Clear the path and plan new commitments.
 
 ---
 
-"What are the one or two most important things I can do this week to impact the lead measures?"
+![right](img/hatena.png)
+
+##"What are the one or two most important things I can do this week to impact the lead measures?"
 
 ---
 
-Two rules for commitments
+![right](img/space_shuttle.jpg)
 
----
+#Two rules for commitments
 
 1.  The commitment must represent a specific and measurable.
-
----
-
 2.  The commitment must influence the lead measure.
 
 ---
 
-You want each team member to take ownership over the commitments they make.
+![](img/success2.jpg)
+
+###You want each team member to take ownership over the commitments they make.
 
 ---
 
-Clear the path
+![fit](img/broom.png)
+
+##Clear the path
 
 ---
 
-"What can I do to clear the path for you?"
+![](img/gears.jpg)
+
+##This only works if there is time for your commitments.
 
 ---
 
-Tips for success
+![](img/brush.jpg)
 
----
+###If you have time, ask
 
-Things to avoid
-
-- Competing whirlwind responsibilities
-- Holding WIG sessions with no specific outcomes.
-- Repeating the same commitment more than two consecutive weeks.
-- Accepting unfulfilled commitments.
-
----
-
-Demonstrate respect to team members
-
----
-
-Reinforce accountability
-
----
-
-Encourage performance
-
----
-
-
-
-#What to expect
-
----
-
-To be successful, you must begin with crystal clarity on the process.
-
----
-
-The launch requires focus and energy.
-
----
-
-Adoption will take time.  First focus on the process, then the results.
-
----
-
-Optimize.  Encourage and recognize ideas for adjusting the lead measures.
-
----
-
-Celebrate Success.
-
----
-
+###"What can I do to clear the path for you?"
