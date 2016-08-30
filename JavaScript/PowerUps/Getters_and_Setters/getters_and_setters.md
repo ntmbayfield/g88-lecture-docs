@@ -1,4 +1,7 @@
-#Getters and Setters
+
+![inline](img/power_up.png)
+
+#[fit]Getters and Setters
 
 ---
 
@@ -29,7 +32,7 @@ Accessor properties don't contain a value but instead define a function to call 
 
 ---
 
-This example adds logging behaivor to the property.
+This example adds logging behavior to the property.
 
 ```javascript
 
@@ -62,7 +65,7 @@ Accessor properties only require either a getter or a setter, but they can have 
 
 ---
 
-Accessor properties are most useful when you want the assignment of a value to trigger some sort of behaivor, or when reading a value requires the calculation of the desired return value.
+Accessor properties are most useful when you want the assignment of a value to trigger some sort of behavior, or when reading a value requires the calculation of the desired return value.
 
 ---
 

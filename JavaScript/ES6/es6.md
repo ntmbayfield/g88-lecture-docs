@@ -1,0 +1,83 @@
+#ES6 TODOs
+
+---
+
+- Constants (const)
+- Scoping
+	- Blocked Scope Variables (let)
+	- Blocked Scope Functions
+- Arrow Functions
+	- Expression Bodies (single expression - implicit return)
+	- Statement Bodies
+	- Lexical This
+- Extended Parameter Handling	
+	- Default Parameter Values
+	- Rest Parameter
+	- Spread Operator 
+- Template Literals
+	- String Interpolation
+	- Custom Interpolation
+	- Raw String access 
+- Extended Literals
+	- Binary & Octal Literal
+	- Unicode String & RegExp Literal
+- Enhanced Regular Expression
+	- Regular Expression Sticky Matching	
+- Enhanced Object Properties
+	- Property Shorthand
+	- Computed Property Names
+	- Method Properties
+- Destructuring Assignment
+	- Array Matchng
+	- Object Matching, Shorthand Notation.
+	- Object Matching, Deep Matching
+	- Parameter Context Matching
+	- Fail-Soft Destructuring
+- Modules
+	- Value Export/Import
+	- Default & Wildcard
+- Classes
+	- Class Definition
+	- Class Inheritance
+	- Class Inheritance, From Expressions
+	- Base Class Access
+	- Static Members
+	- Getter/Setter
+- Symbol Type
+	- Symbol Type
+	- GLobal Symbols
+- Iterators
+	- Iterator & For-Of Operator
+- Generators
+	- Generator Function, Iterator Protocol
+	- Generator Function, Direct Use
+	- Generator Matching
+	- Generator Control-Flow
+	- Generator Methods
+- Map/Set & WeakMap/WeakSet
+	- Set Data-Structure
+	- Map Data-Structore
+	- Weak-Link Data Structures
+- Typed Arrays
+- New Built In Methods
+	- Object Property Assignment
+	- Array Element Finding
+	- String Repeating
+	- String Searching
+	- Number Type Checking
+	- Number Safety Checking
+	- Number Comparison
+	- Number Truncation
+	- Number Sign Determination
+- Promises
+	- Promise Usage
+	- Promise Combination
+- Meta-Programming
+	- Proxying
+	- Reflection
+- Internationalization & Localization
+	- Colaltion
+	- Number Formatting
+	- Currency Formatting
+	- Data/Time Formatting.s   
+      
