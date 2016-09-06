@@ -83,4 +83,36 @@ console.log(foo());
 
 ---
 
+#Style Guides
+
+---
+
+#Airbnb JavaScript Style Guide
+
+Use const for all of your references; avoid using var.  
+
+> Why? This ensures that you can't reassign your references, which can lead to bugs and difficult to comprehend code.
+
+---
+
+#Airbnb JavaScript Style Guide
+
+
+If you must reassign references, use let instead of var.
+
+> Why? let is block-scoped rather than function-scoped like var.
+
+---
+
+#Google JavaScript Style Guide
+
+Declarations with var: Always
+
+Use NAMES_LIKE_THIS for constant values.
+
+Never use the const keyword as it's not supported in Internet Explorer.
+
+
+---
+
 #Questions?
