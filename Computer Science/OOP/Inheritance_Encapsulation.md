@@ -7,10 +7,10 @@
 
 #Objectives
 - Be able to describe
-	- Inheritance and the types of inheritance.
-	- Subclasses and superclasses.
-	- Uninheritable classes and Overriding.
-	- The difference between class and prototypal inheritance.
+	- Inheritance and the types of inheritance
+	- Subclasses and superclasses
+	- Uninheritable classes and overriding
+	- The difference between class and prototypal inheritance
 	- Encapsulation
 
 ---
@@ -57,7 +57,7 @@
 ---
 
 #Hierarchical Inheritance
-##Where one class serves as a superclass for more than one subslass.
+##Where one class serves as a superclass for more than one subclass.
 
 ---
 
@@ -85,7 +85,7 @@
 
 ---
 
-#A prototype is a actual working object.  
+#A prototype is an actual working object.  
 
 ---
 
