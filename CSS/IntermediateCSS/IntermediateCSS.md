@@ -92,7 +92,6 @@ Describe and use the following
 
 ---
 
-
 ![original](img/7_YouDo.jpg)
 
 #[fit] You

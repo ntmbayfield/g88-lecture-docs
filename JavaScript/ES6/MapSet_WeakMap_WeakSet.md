@@ -23,11 +23,11 @@
 
 ---
 
-#Advantages
+##ES6 maps provide abilities regular objects can't when storing key/value pairs.
+- Ability to use any value as a key.
+- Can iterate in insertion order.
+- .has() method and size property.
 
-- An Object has a prototype, so there are default keys in the map.
-- The keys of an Object are Strings and Symbols, where they can be any value for a Map.
-- You can get the size of a Map easily while you have to manually keep track of size for an Object.
 
 ---
 
@@ -85,14 +85,6 @@ map.set(KEY2, 'world');
 console.log(map.get(KEY2)); // world
    
 ```
- 
----
-
-##Map instances are only useful for collections, and you should consider adapting your code where you have previously used objects for such.
-
----
-
-##Objects shall be used as records, with fields and methods.
 
 ---
 
@@ -120,7 +112,9 @@ console.log(map.get(KEY2)); // world
 
 ---
 
-##Set objects are collections of values, you can iterate its elements in insertion order. 
+##ES6 sets allow you to easily create a collection of unique values without worrying about type coercion.
+- Enumerable in insertion order.
+- Includes the same .has() method and size property that map has.
 
 ---
 
@@ -158,14 +152,6 @@ for (let x of set) {
 
 ---
 
-##ECMAScript 6 sets do not coerce values in determining whether or not to values are the same. 
-
----
-
-##So, a set can contain both the number 5 and the string "5" (internally, the comparison is done using ===).
-
----
-
 ##Converting Array to Set
 
 ```javascript
@@ -185,18 +171,6 @@ let unique = [...new Set(arr)]; // [3, 5, 2]
 
 - A WeakSet is a set that doesn’t prevent its elements from being garbage-collected. 
 - WeakSets don't allow iteration, looping or clearing.
-
----
-
-#Summary
-
----
-
-##ES6 maps provide abilities regular objects can't when storing key/value pairs.  Maps give easy ways to iterate over keys and values as well as removing concern over prototypes
-
----
-
-##ES6 sets allow you to easily create a collection of unique values without worrying about type coercion.
 
 ---
 
