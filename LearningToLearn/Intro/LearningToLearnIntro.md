@@ -3,8 +3,6 @@
 #[fit] Learning
 #[fit] To Learn
 
-^Mat
-
 ---
 
 ![](img/1_sponge.jpg)
@@ -20,7 +18,7 @@
 
 By the end of this workshop, you will be able to...
 
--` Describe differentiated instruction.
+- Describe differentiated instruction.
 
 - Explain what type of learner you are?
 
@@ -38,9 +36,25 @@ By the end of this workshop, you will be able to...
 
 ^ Quick turn and talk - why is this important?
 
+^Learning is essential to being a programmer. 
+
+^It's a huge field with new technologies and methodologies being discovered every day. 
+
+^Becoming a better learner will prepare you for a long and successful career. 
+
+^Also, we want Galvanize to be a transformative experience for you. 
+
+^In addition to programming skills and knowledge, we want to help grow your habits and mindsets.
+
+
+
 ---
 
 ![](img/4_Chart.png)
+
+---
+
+![fit](img/allthethings.png)
 
 ---
 
@@ -53,15 +67,13 @@ By the end of this workshop, you will be able to...
 
 ^Exercise: Fill out google form for their learning style.
 
-^Craig takes over.
+^ https://goo.gl/forms/dau8QflvYKhPt0B43
 
 ---
 
 ![](img/23_123.jpg)
 
 ^The 3 step learning process.  Easy as 1-2-3.
-
-^ Back to Mat
 
 ^ Introduce concept of "Cold Calling"
 
@@ -117,6 +129,16 @@ By the end of this workshop, you will be able to...
 ^Example - Writing the short story vs writing for the next 20 minutes.
 
 ^Turn and Talk and give an example of product vs process.
+
+^ Defining success as simply spending time doing focused and deliberate practice. 
+
+^ This program is going to be very difficult at times. You may not fully understand some of the concepts on the first try. And you may not reach your end goal in the period of time that you set out to do your work. 
+
+^ This is perfectly fine so long as you're challenging yourself to get better while in the zone of proximal development.
+
+---
+
+![fit](img/25_ZPD.png)
 
 ---
 
@@ -180,6 +202,14 @@ By the end of this workshop, you will be able to...
 ^Growth Mindset
 
 ---
+
+![fit](img/mindset.png)
+
+---
+
+![fit](img/mindset2.jpeg)
+
+---
 ![left](img/17_FortuneCookie.jpg)
 #[fit] Fortune
 #[fit] favors
@@ -193,7 +223,7 @@ By the end of this workshop, you will be able to...
 
 ^Stand Up - talk to someone across the room and talk about the importance of fun with learning.
 
-^When stressed or focusing, take breaks and go for a walk.
+^Imagine that same friend from earlier asks you, "Hey, what's this play business all about? Why is that important? How do you do that?" Take a few moments to think about what you'd say to your friend. When you've decided what to say, turn and talk to a partner and share your thoughts with them. Since you've been sitting for a while, feel free to stand up and stretch your legs too.
 
 ---
 
@@ -230,12 +260,6 @@ By the end of this workshop, you will be able to...
 
 ![left](img/21_Repeat.jpg)
 #[fit] Repeat
-
----
-
-![fit](img/25_ZPD.png)
-
-^ Craig again
 
 ---
 
