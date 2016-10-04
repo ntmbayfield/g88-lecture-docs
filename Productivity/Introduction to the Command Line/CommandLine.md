@@ -1,38 +1,63 @@
+![](img/matrix.jpg)
+
+
 # Introduction to the Command Line
 
 ---
 
-"Mastery of the command line will make you a faster and more powerful developer"
+![fit](img/bash.png)
+
+# "Mastery of the command line will make you a faster and more powerful developer"
 
 ---
 
-# Unix Philosophy
+![](img/lego.jpg)
+
+#[fit]Unix Philosophy
 
 ---
 
-#Chaining Commands
+![](img/chaining.jpg)
+
+#[fit]Chaining Commands
 
 ---
+
+![](img/scripting.jpg)
 
 # Scripting
 
 ---
 
+![](img/docs.png)
+
 # Resources
-explainshell.com.
-learn the command line the hard way.
-bitly - terminal sheets.
+
+- Unix Man Pages
+- explainshell.com
+- Learn the command line the hard way.
+- Terminal Cheats.
 
 ---
+
+![](img/work.jpg)
 
 # Work through the exercise.
 
-Blended Learning, better questions, individualized help.
+## Why?
+
+- Blended Learning
+- Better questions
+- Individualized help
 
 --- 
 
-# Questions?
+![](img/hands.jpg)
+
+#[fit] Questions?
 
 ---
 
-# Assignment(s)
+![](img/source.jpg)
+
+#[fit] Assignment(s)
