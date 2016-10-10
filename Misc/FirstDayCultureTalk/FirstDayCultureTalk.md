@@ -136,3 +136,50 @@
 ![](img/frustrated.jpg)
 
 # Yourself
+
+---
+
+![left](img/don't panic.jpg)
+
+# Anxiety
+
+---
+
+![](img/don't panic.jpg)
+
+## MOST students in the program at one point or another deal with anxiety in one form or another
+
+---
+
+![](img/imposter.png)
+
+# Imposter syndrome
+
+---
+
+![](img/snail.png)
+
+#Too Fast / Too Slow
+
+^ People who feel like the program is moving "too slow" often feel like they came in with advanced skills and that they wish we were doing "DEF" now instead of "ABC". What they fail to realize is that the program pacing is intentional, there are MORE than enough challenges as the program marches forward, and at the end of the entire course we've never run out of work or learning opportunities for any student.
+
+---
+
+#Feeling like you're not going to get a job.
+
+---
+
+##Questioning the program, questioning 'code schools', questioning outcomes. (Plethora of doubts)
+
+---
+
+##Frustration with the blended learning model. Feeling like you're not getting your money's worth if you're not being lectured to every day, all day for six months.
+
+---
+
+##General visceral sense of unease that results from poor diet, lack of sleep, and lack of exercise. ( Not taking care of yourself).
+
+---
+
+## Different things work for different people, but most people respond very well to regular exercise, meditation, yoga, and/or other self-centering activities.
+
