@@ -8,6 +8,8 @@
 - Explain what a CSS Framework is?
 - What do CSS Frameworks do for us?
 - Explain 'The Gap'.
+- Compare and contrast Bootstrap and Materialize.
+
 
 ---
 
@@ -96,7 +98,7 @@ There are dozens of CSS frameworks - but we will talk about two of the most popu
 
 ---
 
-# Work through the article.
+# Work through the articles.
 
 ---
 
