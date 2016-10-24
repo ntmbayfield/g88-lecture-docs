@@ -99,8 +99,11 @@
 #World Wide Web
 
 ^URLs and Hyperlinks
+
 ^HTML
+
 ^HTTP
+
 ^Wrote the first browser while at CERN
 
 ---
@@ -111,7 +114,8 @@
 ![left](images/NCSAMosaic1.0Mac.png)
 
 #[fit]1993
-#NCSA Mosiac Browser (Later Netscape)
+#NCSA Mosiac Browser 
+##(Later Netscape)
 
 ^ Included images and tex and ran on several popular platforms.
 
@@ -148,7 +152,9 @@
 #Standards and W3C
 
 ^ First international WWW Conference.
+
 ^ University of Minnesota was going to charge license fees for use of the Gopher Protocol.
+
 ^ Berners-Lee made the web available freely with no patents and no royalties.  W3C founded and the internet as we know it was defined.
 
 ---
@@ -159,6 +165,7 @@
 #Public Internet
 
 ^High Performance Computing Act of 1991 - "Gore Bill"
+
 ^Meme/Joke - taken out of context
 
 ---
@@ -190,8 +197,11 @@
 ##XMLHttpRequest
 
 ^ Data exhange between browser and server to avoid full page reloads.
+
 ^ Websites before this were based on complete page loads.
+
 ^ The concept behind the XMLHttpRequest object was originally created by the developers of Outlook Web Access (by Microsoft) for Microsoft Exchange Server 2000.
+
 ^ iframe was an original method to avoid this.
 
 ---
@@ -219,6 +229,7 @@
 #AJAX
 
 ^Coined to represent a bunch of web technologies.  
+
 ^The term Ajax has come to represent a broad group of Web technologies that can be used to implement a Web application that communicates with a server in the background, without interfering with the current state of the page. 
 
 ---
