@@ -22,7 +22,11 @@ app.service('MyService', function () {
 app.controller('AppController', function (MyService) {
   MyService.sayHello(); // logs 'hello'
 });
+
 ```
+
+---
+
 **Factory**
 
 ```javascript
@@ -33,6 +37,7 @@ app.factory('MyService',function () {
     };
   }
 });
+
 ```
 
 Instead of working with this in the factory, we are returning an object literal.  
