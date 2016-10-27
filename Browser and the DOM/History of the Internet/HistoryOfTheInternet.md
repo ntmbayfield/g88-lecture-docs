@@ -114,7 +114,7 @@
 ![left](images/NCSAMosaic1.0Mac.png)
 
 #[fit]1993
-#NCSA Mosiac Browser 
+#NCSA Mosaic Browser 
 ##(Later Netscape)
 
 ^ Included images and tex and ran on several popular platforms.
