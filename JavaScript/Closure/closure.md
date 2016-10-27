@@ -54,7 +54,7 @@ testCounter();
 
 ---
 
-##A closure is an inner function that has access to the outer (enclosing) functions variables.
+##A closure is an inner function that has access to the outer (enclosing) function's variables.
 
 ---
 
@@ -62,13 +62,13 @@ testCounter();
 
 ---
 
-##A closure has access to its own scope, the outer functions variables, and the global variables.
+##A closure has access to its own scope, the outer function's variables, and the global variables.
 
 ---
 
 ## Closures have access to the outer function's variables - even after the outer function returns.
 
-^ Yep, so when functions in JavaScript execute they ue the same scope chain that was in effect when they were created.
+^ Yep, so when functions in JavaScript execute they use the same scope chain that was in effect when they were created.
 
 ---
 
