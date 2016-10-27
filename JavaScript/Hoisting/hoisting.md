@@ -2,7 +2,7 @@
 
 ---
 
-> JavaScript has a feature that allows a variable or function to be declared after its used.
+> JavaScript has a feature that allows a variable or function to be declared after it's used.
 
 ---
 
@@ -43,7 +43,7 @@ test();
 
 ---
 
-> Regardless of where variables are defined, they are always hoisted to the top of their scope. 
+> Regardless of where variables are defined, they are always hoisted to the top of their scope.
 
 ---
 
@@ -66,7 +66,7 @@ x = 5;
 
 ---
 
->Functions declarations are also hoisted.
+>Function declarations are also hoisted.
 
 ---
 
