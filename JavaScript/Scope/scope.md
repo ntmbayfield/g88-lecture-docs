@@ -8,7 +8,7 @@
 
 ---
 
-> Scope is what variables and functions are available for use on the current liine of execution.
+> Scope is what variables and functions are available for use on the current line of execution.
 
 ---
 
@@ -77,7 +77,7 @@ testScope();
 ---
 
 
-> How to you access the 'global' scope variable?
+> How do you access the 'global' scope variable?
 
 ---
 #Block Scope (ES6)
