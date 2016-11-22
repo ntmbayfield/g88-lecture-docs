@@ -75,7 +75,6 @@ Define and describe the purpose of:
 
 ^Hard disks are non-volitile.
 
-
 ---
 
 ![right](img/3_Cloud.jpg)
@@ -116,7 +115,7 @@ Define and describe the purpose of:
 
 ---
 
-![right](/Users/mathew.brown/Documents/Lectures/Programming/Intro to Programming/img/Threads.jpg)
+![right](img/Threads.jpg)
 
 
 #Threads
@@ -129,9 +128,9 @@ Define and describe the purpose of:
 
 ---
 
-![](/Users/mathew.brown/Documents/Lectures/Programming/Intro to Programming/img/stack.jpg)
+![](img/stack.jpg)
 
-![](/Users/mathew.brown/Documents/Lectures/Programming/Intro to Programming/img/heap.jpg)
+![](img/heap.jpg)
 
 #[fit]Stack & Heap
 
@@ -139,10 +138,9 @@ Define and describe the purpose of:
 
 
 
-
 ---
 
-![](/Users/mathew.brown/Documents/Lectures/Programming/Intro to Programming/img/stack.jpg)
+![](img/stack.jpg)
 
 
 # Stack
@@ -153,7 +151,7 @@ Define and describe the purpose of:
 
 ---
 
-![](/Users/mathew.brown/Documents/Lectures/Programming/Intro to Programming/img/heap.jpg)
+![](img/heap.jpg)
 
 # Heap
 
