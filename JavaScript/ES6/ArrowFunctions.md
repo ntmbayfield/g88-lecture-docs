@@ -4,7 +4,7 @@
 #[fit]Functions 
  
 ---
- 
+<!-- 
 With traditional functions there are 4 ways to control ```this```.
 
 ---
@@ -89,7 +89,7 @@ This cannot be changed.
  
 The ```new``` operator, ```bind```, ```call```, and ```apply``` have no effect on ```this```.
 
----
+----->
 
 Arrow Functions are anonymous.
  
