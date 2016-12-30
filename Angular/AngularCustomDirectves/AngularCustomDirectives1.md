@@ -45,7 +45,7 @@ app.directive('gsAngularLogo', function() {
 
 Angular parses your HTML document and goes through a process called normalization.  Essentially this means going over eac tag, looking for angular directives and converting the name from a dash-delimited name to a camel case name.
 
-For example, angular translates ```gs-angular-logo``` into ```gsAngularLogo```. 
+For example, angular translates ```gs-angular-logo``` into ```gsAngularLogo```.
 
 This also works with ```:``` and ```_```.  The reason Angular does this is because HTML is case-insensitive.
 
@@ -77,7 +77,7 @@ app.directive('gsAngularLogo', function() {
 
 **Best Practice**
 
-Use an angular directive as an attribute only when it decorates a tag or somehow relates to it. Otherwise, create a separate element for the directive. 
+Use an angular directive as an attribute only when it decorates a tag or somehow relates to it. Otherwise, create a separate element for the directive.
 
 ##Template URL
 
@@ -127,13 +127,13 @@ app.directive('gsYoyoDetails', function() {
 
 ## Isolate Scope
 
-Directives have access to the parent scope by default in AngularJS applications. 
+Directives have access to the parent scope by default in AngularJS applications.
 
 This requires you to know a lot bout the parent scope to use the directive.
 
 If you want to make a reusable directive you can't rely on the parent scope and must use something called Isolate Scope instead.
 
-You also might not want directives to accidently read or write properties in the parent scope.
+You also might not want directives to accidentally read or write properties in the parent scope.
 
 Isolate scope is like creating a wall around the directive that parent scope can't penetrate.
 
