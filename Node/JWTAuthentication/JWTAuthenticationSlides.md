@@ -1,17 +1,12 @@
 build-lists: true
 
-## Authentication with *Angular* and *JSON Web Tokens*
+#[fit] Authentication with *JSON Web Tokens*
 
 ---
 
 # Token Based Authentication
 
----
 
-# Check for Understanding
-1.  What is **authentication**?
-2.  What is **authorization**?
-3.  How have you previously implemented **authentication**?
 
 ---
 
@@ -19,8 +14,6 @@ build-lists: true
 - Explain what a **token** is?
 - Describe why we use **tokens** instead of cookies?
 - Explain what **JSON Web Tokens** are?
-- Describe an **interceptor**?
-- Explain what a **resolve** is?
 
 ---
 
@@ -109,53 +102,7 @@ build-lists: true
 ---
 # Very Popular
 # Open Standard (*RFC 7519*)
----
-# *Interceptors*
-## *Interceptors* are services that allow us to modify *requests* and *responses* before they are sent and after they return.
-
----
-
-## We can *intercept* our *HTTP requests* to attach the *token* to the *header*!
-
----
-
-## In an **interceptor**, this looks something like:
-
-```javascript
-request: function(config){
-  var token = localStorage.getItem("token");
-  if(token)
-    config.headers.Authorization = "Bearer " + token;
-  return config;
-}
-```
----
-# *Resolve*
-## We want to make sure that *promises* are resolved before we render a page.
-
-## To do this, we use the *resolve* property which is accessible in each one of our *routes*.
-
----
-
-Here is an example of a **resolve**. In this **route** we are **injecting** two **dependencies** into our **controller**, *currentUser* and *users*.
-
-```javascript
-.when('/home',{
-  templateUrl: "templates/home.html",
-  controller: "HomeController",
-  resolve: {
-    currentUser : function(UserService) {
-      return UserService.getCurrentUser();
-    },
-    users: function(UserService){
-      return UserService.getAllUsers()
-    }
-  }
-})
-```
----
-
-## A *resolve* contains one or more *promises* that must resolve successfully before the *route* will change.
+## 
 
 ---
 
@@ -163,14 +110,7 @@ Here is an example of a **resolve**. In this **route** we are **injecting** two 
 - Explain what a **token** is?
 - Describe why we use **tokens** instead of cookies?
 - Explain what **JSON Web Tokens** are?
-- Describe an **interceptor**?
-- Explain what a **resolve** is?
 
 ---
 
 # :grey_question:
-
----
-
-![](https://www.youtube.com/watch?v=ZwzY1o_hB5Y)
-I
