@@ -1,17 +1,16 @@
 
 //preferred
 angular
-.module('app')
+.module('app',[])
 .component('tmAdder', {
   templateUrl: 'adder.html',
   controller: AdderController
 }
 
-HeroDetailController.$inject = ['adderService']
+AdderController.$inject = ['adderService']
 function AdderController(adderService){
   vm.add = adderService.add;
   vm.first = 0;
   vm.second = 0;
-
-
+  //...
 }
