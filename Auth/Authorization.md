@@ -128,7 +128,7 @@
 
 # It stores session data in cookies - but does it in the same way other session providers do.
 
-# Using rec.session
+# Using req.session
 
 ---
 
@@ -169,4 +169,4 @@
 
 ---
 
-#Full Code Along later.
+# Full Code Along later.
