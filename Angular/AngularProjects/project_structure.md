@@ -106,6 +106,9 @@ layout/
     topnav.controller.js
 ```
 ^ Everyone should be able to tell at a glance what is in a given file. In this example we can tell that this folder contains layout related files. shell is probably the main structure/view of the app. shell.controller.js is clearly the controller for the shell.  Similarly for topnav.
+^ Named functions
+^ Upper Camel Case for Controllers
+^ Use IIFEs to avoid polluting the global name space
 
 ---
 
@@ -118,12 +121,22 @@ layout/
 - Try to stay DRY (Don't Repeat Yourself) or T-DRY
 
 ^ John Papa uses this acronym as a guideline for a well structured app. He revisits this whenever the app grows.
+Bindable Members Up Top
+
 
 [^1]: John Papa is a Microsoft Regional Director, MVP, and Google Developer Expert for Angular. He authored the  Angular Style Guide.
 
 ---
 
-TODO: Include image of a sample app structure for reddit clone
+# Before Starting Reddit Clone, acquaint yourself with the style guide
+
+^ There is a list of style requirements for the reddit clone assessment
+
+---
+
+# Example Structure
+
+![inline](file:///Users/teddimaull/Desktop/desktop/pixabayimages/decksetimages/angularproject.png)
 
 ---
 
