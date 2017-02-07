@@ -130,7 +130,7 @@ Starting process with command `npm start`
 Once your app is setup properly (dotenv, package.json,etc.)you will begin to put your files on heroku as follows:
 
 ```
-$> heroku create restaurants-martha
+$> heroku create your-app-name
 $> heroku addons:create heroku-postgresql
 $> git push heroku master
 $> heroku run knex migrate:latest
