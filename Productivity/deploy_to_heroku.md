@@ -123,3 +123,19 @@ Starting process with command `npm start`
 2016-12-02T20:33:40.684913+00:00 app[web.1]:
 2016-12-02T20:33:40.697596+00:00 app[web.1]: sh: 1: nodemon: not found
 ```
+---
+
+# All together
+
+Once your app is setup properly (dotenv, package.json,etc.)you will begin to put your files on heroku as follows:
+
+```
+$> heroku create restaurants-martha
+$> heroku addons:create heroku-postgresql
+$> git push heroku master
+$> heroku run knex migrate:latest
+$> heroku run knex seed:run
+$> heroku open
+```
+
+^ The caveat here is that your package.json may be set up with post-build scripts that take care of your migration and seed steps.
