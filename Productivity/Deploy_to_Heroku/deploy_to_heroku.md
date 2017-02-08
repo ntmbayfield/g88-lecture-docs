@@ -66,6 +66,8 @@ module.exports = {
 };
 ```
 
+^ You will see in the provision database step, how Heroku is connected to the connection variable
+
 ---
 
 # What is Heroku?
@@ -83,6 +85,15 @@ module.exports = {
 ^ From within the directory that contains your application, you should type this command. This command sets up your app, with the name you choose on Heroku and creates a Git remote called heroku.
 
 ---
+
+#Provision the postgresql database
+
+`$> heroku addons:create heroku-postgresql`
+
+^ In this step when you provision the database, Heroku will create an environment variable called DATABASE_URL and that will be accessible  via process.env.DATABASE_URL
+
+---
+
 # Send the files to Heroku
 
 `git push heroku master`
@@ -95,13 +106,10 @@ module.exports = {
 
 # Setup the Database
 
-1. Provision the postgresql database
-`$> heroku addons:create heroku-postgresql`
-
-2. Run your migrations on Heroku
+1. Run your migrations on Heroku
 `$> heroku run knex migrate:latest`
 
-3. Run your seed file on Heroku
+2. Run your seed file on Heroku
 `$> heroku run knex seed:run`
 
 ---
@@ -164,4 +172,3 @@ Starting process with command `npm start`
 2016-12-02T20:33:40.684913+00:00 app[web.1]:
 2016-12-02T20:33:40.697596+00:00 app[web.1]: sh: 1: nodemon: not found
 ```
----
