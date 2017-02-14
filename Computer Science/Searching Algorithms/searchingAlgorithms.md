@@ -1,0 +1,141 @@
+# Searching Algorithms
+
+---
+
+# Objectives
+
+Describe the 3 common search algorithms as well as identify their time-complexity
+
+- Linear Search on an Unordered Array
+- Linear Search on an Ordered Array
+- Binary Search
+
+---
+
+# Linear Search on an Unordered Array ...
+
+---
+
+# in other words: check every element in sequence until we find it.
+
+---
+
+# This is a type of brute force search.
+
+---
+
+```javascript
+function arraySearch(arr, target) {
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] === target) {
+      return i; //Found
+    }
+  }
+  return -1; //Not Found
+}
+```
+
+---
+
+# What is the big $O$?
+
+---
+
+# $O(n)$
+
+---
+
+# Linear Search on an Ordered Array ...
+
+---
+
+## or check every element in sequence until we find it or a greater element.
+
+---
+
+```javascript
+function arraySearch(arr, target) {
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] === target) {
+      return i; //Found
+    }
+    
+    if (arr[i] < target) {
+      return -1;
+    }
+  }
+  return -1; //Not Found
+}
+```
+
+---
+
+## Even though we can terminate early in certain circumstances, the worst case scenerio involves iterating through the entire array.  Therefore ...
+
+---
+
+# What is the big $O$?
+
+---
+
+# $O(n)$
+
+---
+
+# Binary Search
+
+---
+
+## Requires the array to be sorted
+
+---
+
+## in orther words: don't start in the beginning, start in the middle.
+
+---
+
+# Instructions
+
+- Compare the target value to the value in the middle of the array.
+- If the target value is equal … return it.
+- If the target value is less, then repeat on the lower half on the array.
+- If the target value is more, then repeat on the higher half of the array.
+
+---
+
+```javascript
+function binarySearch(arr, target) {
+  let low = 0;
+  let high = arr.length;
+  
+  while (low <= high) {
+    let mid = Math.floor(low + (high - low) / 2)
+    if arr[mid] === target; {
+      return mid; //Found
+    } else if (arr[mid] < target) {
+      low = mid+1; 
+    } else {
+      high = mid - 1;
+    }
+  }
+  
+  return -1; //Not Found
+}
+```
+
+---
+
+# Each iteration of the binary search allows us to elimate half of the array.
+
+---
+
+# Complexity ...
+
+---
+
+# $O(log n)$
+
+---
+
+# Questions?
+

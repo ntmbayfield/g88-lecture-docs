@@ -88,7 +88,7 @@ resolve {
 ---
 
 ```javascript
-studentsController(simpleObj,students,students2) {
+studentsController(simpleObj,students,students2,studentInfo) {
   vm = this;
   vm.message = simpleObj;
   vm.students = students.data;
@@ -100,4 +100,18 @@ studentsController(simpleObj,students,students2) {
 
 ---
 
-#Questions?
+```javascript
+         greeting: function($q, $timeout){
+             var deferred = $q.defer();
+             $timeout(function() {
+                 deferred.resolve('Hello!');
+             }, 1000);
+             return deferred.promise;
+         }
+```
+
+
+
+---
+
+# Questions?
