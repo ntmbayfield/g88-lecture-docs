@@ -108,10 +108,10 @@ class Car {
     this.model = model;
     this.gasIsFull = true;
   }
-  function drive(){
+  drive(){
     this.gasIsFull = false;
   }
-  function fillTank(){
+  fillTank(){
     this.gasIsFull = true;
   }
 
