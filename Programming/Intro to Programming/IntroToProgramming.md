@@ -198,13 +198,13 @@ var greeting = "Hello g[32]";
 #Expressions / Statements
 
 - Expression
-	- Something that results in a value.
-	- someVar
-	- 1 + 1
+ - Something that results in a value.
+ - someVar
+ - 1 + 1
 - Statement
-	- A block of code that does something
-	- If (x === y) …
-	- x = 7; 
+ - A block of code that does something
+ - If (x === y) …
+ - x = 7; 
 
 
 ---
@@ -250,6 +250,25 @@ var x = 1 + 1
 ^Show mdn javascript precedence 
 
 ^https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
+
+---
+
+```javascript
+var a = 5;
+var b = 10;
+
+function sum(a,b) {
+  return a + b;
+}
+
+if (sum(a,b) > 9) {
+  console.log('Greater than 9');
+} else {
+  console.log('Less than 9');
+}
+```
+
+
 
 ---
 
