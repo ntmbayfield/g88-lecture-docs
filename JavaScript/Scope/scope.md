@@ -1,5 +1,7 @@
 #[fit]Scope
 
+![](img/scope.jpg)
+
 ---
 
 #Objectives
@@ -7,6 +9,8 @@
 1. Explain the three types of scope.
 
 ---
+
+![](img/code.jpg)
 
 > Scope is what variables and functions are available for use on the current line of execution.
 
@@ -51,6 +55,8 @@ testScope();
 
 ---
 
+![](img/question.jpg)
+
 > What happens if a variable is declared without var?
 
 ---
@@ -76,11 +82,15 @@ testScope();
 
 ---
 
+![fit](img/shrug.png)
+
 
 > How do you access the 'global' scope variable?
 
 ---
-#Block Scope (ES6)
+# Block Scope (ES6)
+
+![](img/block.jpg)
 
 ---
 
@@ -102,7 +112,6 @@ function varTest() {
 varTest();
 
 ```
-
 
 ---
 
