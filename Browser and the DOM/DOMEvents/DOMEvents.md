@@ -1,5 +1,16 @@
-#[fit]DOM
+# [fit]DOM
+
 #[fit]Events
+
+---
+
+> By the end of this lesson you should be able to:
+
+- Attach event handlers to DOM elements
+- Modify the DOM in response to an event
+- Use callbacks in methods like addEventListener
+- Explain the difference between `this` and `event.target` in event listeners
+- Respond to the event `DOMContentLoaded` event
 
 ---
 
@@ -8,6 +19,8 @@ In the console type this:
 ```javascript
 monitorEvents(window)
 ```
+
+^ Events add interactivity to a webpage and let us do all sorts of fun stuff!
 
 ---
 
@@ -22,7 +35,19 @@ Event Types
 
 ---
 
+![left](img/listener.gif)
+
 # Event Listeners
+
+---
+
+>When *this thing* happens … do *this*.
+
+---
+
+> When this **event** happens … run this **function**.
+
+---
 
 ^ When this happens, do this.
 
@@ -32,13 +57,19 @@ Event Types
 
 # Event Object
 
+![](img/click.png)
+
 ---
 
 # event.target vs this
 
+![](img/target.jpg)
+
 ---
 
-#Event Propagation
+# Event Propagation
+
+![](img/bubbles.png)
 
 ^Bubble (down) vs Capture (up)
 
