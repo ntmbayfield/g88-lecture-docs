@@ -25,7 +25,7 @@
 
 > "... a communication protocol is a system of rules that allow two or more entities of a communications system to transmit information via any kind of variation of a physical quantity."[^2]
 
-[^2]:Communications protocol. (2016). En.wikipedia.org. Retrieved 24 October 2016, from https://en.wikipedia.org/wiki/Communications_protocol 
+[^2]: Communications protocol. (2016). En.wikipedia.org. Retrieved 24 October 2016, from https://en.wikipedia.org/wiki/Communications_protocol 
 
 ^ HTTP is quite flexible and is also used to transmit non-hypertext data as well.
 
@@ -36,7 +36,6 @@
 #HTTP is a 
 #**request**-**response** 
 #protocol.
-
 
 ---
 
@@ -142,7 +141,6 @@ The document has moved
 
 ^ https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
 
-
 ---
 
 ![](images/theater.jpg)
@@ -150,6 +148,9 @@ The document has moved
 #Activity
 
 ^ Act out the HTTP Request/Response Cycle.  Use any abstraction you want.  One example is ordering food at a restaurant.
+
+1. Generally, what does your category mean.
+2. Pick a favorite example and perform a skit illustrating its behavior.
 
 ---
 

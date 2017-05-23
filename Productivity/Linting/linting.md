@@ -10,7 +10,7 @@ Objectives
 
 - Explain what linting is.
 - Explain why linting your JavaScript is useful.
-- Use ESLint to lint your own JavaScript code.
+- Use JSHint to lint your own JavaScript code.
 
 ---
 
