@@ -27,50 +27,6 @@
 # From Angularjs:
 ## Dependency Injection (DI) is a software design pattern that deals with how components get a hold of their dependencies.
 
-
----
-
-# Third...why bother with DI?
-
----
-
-## your code is easier to test
-
----
-
-## your code is easier to extend without modification
-
-^ what do I mean? Let's look at an example from the article
-
----
-
-#Consider this code:
-
-```javascript
-function doStuff() {
-  let data = fs.readFileSync('data.txt')
-  let parsed = new CSVParser().parse(data)
-  console.log(parsed)
-}
-```
-
-^if I wanted to change the behavior and not console.log the parsed value then I would have to rewrite this function
-
----
-
-# Refactor to DI a writer service:
-
-```javascript
-function doStuff(writer) {
-  let data = fs.readFileSync('data.txt')
-  let parsed = new CSVParser().parse(data)
-  writer.write(parsed)
-}
-```
-
-^ Now I am using a writer service that has a write method on it. If I want to make changes I can make them to the service and leave my doStuff method alone
-We will talk about services in more detail next week so let's move on to the syntax details of DI
-
 ---
 
 # Angular supports 3 ways to define dependencies:
