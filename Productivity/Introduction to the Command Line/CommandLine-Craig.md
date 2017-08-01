@@ -71,10 +71,15 @@ pwd
 ```
 cd /
 cd ~
-cd ../..
+cd ..
 pwd
 ```
 
+```
+cd ~
+cd ../..
+pwd
+```
 ---
 
 # File Manipulation
@@ -175,6 +180,10 @@ rm -rf / Users/Craig/test <- note space after / DOH!
 # Other favorite commands
 
 ```
+more
+tail
+ln
+alias
 clear
 cal
 ssh
@@ -200,3 +209,10 @@ ps
 - Learn the command line the hard way.
 - OS X Terminal Cheatsheets
 
+
+---
+
+# CFU
+
+## have students put answers on slates or in Slack
+[Assessment Slides](https://docs.google.com/presentation/d/1Jhr3uhGQcUFizWu4nTJyz37Xy9mgffrN1kyMHiVUPYE/edit#slide=id.gd034ed29d_0_144)
