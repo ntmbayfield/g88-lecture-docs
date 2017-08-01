@@ -1,5 +1,7 @@
 #Javascript Closures
 
+![](img/chainlink.jpg)
+
 ---
 
 # Try this example
@@ -52,13 +54,17 @@ testCounter();
 
 >Why is this special?
 
+![](img/onering.jpg)
+
 ---
 
 ##A closure is an inner function that has access to the outer (enclosing) function's variables.
 
 ---
 
-#The Scope Chain
+# The Scope Chain
+
+![](img/chain.jpg)
 
 ---
 
@@ -74,12 +80,16 @@ testCounter();
 
 ## Closures can hide variables.
 
+![](img/hiding.jpg)
+
 ---
 
 ## Closures also allow you to organize the code in a clean and modular way.
 
+![](img/storage.jpg)
+
 ---
 
-#Questions?
+# Questions?
 
 

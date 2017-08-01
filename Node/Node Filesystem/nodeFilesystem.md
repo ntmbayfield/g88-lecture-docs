@@ -26,9 +26,9 @@
 
 ---
 
-![fit](img/express.gif)
+![fit left](img/express.gif)
 
-# Why would we want to use JavaScript server side?
+> Why would we want to use JavaScript server side?
 
 ^ Use the same language on the server and the client!
 
@@ -61,7 +61,6 @@
 # JavaScript and the V8 engine are missing a lot of features necessary for a web server.
 
 ^ JavaScript in the web brower provides a lot of support for browser related tasks - like the DOM.
-
 
 ---
 
