@@ -5,12 +5,6 @@
 
 ---
 
-![](img/1_sponge.jpg)
-
-#[fit] How to be a sponge
-
----
-
 ![left](img/2_Objectives.jpg)
 
 
@@ -18,35 +12,31 @@
 
 By the end of this workshop, you will be able to...
 
-- Describe differentiated instruction.
+- Describe the 3 stage learning process.
 
-- Explain what type of learner you are?
-
-- Discuss the 3 stage learning process.
-
-- Identify your personal strengths and areas of growth in the 3 stage learning process.
+- Identify your personal strengths and areas of growth.
 
 - Explain the zone of proximal development.
 
 - Explain the purpose of Bloom's Taxonomy.
 
+- Explain how the challenge and skill influences your mental state.
+
 ---
 
 ![](img/3_Why.png)
 
-^ Quick turn and talk - why is this important?
+^ Quick turn and talk - why is L2L important?
 
-^Learning is essential to being a programmer. 
+^Learning is essential to being a programmer.
 
-^It's a huge field with new technologies and methodologies being discovered every day. 
+^It's a huge field with new technologies and methodologies being discovered every day.
 
-^Becoming a better learner will prepare you for a long and successful career. 
+^Becoming a better learner will prepare you for a long and successful career.
 
-^Also, we want Galvanize to be a transformative experience for you. 
+^Also, we want Galvanize to be a transformative experience for you.
 
 ^In addition to programming skills and knowledge, we want to help grow your habits and mindsets.
-
-
 
 ---
 
@@ -63,11 +53,13 @@ By the end of this workshop, you will be able to...
 ## Differentiated
 ## Instruction
 
+### Strength - Weaknesses - Threats - Opportunities for you as a learner
+
 ^Differentiation means giving students multiple options for taking in information.
 
-^Exercise: Fill out google form for their learning style.
+^Exercise: Fill out google form for with SWOT analysis as a learner
 
-^ https://goo.gl/forms/dau8QflvYKhPt0B43
+^ https://goo.gl/forms/aHhXcX0w2GO7uLot1
 
 ---
 
@@ -78,6 +70,13 @@ By the end of this workshop, you will be able to...
 ^ Introduce concept of "Cold Calling"
 
 ^ Cold call "What is differentiated instruction?"
+
+---
+
+# 3 Step Learning Process
+##[fit] 1. Set the stage
+##[fit] 2. Play
+##[fit] 3. Reflect
 
 ---
 
@@ -111,7 +110,7 @@ By the end of this workshop, you will be able to...
 #[fit]the **What** and
 #[fit]the **Why**
 
-^ Setting your brain up for learning.  We post the objectives, but you can do this yourself.  
+^ Setting your brain up for learning.  We post the objectives, but you can do this yourself.
 
 ^Whiteboard exercise - pick something you always wanted to learn, and write some "objectives" you might use during a study session.
 
@@ -130,9 +129,9 @@ By the end of this workshop, you will be able to...
 
 ^Turn and Talk and give an example of product vs process.
 
-^ Defining success as simply spending time doing focused and deliberate practice. 
+^ Defining success as simply spending time doing focused and deliberate practice.
 
-^ This program is going to be very difficult at times. You may not fully understand some of the concepts on the first try. And you may not reach your end goal in the period of time that you set out to do your work. 
+^ This program is going to be very difficult at times. You may not fully understand some of the concepts on the first try. And you may not reach your end goal in the period of time that you set out to do your work.
 
 ^ This is perfectly fine so long as you're challenging yourself to get better while in the zone of proximal development.
 
@@ -246,7 +245,7 @@ By the end of this workshop, you will be able to...
 ![left](img/20_SelfAssess.jpg)
 #[fit] Self Assess
 
-^Did you meet your objectives?  
+^Did you meet your objectives?
 
 ---
 
@@ -280,6 +279,12 @@ By the end of this workshop, you will be able to...
 ![fit](img/22_Questions.png)
 
 ^Questions
+
+---
+
+![](img/1_sponge.jpg)
+
+#[fit] Be a sponge!
 
 ---
 
