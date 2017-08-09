@@ -111,11 +111,11 @@ Describe and use the following
 
 # Types of positioning
 
-CSS positions change the flow of a document.  
+CSS positions change the flow of a document.
 
 CSS Position allows up to 5 different values. But essentially only 4 values are commonly used.
 
-- Static /* default */ 
+- Static /* default */
 - Relative
 - Absolute
 - Fixed
@@ -125,10 +125,16 @@ CSS Position allows up to 5 different values. But essentially only 4 values are 
 
 # Static
 
-- All positions are static by default. 
-- They take up the appropriate amount of space they are supposed to take up. 
+- All positions are static by default.
+- They take up the appropriate amount of space they are supposed to take up.
 - Every element will use this value, unless otherwise stated.
 - Will not accept top/right/bottom/left value
+
+---
+
+# Relative
+
+![fit](img/9_posr.jpg)
 
 ---
 
@@ -142,7 +148,9 @@ CSS Position allows up to 5 different values. But essentially only 4 values are 
 
 ---
 
-![fit](img/9_posr.jpg)
+# Absolute
+
+![f](img/10_posa.jpg)
 
 ---
 
@@ -154,23 +162,21 @@ When position absolute is used on an element, it is positioned absolutely with r
 
 ---
 
-![f](img/10_posa.jpg)
-
----
-
 > If no parent element has a relative position, then the absolutely positioned element will take its reference from the browser window.
 
 ---
 
 # Fixed
 
-Similar to position absolute, an element that has fixed position is taken out of the document flow. 
-
-The major difference with position absolute is it always takes its positioning relative to the browser window.
+![fit](img/11_posf.jpg)
 
 ---
 
-![fit](img/11_posf.jpg)
+# Fixed
+
+Similar to position absolute, an element that has fixed position is taken out of the document flow.
+
+The major difference with position absolute is it always takes its positioning relative to the browser window.
 
 ---
 
