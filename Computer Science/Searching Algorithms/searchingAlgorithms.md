@@ -16,7 +16,7 @@ Describe the 3 common search algorithms as well as identify their time-complexit
 
 ---
 
-# in other words: check every element in sequence until we find it.
+# Check every element until we find it.
 
 ---
 
@@ -37,11 +37,11 @@ function arraySearch(arr, target) {
 
 ---
 
-# What is the big $O$?
+# What is the big O?
 
 ---
 
-# $O(n)$
+# O(n)
 
 ---
 
@@ -49,7 +49,7 @@ function arraySearch(arr, target) {
 
 ---
 
-## or check every element in sequence until we find it or a greater element.
+## Check every element in sequence until we find it or a greater element.
 
 ---
 
@@ -59,9 +59,9 @@ function arraySearch(arr, target) {
     if (arr[i] === target) {
       return i; //Found
     }
-    
+
     if (arr[i] < target) {
-      return -1;
+      return -1; //Because it is ordered, if target is greater, we are done.
     }
   }
   return -1; //Not Found
@@ -70,15 +70,15 @@ function arraySearch(arr, target) {
 
 ---
 
-## Even though we can terminate early in certain circumstances, the worst case scenerio involves iterating through the entire array.  Therefore ...
+## Worst case scenario involves iterating through the entire array.
 
 ---
 
-# What is the big $O$?
+# What is the big O?
 
 ---
 
-# $O(n)$
+# O(n)
 
 ---
 
@@ -90,8 +90,13 @@ function arraySearch(arr, target) {
 
 ---
 
-## in orther words: don't start in the beginning, start in the middle.
+## Don't start in the beginning, start in the middle.
 
+---
+
+## [0,1,2,3,4,5,6,7,8,9]
+
+## How would we search for target value 6?
 ---
 
 # Instructions
@@ -107,25 +112,25 @@ function arraySearch(arr, target) {
 function binarySearch(arr, target) {
   let low = 0;
   let high = arr.length;
-  
+
   while (low <= high) {
     let mid = Math.floor(low + (high - low) / 2)
     if arr[mid] === target; {
       return mid; //Found
     } else if (arr[mid] < target) {
-      low = mid+1; 
+      low = mid+1;
     } else {
       high = mid - 1;
     }
   }
-  
+
   return -1; //Not Found
 }
 ```
 
 ---
 
-# Each iteration of the binary search allows us to elimate half of the array.
+# Each iteration eliminates half of the array.
 
 ---
 
@@ -133,9 +138,8 @@ function binarySearch(arr, target) {
 
 ---
 
-# $O(log n)$
+# O(log n)
 
 ---
 
 # Questions?
-
