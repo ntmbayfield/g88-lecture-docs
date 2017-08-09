@@ -21,6 +21,18 @@ There are many ways to sort data, some faster than others. Consider for example 
 ---
 
 # Bubble Sort
+"If backwards, swap."
+
+# Selection Sort
+"Swap with smallest."
+
+# Insertion Sort
+"Swap until in right place."
+
+---
+
+# Bubble Sort
+"If backwards, swap."
 
 ---
 
@@ -91,7 +103,7 @@ Sum = n(n-1)/2
 ---
 
 # Selection Sort
-
+"Swap with smallest."
 ---
 
 * Assume the first item is the smallest value (minimum).
@@ -147,7 +159,7 @@ However, selection sort has the property of minimizing the number of swaps. In a
 ---
 
 # Insertion Sort
-
+"Swap until in right place."
 ---
 
 An insertion sort works by separating an array into two sections:
