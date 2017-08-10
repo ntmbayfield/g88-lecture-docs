@@ -4,14 +4,22 @@
 ---
 
 # Objectives
-- Review what a recursive function is
-- Explain what an exit condition is
-- Explain what to pass as an argument to your function
-- I do, we do, you do more :smile:
+
+By the end of this lesson, you will be able to:
+- Define recursion
+- Explain a step-by-step process for writing a recursive solution
+- Answer possible interview questions related to recursion
+
 
 ---
 
-# What is a Recursive Function?
+# [What is a Recursive Function?](http://lmgtfy.com/?q=recursion)
+
+---
+
+# Recursion
+
+###  _n.  See recursion_
 
 ---
 
@@ -22,49 +30,33 @@
 
 ---
 
-# How do you STOP?
-![right](stop-1971137_1280.png)
+# Steps
+
+- Understand the problem
+- Figure out the ‘base case’ and write the return statement
+- Figure out which variable can be decreased
+- Call the function in an else statement and pass in the variable that can be decreased
 
 ---
 
-## Know your exit condition!
-### a.k.a your base case.
-![right](abandoned-1834759_1280.jpg)
+# Write a function to reverse a string
+## Use recursion
+
+^ Give students some time to work on the problem step by step. Check in - do they know the problem and have they come up with sample inputs and outputs. Check in - have they figured out the base case? Have them write code for just the base case. Check in - have they figured out which variable needs to be decreased or changed? Final check in - have they called the function with the new data? https://repl.it/KBsP
 
 ---
 
-## Same function
-## Different Data
-![](fractal-429039_1280.jpg)
+# Write a map function
+## Use recursion
 
-^ If you don't change the input to the function, it will never stop because nothing has changed!
-
----
-
-# For Example
+^ Same steps as the last problem. This one will need more time. Some students may want to use the built in map function. Point out that they should be implementing the map function. On the final step show two possible solutions. One where they return a concated recursive call and the other where they pass an accumulator. https://repl.it/KBsP https://repl.it/KCMm
 
 ---
 
-# Factorial
-- 5!
-- 5 * 4!
-- 5 * 4 * 3!
-- 5 * 4 * 3 * 2!
-- 5 * 4 * 3 * 2 * 1
+# Possible Interview Question
 
-![](exclamation-point-761082_1280.jpg)
+1. When would you use a recursive solution over an iterative solution?  
+1. What is meant by "recursive depth?"
+1. What is a "stack overflow" (the concept, not the website)? And why is that relevant to a recursive problem?
 
-^demonstrate at the white board
-
----
-
-# We do
-### 99 Bottles of Beer
-
-^ demonstrate in code in Atom
-
----
-
-# You Try It
-### See the daily plan for the link
-![](fractal-542155_1280.jpg)
+^ Have students pair up to research and discuss. Possible answers - 1- If I knew the data-set will be larger than the call-stack. If recursion speaks to readability. If tail-call optimization is available. 2- How many functions deep are you? Greatest depth. 3 - If you call too many functions inside each other, you will run out of room on your call stack.
