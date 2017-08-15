@@ -15,6 +15,17 @@ slidenumbers: true
 
 ---
 
+## Talk & Turn
+If you had to find all the assets and links that start with http or https on the home page of www.galvanize.com, how would you do that with what you currently know?
+
+---
+
+## Regexes are the Chuck Norris of string matching
+
+![inline](chucknorris.jpg)
+
+---
+
 ## Common applications include:
 
 - Data validation
