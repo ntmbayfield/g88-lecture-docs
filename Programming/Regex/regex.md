@@ -15,7 +15,14 @@ slidenumbers: true
 
 ---
 
-Common applications include data validation, data scraping (especially web scraping), data wrangling, simple parsing, the production of syntax highlighting systems, and many other tasks.
+## Common applications include:
+
+- Data validation
+- Data scraping (especially web scraping)
+- Data wrangling
+- Simple parsing
+- Syntax highlighting systems
+- and much more!
 
 ---
 
@@ -25,14 +32,13 @@ Common applications include data validation, data scraping (especially web scrap
 ^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])$
 ```
 
-A typical regex string might look like gibberish, but it is worth considering that every character that appears in your pattern has meaning. Sometimes the character has literal meaning, other times a character indicates some special meaning, like a "meta" character or some semantic grouping.
+A regex string might look like gibberish, but every character has meaning! Sometimes the character has literal meaning, other times a character indicates some special meaning, like a "meta" character or some semantic grouping.
 
 ---
 
 ## RegEx Generally vs JS
 
-JS lets you define a regex pattern as a literal between / and optionally followed by a modifier (i, g, m). In many other contexts, you don't use the / and you can't put
-those modifier characters after /
+JS lets you define a regex pattern as a literal between / and optionally followed by a modifier (i, g, m).
 
 ```javascript
 var oldStr = "Mr Blue has a blue house and a blue car";
