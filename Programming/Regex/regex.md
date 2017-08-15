@@ -62,7 +62,7 @@ str.match(/pattern/g)
 ---
 
 ## Metacharacters
-Symbols that represent single characters of a certain type. [RexEg Cheatsheet](http://www.rexegg.com/regex-quickstart.html)
+Symbols that represent single characters of a certain type. [RexEgg Cheatsheet](http://www.rexegg.com/regex-quickstart.html)
 
 |Symbol|Represents|
 |---|---|
