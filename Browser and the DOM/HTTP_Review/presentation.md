@@ -28,14 +28,14 @@
 
 #[fit]Methods
 
-^ Instruct a server how to proces the request.
+^ Instruct a server how to process the request.
 
 ---
 
 ![](img/texture3.jpg)
 
 - GET - Read
-- POST - Creaete 
+- POST - Create 
 - PUT - Update/Replace
 - PATCH - Update/Modify
 - DELETE - Delete
