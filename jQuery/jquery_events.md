@@ -148,8 +148,6 @@ $('form').submit(function() {
 __Super important__  Elements that are dynamically added to the DOM need to have a listener on the parent element OR you can add a listener while adding the element (usually less efficient)
 
 
-![inline](./belay.png)
-
 ---
 
 Exercise: Create an html file and follow the 4 steps to make the Pokemon example under Event Delegation in the article function correctly. Follow the suggestions on changing the event delegation.
@@ -190,7 +188,7 @@ $(‘.thing’).click(function(){
 
 ---
 
-# One more thing.  Sometimes the default behavior needs to be stopped (such as when submitting a form) This can be done by grabbing the event and using...
+## One more thing.  Sometimes the default behavior needs to be stopped (such as when submitting a form) This can be done by grabbing the event and using...
 
 ```
 event.stopPropagation()
