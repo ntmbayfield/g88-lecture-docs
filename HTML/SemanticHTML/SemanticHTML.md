@@ -1,6 +1,7 @@
 theme: Fira, 1
 autoscale: true
 slidenumbers: true
+<!-- @author: Pete Silva -->
 
 #Semantic
 #<HTML>

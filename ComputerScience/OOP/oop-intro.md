@@ -1,6 +1,7 @@
 theme: Titillium, 1
 autoscale: true
 slidenumbers: true
+<!-- @author: Pete Silva -->
 
 ## Object Oriented Programming
 ![](http://img00.deviantart.net/659a/i/2010/170/b/6/abstract_objects_by_psdtech.jpg)
