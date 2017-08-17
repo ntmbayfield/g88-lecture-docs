@@ -4,7 +4,7 @@
 ![](images/4-hour-chef-time-ferriss.jpg)
 ---
 
-Tim Ferriss’ frameworks for mastering new information-based topics
+Tim Ferriss’ frameworks for mastering new information-based topics from the Four Hour Chef
 
 ___
 
@@ -15,11 +15,11 @@ ___
 1. Sequencing
 1. Stakes
 
-![](images/disss.jpg)
+![](./images/disss.jpg)
 
 ---
 
-1. D for Deconstruction.
+# __D__ for Deconstruction.
 
 What is the minimum useful unit of knowledge?
 
@@ -27,7 +27,7 @@ For a foreign language, it would be a word.
 
 ---
 
-2. S for Selection.
+# __S__ for Selection.
 
 What 20% of those minimum units will lead to 80% of your desired outcomes?
 
@@ -36,7 +36,7 @@ For cooking, it would be basic knife handling skills.
 
 ---
 
-3. S for Sequencing.
+# __S__ for Sequencing.
 
 What’s the most effective order for learning these units?
 
@@ -44,7 +44,7 @@ For cooking, most cookbooks have the wrong sequence for beginners, since what ne
 
 ---
 
-4. S for Stakes.
+# __S__ for Stakes.
 
 What psychological and social mechanisms can you setup for discipline and motivation?
 
@@ -60,13 +60,13 @@ For example, you could publicly announce your goal and a deadline, and have your
 
 ---
 
-1. C for Compression.
+# __C__ for Compression.
 
 Can I compress the most important 20% into an awesome cheatsheet?
 
 ---
 
-2. F for Frequency.
+# __F__ for Frequency.
 
 What is the best duration and frequency, knowing my personal limits and goals?
 
@@ -74,7 +74,7 @@ Setup a SCHEDULE. 5 minutes/day won’t do squat since you’ll barely warm up y
 
 ---
 
-3. E for Encoding.
+# __E__ for Encoding.
 
 How do I create mental anchors & tricks to make sure I remember stuff? "CaFE" and "DiSSS" are great examples of an encoding
 
