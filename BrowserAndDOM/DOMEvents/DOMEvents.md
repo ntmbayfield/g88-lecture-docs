@@ -1,5 +1,6 @@
 autoscale: true
 slidenumbers: true
+<!-- @author: Pete Silva -->
 
 # [fit]DOM
 
