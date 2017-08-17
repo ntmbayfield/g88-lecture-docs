@@ -1,7 +1,8 @@
 
 # DiSSS and CaFE
 
-![](images/4-hour-chef-time-ferriss.jpg)
+![inline](images/4-hour-chef-time-ferriss.jpg)
+
 ---
 
 Tim Ferriss’ frameworks for mastering new information-based topics from the Four Hour Chef
@@ -14,8 +15,6 @@ ___
 1. Selection
 1. Sequencing
 1. Stakes
-
-![](./images/disss.jpg)
 
 ---
 
