@@ -178,7 +178,7 @@ mouseleave()
 
 # this
 
-Refers to the context of the outer selection...usually the thing that was clicked.
+Refers to the context of the outer selection...usually the element that was clicked.
 
 ```
 $(‘.thing’).click(function(){
