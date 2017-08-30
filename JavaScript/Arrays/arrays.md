@@ -25,6 +25,16 @@ var objectives = [
 
 ---
 
+```
+  // the suits of a deck of cards
+  let suit1 = 'Spades'
+  let suit2 = 'Clubs'
+  let suit3 =  'Hearts'
+  let suit4 = 'Diamonds'
+```
+
+---
+
 ## Defining an Array (a list like object)
 
 ```
@@ -87,8 +97,30 @@ for (let i = 0; i < suits.length; i++) {
 - push, pop, length, indexOf
 - find one additional method that seems useful to share with the group
 
+
+> Here's some to talk about...shift, unshift, concat, join, sort
+> Probably skip HOF methods like map, forEach, every, etc. at this stage
+
+---
+
 ## Exercise:
-Declare an Array, add 3 items to it, console.log the length, radomly pick one item from the array
+Declare an Array, add 3 items to it with push, console.log the length, radomly pick one item from the array
+
+
+> let pies = []
+> pies.push("Apple")
+> pies.push("Pecan")
+> pies.push("Banana Cream")
+>
+> for (let i = 0; i < pies.length; i++) {
+>   console.log(pies[i] + " Pie!")
+> }
+>
+> console.log("Length of pies is", pies.length, "and it's not long enough :-)")
+>
+> let randomPick = Math.floor(Math.random() * pies.length)
+>
+> console.log("Random picks is at index", randomPick, pies[randomPick])
 
 ---
 
@@ -122,7 +154,7 @@ desserts[1][1]
 
 ---
 
-## The index of an array can be a key that you choose.  We sometimes call them key/value pairs.  Back to the desserts.
+## The index of an array can be a key that you choose.  We sometimes call them key/value pairs.  Back to the desserts...
 
 ```
 let desserts = []
@@ -144,7 +176,45 @@ Print out all the items in the deck.  e.g. "Ace of Spades, Two of Spades, etc."
 
 ---
 
+```
+
+let faceCards = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+let faceNames = [undefined, "Ace", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King"]
+
+
+let cards = [
+  ["Spades", faceCards],
+  ["Clubs", faceCards],
+  ["Hearts", faceCards],
+  ["Diamonds", faceCards]
+]
+
+
+// go over each suit array
+for (let suitIndex = 0; suitIndex < cards.length; suitIndex++) {
+  // need javascript to help me
+  let suit = cards[suitIndex][0]
+  let faces = cards[suitIndex][1]
+
+  // go over every face card in the other array
+  for (let faceIndex = 0; faceIndex < faces.length; faceIndex++)
+  {
+    let cardFaceName = faceNames[faces[faceIndex]]
+    let card = cardFaceName  + ' of ' + suit
+    console.log(card)
+  }
+}
+// console.log(cards)
+
+// make an array to hold cards
+// randomly pick a card
+
+// while loop to fill up your array until you have seven cards
+```
+
+---
+
 ## You Do
 
-Randomly pick a card from the "deck"
+Randomly pick a card from the "deck" and build a hand of 7 unique cards
 
