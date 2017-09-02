@@ -1,7 +1,7 @@
 
 # Week long javascript prep
 
-The goal of this week long prep is to help students who are in the application process for the g68 cohort level up their javascript skills so they are better prepared to complete the take home and the technical interview. This is the first time we are running this program. Some of the students who attended this program also attended the weekend intensive that Teddi did prior to the start of this week long prep course.
+The goal of this week long prep is to help students who are in the application process for the g68 cohort level up their javascript skills so they are better prepared to complete the take home and the technical interview. This is the first time we are running this program. Some of the students who attended this program also attended the [weekend intensive](https://github.com/gSchool/LectureDocs/blob/master/JavascriptPrep/g68_weekend_javascriptprep.md) that Teddi did prior to the start of this week long prep course.
 
 JT/PT Course Game Plan
 - Mon - Pete - Review  Data Types, Expressions, if/else, String manipulation

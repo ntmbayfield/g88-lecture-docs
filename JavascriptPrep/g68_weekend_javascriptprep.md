@@ -54,8 +54,8 @@ Phoebe (admissions advisor) or Tara (program director) sent this information out
 
 ## Prerequisite for the Saturday code event:
 In _Javascript for Kids_:
-Read chapters 1 and 2(What is Javascript, Data Types and Variables)
-Read chapter 3 pages 40-44(Arrays)
+- Read chapters 1 and 2(What is Javascript, Data Types and Variables)
+- Read chapter 3 pages 40-44(Arrays)
 
 ##Topics for the Day
 
