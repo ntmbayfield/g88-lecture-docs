@@ -8,7 +8,7 @@ I did a quick review with these slides - [Review Data Types, Variables, and Oper
 Then I used these slides [Javascript Prep](http://slides.com/teddimaull/javascript-prep#/) for the remainder of the class (note that with slides it goes in two directions…forward and down). I gave them time to do the “You Try It” parts and walked around and gave individual help to students.
 
 
-##Admissions Problem
+## Inspiration: Admissions Problem
 
 This is the take home problem that students are responsible for being able to complete. I did *not* talk through this problem with them, but I wanted to know what beginner things they might be struggling with so I could give them guidance about how to study.
 
@@ -58,19 +58,14 @@ Read chapters 1 and 2(What is Javascript, Data Types and Variables)
 Read chapter 3 pages 40-44(Arrays)
 
 ##Topics for the Day
-Working with Strings
-If and If…Else Statements
-For loops
-Working with Arrays
-Writing a function
+
+- Working with Strings
+- If and If…Else Statements
+- For loops
+- Working with Arrays
+- Writing a function
 
 Bring your computer, be prepared to have fun writing and sharing code!
-
-- Strings
-- If and If...Else
-- For Loops
-- Arrays
-- Functions
 
 
 # Problems:
