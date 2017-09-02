@@ -4,18 +4,18 @@
 The goal of this week long prep is to help students who are in the application process for the g68 cohort level up their javascript skills so they are better prepared to complete the take home and the technical interview. This is the first time we are running this program. Some of the students who attended this program also attended the weekend intensive that Teddi did prior to the start of this week long prep course.
 
 JT/PT Course Game Plan
-Mon - Pete - Review  Data Types, Expressions, if/else, String manipulation
-Tues - Craig - Arrays, Loops, Thinking like a developer ... Polya's comments, debugging, working incrementally
-Wed - Sean - Functions, putting pieces together Fizzbuzz
-Thurs - Teddi - Objects Word Problems, Whiteboarding
-Fri - Teddi - Accumulator pattern
+- Mon - Pete - Review  Data Types, Expressions, if/else, String manipulation
+- Tues - Craig - Arrays, Loops, Thinking like a developer ... Polya's comments, debugging, working incrementally
+- Wed - Sean - Functions, putting pieces together Fizzbuzz
+- Thurs - Teddi - Objects Word Problems, Whiteboarding
+- Fri - Teddi - Accumulator pattern
 
 # Prerequisites
-In Javascript for Kids:
-Read chapters 1 and 2(What is Javascript, Data Types and Variables)
-Read chapter 3 (Arrays)
-Read Chapter 4 (Objects)
-Read chapter(s) on Loops and Conditionals
+- In Javascript for Kids:
+- Read chapters 1 and 2(What is Javascript, Data Types and Variables)
+- Read chapter 3 (Arrays)
+- Read Chapter 4 (Objects)
+- Read chapter(s) on Loops and Conditionals
 
 
 ## Monday (Pete)
@@ -75,6 +75,7 @@ Fizzbuzz, Functions, putting pieces together
 
 ## Thursday (Teddi)
 Students tonight: 8
+
 Whiteboarding (word problems/problem solving) and Objects
 
 We worked through the following questions on the whiteboard(from our problem solving curriculum). This took about 70-80 minutes:
@@ -90,18 +91,21 @@ I also covered objects for about 30-40 minutes. We covered the stuff in the repl
 
 
 Resources:
-[Objects and Arrays warmup #1](https://github.com/gSchool/js-objects-arrays-warmup/blob/master/solutions.js)
-[Objects and Arrays Warmup #2](https://github.com/gSchool/warmups/blob/master/w01/w-objects-and-arrays-warmups/w-objects-and-arrays-warmup.js)
-[Problem Solving Questions](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/197/WB-01-Dayonequestions.pdf)
-[Repl that I used for the class](https://repl.it/KbYq/2)
+- [Objects and Arrays warmup #1](https://github.com/gSchool/js-objects-arrays-warmup/blob/master/solutions.js)
+- [Objects and Arrays Warmup #2](https://github.com/gSchool/warmups/blob/master/w01/w-objects-and-arrays-warmups/w-objects-and-arrays-warmup.js)
+- [Problem Solving Questions](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/197/WB-01-Dayonequestions.pdf)
+- [Repl that I used for the class](https://repl.it/KbYq/2)
 
 ## Friday(Teddi)
+
 Accumulator Pattern
+
 Resources -
-[Accumulator Problems](https://github.com/gSchool/accumulator-problems/blob/master/main.js)
-[Repl used in the class](repl- https://repl.it/KbmE)
+- [Accumulator Problems](https://github.com/gSchool/accumulator-problems/blob/master/main.js)
+- [Repl used in the class](https://repl.it/KbmE)
 
 Students tonight: 7
+
 We worked through the accumulator problems together. I emphasized inputs and outputs. With each question I asked what the data type of the inputs and outputs were and we came up with examples of what some in and outs could be which I wrote on the whiteboard. We thought up some corner and edge cases (but didn’t always write the code for those even though we talked through the logic of them). I asked them to think about why a problem would be solved using an accumulator pattern. I also demonstrated sandwich code and checking your work each step of the way (first create the accumulator and return it, check your work… then write the for loop and think through the start/stop and test condition…then write the body of the loop). I used this - https://repl.it/KbmE/, you can see how far we got here - https://repl.it/KbmE/14. I crowd sourced answers and we tried different approaches for several of the questions.
 
 In terms of prep work I didn’t have any slides for tonight. We really just jumped into solving the problems. My prep was sourcing the problems we were going to work on and I pulled those from this repo - https://github.com/gSchool/accumulator-problems/blob/master/main.js.
