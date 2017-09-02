@@ -57,7 +57,7 @@ In _Javascript for Kids_:
 - Read chapters 1 and 2(What is Javascript, Data Types and Variables)
 - Read chapter 3 pages 40-44(Arrays)
 
-##Topics for the Day
+## Topics for the Day
 
 - Working with Strings
 - If and If…Else Statements
