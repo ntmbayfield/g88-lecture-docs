@@ -91,17 +91,35 @@ select * from actors a left join movies m on m.id = a.movie_id;
 
 insert into movies (title) values ('Blade Runner');
 
-insert into actors values (default, 'Harrison Ford', (select id from movies where title = 'Star Wars' or title = 'Blade Runner'));
+insert into actors values (default, 'Harrison Ford', (select id from movies where title = 'Star Wars'));
+insert into actors values (default, 'Harrison Ford', (select id from movies where title = 'Blade Runner'));
 
 ---
 
+## normalizing a database schema
+
+```
 create table movie_actors (
   id serial primary key,
   movie_id int references movies(id) not null,
   actor_id int references actors(id) not null
 );
+```
+note: we need to clean up the extra harrisonford
 
+
+---
+
+## You Do
+Write an outer join that displays all the movie titles and actor names (if they have one)
+
+---
+
+## Indexes
+
+```
 create unique index on movie_actors (movie_id, actor_id);
 
 insert into movie_actors (movie_id, actor_id)
 select a.movie_id, a.id from actors join movies m on m.id = a.movie_id;
+```
