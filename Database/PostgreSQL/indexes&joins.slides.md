@@ -8,9 +8,9 @@
 
 ## Research on your own:
 
-+ What an index is.
-+ When do you use an index.
-+ What is the syntax for creating an index.
++ What an index is?
++ When do you use an index?
++ What is the syntax for creating an index?
 
 ---
 
@@ -22,22 +22,15 @@
 ---
 
 ## Research
++ What is the difference between and inner join and an outer join?
 + Find an example of a left outer join and be able to explain it
 + Find an example of a right outer join and be able to explain it
 
 ---
 
-## setup
-```
-createdb movies
-
-psql -d movies < movies.sql
+## put this in a file called movies.sql
 
 ```
-
----
-
-
 begin;
 
 create table movies(
@@ -60,7 +53,17 @@ insert into actors values (default, 'Carrie Fisher', (select id from movies wher
 insert into actors values (default, 'William Shatner', (select id from movies where title = 'Star Trek'));
 
 commit;
+```
 
+---
+
+## setup
+```
+createdb movies
+
+psql -d movies < movies.sql
+
+```
 
 ---
 
@@ -72,7 +75,7 @@ select * from movies m join actors a on m.id = a.movie_id;
 
 ---
 
-What types of joins are these.  What kind of data would it return.  How would you explain it in plain English?
+What types of joins are these.  What kind of data would it return?  How would you explain it in plain English?
 
 ```
 
