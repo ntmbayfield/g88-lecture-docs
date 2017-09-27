@@ -20,7 +20,7 @@
 
 # Cookies
 
-- Small - max 4kb 
+- Small - max 4kb
 - Set by the server
   - In the response header
   - Set-Cookie
