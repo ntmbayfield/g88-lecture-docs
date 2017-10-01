@@ -24,7 +24,7 @@
 1. Click on a domain
 1. View all the beautiful data in Local Storage
 
-![right fit](file:///Users/teddimaull/Desktop/pixabayimages/decksetimages/local_storage.png)
+![right fit](./local_storage.png)
 
 ^ Application tab might be called Resources
 Pull up the websites, share why you think they are using it and what they could be using it for. What is the benefit?
