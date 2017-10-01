@@ -89,28 +89,28 @@ catch(err) {
 - look at the DOM & styling
 - make changes to HTML and CSS in real time
 
-![fit](file:///Users/teddimaull/Desktop/desktop/pixabayimages/decksetimages/devtools_elements_tab.png)
+![fit](./img/devtools_elements_tab.png)
 
 ---
 
-![fit](file:///Users/teddimaull/Desktop/desktop/pixabayimages/decksetimages/devtools_elements_tab.png)
+![fit](./img/devtools_elements_tab.png)
 
 ---
 
 #[fit] Console tab
-![fit](file:///Users/teddimaull/Desktop/desktop/pixabayimages/decksetimages/devtools_console_tab.png)
+![fit](./img/devtools_console_tab.png)
 
 - see errors
 - test JS
 
 ---
 
-![fit](file:///Users/teddimaull/Desktop/desktop/pixabayimages/decksetimages/devtools_console_tab.png)
+![fit](./img/devtools_console_tab.png)
 
 ---
 
 #[fit] Networks tab
-![fit](file:///Users/teddimaull/Desktop/desktop/pixabayimages/decksetimages/devtools_networks_tab.png)
+![fit](./img/devtools_networks_tab.png)
 
 - see if elements have loaded
 - see request/response
@@ -119,19 +119,19 @@ catch(err) {
 
 ---
 
-![fit](file:///Users/teddimaull/Desktop/desktop/pixabayimages/decksetimages/devtools_networks_tab.png)
+![fit](./img/devtools_networks_tab.png)
 
 ---
 
 #[fit] Sources tab
-![fit](file:///Users/teddimaull/Desktop/desktop/pixabayimages/decksetimages/devtools_sources_tab.png)
+![fit](./img/devtools_sources_tab.png)
 
 - view the code your page has loaded
 - add break points and inspect variables
 
 ---
 
-![fit](file:///Users/teddimaull/Desktop/desktop/pixabayimages/decksetimages/devtools_sources_tab.png)
+![fit](./img/devtools_sources_tab.png)
 
 ---
 
@@ -143,7 +143,7 @@ catch(err) {
 - **step into** - go down into whatever function is being called
 - **step out** - return from the current function and go to its caller
 
-![fit right](file:///Users/teddimaull/Desktop/desktop/pixabayimages/decksetimages/devtools_debugger.png)
+![fit right](./img/devtools_debugger.png)
 
 ---
 
@@ -153,7 +153,7 @@ catch(err) {
 - **breakpoints** - deactivate all breakpoints in the code
 - **exceptions** - pause on an exception
 
-![fit left](file:///Users/teddimaull/Desktop/desktop/pixabayimages/decksetimages/devtools_debugger.png)
+![fit left](./img/devtools_debugger.png)
 
 ---
 
