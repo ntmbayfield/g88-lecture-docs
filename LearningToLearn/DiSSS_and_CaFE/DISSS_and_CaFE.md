@@ -5,7 +5,7 @@
 
 ---
 
-Tim Ferriss’ frameworks for mastering new information-based topics from the Four Hour Chef
+Tim Ferriss’ frameworks for mastering new information-based topics quickly and efficiently from the Four Hour Chef
 
 ___
 

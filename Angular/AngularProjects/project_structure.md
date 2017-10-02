@@ -136,7 +136,7 @@ Bindable Members Up Top
 
 # Example Structure
 
-![inline](file:///Users/teddimaull/Desktop/desktop/pixabayimages/decksetimages/angularproject.png)
+![inline](./angularproject.png)
 
 ---
 

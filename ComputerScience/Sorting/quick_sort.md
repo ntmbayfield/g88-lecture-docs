@@ -1,4 +1,4 @@
-# "Advanced" Sorting
+# "Advanced" Sorting:Quick Sort
 
 ### n²?? We can do better than that!!
 
@@ -6,8 +6,10 @@
 
 # Objectives
 
-* Implement a quicksort algorithm
-* Analyze the Big O of quicksort
+By the end of this lesson you will be able to:
+
+* Demonstrate or explain the quicksort algorithm
+* Describe the Big O of quicksort
 
 ---
 
@@ -19,37 +21,35 @@ This is fine for smaller arrays, but for larger arrays, we can (and must) do bet
 
 ---
 
-# Divide and Conquer
-
-- The next element can be one of several choices
-- We only need to select one of the choices
-
-^ This cuts down on the number of elements we need to look at
-More information on identifying the O of logn of an algorithm - http://stackoverflow.com/questions/2307283/what-does-olog-n-mean-exactly
-
----
-
 # Quick Sort
-#### Perform better _on average_ as the size of the array grows
+### Perform better _on average_ as the size of the array grows
+### Best and Average: O(n log n), Worst:O(n^2)
 
 ---
 
-
-## Quick Sort
-
-#### Quick sort works by choosing a pivot, and sorting the rest of the array around the pivot.
+## Quick sort works by choosing a pivot, and sorting the rest of the array around the pivot.
 
 ---
 
 ## Quick Sort Steps:
 
-1. Take an element in the array and refer to it as the "pivot." For simplicity, we'll take the first element in the array to be the pivot. (As you'll see, this is a bad choice if the array is already sorted. It makes the algorithm a little easier to reason about though, so we'll take the tradeoff.)
-1. Compare each of the other elements to the pivot. If it's less than the pivot value, move it to the left of the pivot. If it's greater, move it to the right. Don't worry about where on the left or right you're putting these values; the only thing that matters is comparisons to the pivot.
-1. Once you're done, the pivot will be in the right place, and you can then recursively repeat this process with the left and right halves of the array.
+1. Take an element in the array and refer to it as the "pivot."
+
+2. Compare each of the other elements to the pivot.
+
+3. If it's less than the pivot value, move it to the left of the pivot. If it's greater, move it to the right.
+
+4. Repeat recursively with the left and right halves of the array.
+
+^For simplicity, we'll take the first element in the array to be the pivot. (As you'll see, this is a bad choice if the array is already sorted. It makes the algorithm a little easier to reason about though, so we'll take the tradeoff.)
+
+^Don't worry about where on the left or right you're putting these values; the only thing that matters is comparisons to the pivot.
+
+^Once you're done, the pivot will be in the right place, and you can then recursively repeat this process with the left and right halves of the array.
 
 ---
 
-# Quick Sort Video
+# Quick Sort Videos
 
 ---
 
@@ -57,9 +57,7 @@ More information on identifying the O of logn of an algorithm - http://stackover
 
 ---
 
-# Quick Sort: Steps to Code
-
-
+![](https://www.youtube.com/watch?v=XE4VP_8Y0BU)
 
 ---
 
@@ -111,27 +109,15 @@ function quickSort(arr,left=0, right=arr.length - 1) {
   //3. After the call to partition, perform a quicksort to the
   //two subarrays to the left and right of the partitionIndex.
 
-  // 4.. Return arr.
+  // 4. Return arr.
 
 }
 ```
 
 ---
 
-### Quick Sort complexity
-
-n iterations to choose a pivot.
-
-Best case log(n) iterations to partition around each chosen pivot.
-Worst case n iterations to partition around each chosen pivot.
-
-O(n) * O(log n) = O(n log(n))
-
-O(n) * O(n) = O(n²)
-
----
 
 # Review
 
-* Implement a quicksort algorithm in Javascript
-* Analyze the Big O of quicksort
+* Demonstrate or explain the quicksort algorithm
+* Describe the Big O of quicksort

@@ -41,7 +41,7 @@
 
 ---
 
-#Always ask: 
+#Always ask:
 #Do I actually need to store this?
 
 ^What if there was a way to verify that a password was correct, without knowing the original password?
@@ -106,7 +106,7 @@
 
 ---
 
-#**Never just store hashes!**
+#**Never just store simple hashes such as md5 sha256!**
 
 ---
 
