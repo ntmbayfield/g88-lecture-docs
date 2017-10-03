@@ -19,7 +19,7 @@ This is the process angular uses to implement the awesome 2-way binding that we 
 
 # Watch List
 
-![inline](file:///Users/teddimaull/Desktop/desktop/pixabayimages/decksetimages/binoculars.jpg)
+![inline](./binoculars.jpg)
 
 ^ To understand what happens during the digest cycle, you need to understand the notion of the watch list - it is a list of items that will be observed for changes.
 You can observe expressions or function results
@@ -40,7 +40,7 @@ $scope.$watch
 
 # Dirty Checking
 
-![inline](file:///Users/teddimaull/Desktop/desktop/pixabayimages/decksetimages/checklist.png)
+![inline](./checklist.png)
 
 ^ Dirty Checking simply compares each value on the watchlist and compares old value with a new one to see if it has changed.  Run down the list and dirty check each item. If the item has not changed, keep going. If the item has changed, start again. Keep doing this until there are no changes then update the DOM.
 
@@ -60,7 +60,7 @@ $scope.$watch
 # Problem: infdig error
 ## watched items never stop changing
 
-![inline](file:///Users/teddimaull/Desktop/desktop/pixabayimages/decksetimages/infinity.jpg)
+![inline](./infinity.jpg)
 
 ^ The digest cycle will run a maximum of 10 times at which point an infinite digest loop error (infdig) is triggered. When you are testing your app, do so with the developer console open so you can see all errors. If your variable changes more than 10 times then you will trigger this.
 
