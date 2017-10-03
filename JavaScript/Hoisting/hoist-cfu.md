@@ -68,5 +68,5 @@ hoist();
 
 ## Take Aways...
 
-- Using es5 var or es6 leea, trying to use undeclared variables will lead to the variable being assigned a value of __undefined__ upon hoisting.
+- Using es5 var or es6 let, trying to use undeclared variables will lead to the variable being assigned a value of __undefined__ upon hoisting.
 - Using es6 const, using undeclared variables will lead to a Reference Error because the variable remains uninitialised at execution.
