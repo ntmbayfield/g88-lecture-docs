@@ -141,6 +141,10 @@ router.post('/', (req, res, next) => {
 
 ## If you import data with set ids in postgres, it will get the sequence out of whack.  Then when you try to insert new data it will says there is a primary key error.
 
+```
+‘ERROR:  duplicate key value violates unique constraint “books_pkey” ’
+```
+
 ---
 
 ### Questions:
