@@ -61,7 +61,7 @@ It can however, appear to be pushed to a different location visually.
 ---
 
 
-![](file:///Users/teddimaull/galvanize/deckset-slides/css-position-images/relative.jpg)
+![](./css-position-images/relative.jpg)
 
 
 ---
@@ -76,7 +76,7 @@ When position absolute is used on an element, it is positioned absolutely with r
 
 
 
-![](file:///Users/teddimaull/galvanize/deckset-slides/css-position-images/relative-absolute.jpg)
+![](./css-position-images/relative-absolute.jpg)
 
 
 ---
@@ -90,4 +90,4 @@ The major difference with position absolute is it always takes its positioning r
 
 ---
 
-![](file:///Users/teddimaull/galvanize/deckset-slides/css-position-images/fixed-absolute.jpg)
+![](./css-position-images/fixed-absolute.jpg)
