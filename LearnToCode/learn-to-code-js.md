@@ -175,12 +175,12 @@ What's the difference between =,==, and ===?
 
 = is known as the assignment operator It sets variables equal to a specific value.
 
-```var foo = 1```
+`var foo = 1`
 
 
 == is known as the abstract equality comparison. It compares two items to see if they are of equal value, but it ignores if they are the same exact type of data.
 
-``“1” == 1` evaluates True
+`“1” == 1` evaluates True
 `Null == undefined` evaluates True
 
 === is known as the strict equality comparison. It compares the value & type of the items to see if they are exactly the same. In the case of null vs undefined, null is more specifically typed than undefined, so they are not exactly the same value.
