@@ -1,1 +1,1 @@
-[CSS Specificity/Selectors Game](slides.com/teddimaull/css/)
+[CSS Specificity/Selectors Game](http://slides.com/teddimaull/css/)
