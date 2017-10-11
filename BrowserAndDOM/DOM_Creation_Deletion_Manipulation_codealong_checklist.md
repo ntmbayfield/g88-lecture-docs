@@ -1,6 +1,7 @@
 # DOM Demo Creation, Deletion, Manipulation
+[Demo Video](https://www.youtube.com/watch?v=a2AU1mIzRkc&feature=youtu.be)
 
-## Create & Attach Elements 
+## Create & Attach Elements
 
 1. view the document
 
@@ -65,4 +66,3 @@
    ​
 
    ​
-
