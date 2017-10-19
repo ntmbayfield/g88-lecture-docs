@@ -21,10 +21,10 @@ An instructor facilitates the following -
 ## Example
 If students are wondering what problems and solutions might look like -
 
-###Sample Problem:
+### Sample Problem:
 - I can never find enough marshmallows
 
-###Possible Solutions that people would draw wireframes for:
+### Possible Solutions that people would draw wireframes for:
 - app that shows stores in the area that sell marshmallows
 - a marshmallow delivery service
 - marshmallow recipes
