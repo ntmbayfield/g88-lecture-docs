@@ -136,3 +136,7 @@ The story when complete will make a real-world task faster, better, easier to un
 - What worked?
 - What didn't?
 - What would you do differently next time?
+
+---
+
+# [Trello Project Planning](https://trello.com/b/DoANlsvU/project-planning-template)
