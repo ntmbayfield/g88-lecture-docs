@@ -1,10 +1,10 @@
-![](/Users/mathew.brown/Galvanize/Lectures/HTML/IntroToHTML/img/html.jpg)
+![](img/html.jpg)
 
 #Intro to HTML
 
 ---
 
-![](/Users/mathew.brown/Galvanize/Lectures/HTML/IntroToHTML/img/html2.jpg)
+![](img/html2.jpg)
 
 #What is HTML?
 
@@ -26,7 +26,9 @@
 
 #Syntax
 
-^Tags make elements.
+^Tags make elements (when rendered).
+
+^Tags wrap content.
 
 ^Some tags are self-closing
 
@@ -38,4 +40,18 @@
 
 #HTML Structure
 
-^Do on your own.
+^HTML can be thought of as a tree.
+
+^Like a family tree.
+
+^Elements can have parents (or container), children and siblings.
+
+^Doctype <!DOCTYPE html> - self closing and servers to tell the browser what type of HTML the file is written in.
+
+^HTML
+
+^HEAD -> Metadata about the document.
+
+^title
+
+^body - the content thats displayed.

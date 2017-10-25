@@ -1,0 +1,72 @@
+<html ng-app>
+
+<head>
+  <script>
+    var school = "Galvanize";
+  </script>
+</head>
+
+<body ng-init="showit=true; cohort=49;" class="container">
+
+  <h2>Objectives</h2>
+
+
+By the end of this lesson you will be able to describe and identify:
+  <ol>
+    <li>a built-in directive</li>
+    <li>an expression</li>
+    <li>a filter</li>
+  </ol>
+
+
+  <h2>Built-in Directives</h2>
+
+  <ul>
+    <li>Built-in directives are little pieces of functionality that Angular gives you for free.</li>
+    <li>To use them, you will generally add the attribute to an html element.</li>
+    <li>What are some directives you have used so far?</li>
+  </ul>
+
+  Example:
+  <div class="text-primary" ng-show="showit">
+    Hello There!
+  </div>
+
+
+  <h2>Expressions</h2>
+  <p>Angular expressions are Javascript-like snippets that are usually placed in bindings.</p>
+  <ul>
+    <li ng-show="{{showit}}">Expressions can be used as an argument for a directive
+    </li>
+    <li>
+      Expressions can be used to display information on the page like: cohort number {{ cohort }} is the best!
+
+    </li>
+    <li>You can add numbers: 1 + 2 = {{1 + 2}}</li>
+    <li>You can concatenate strings: My name is {{"Alexander" + " Hamilton"}}</li>
+    <li>
+      You can get evaluate the length of an array - [99,43,22] {{ [99,43,22].length }} is items long.
+
+    </li>
+    <li class="text-danger">
+      You can't access variables outside of the Angular scope, so you can't access the school name here - {{school}}
+
+    </li>
+  </ul>
+
+  <h2>Filters</h2>
+  <p>
+    Angular filters are bits of code that format data before displaying it.
+  </p>
+
+  <ul>
+    <li>You can limit the number of characters shown: {{ 3.14159265359 | limitTo: 3 }}</li>
+    <li>You can display currency - {{3.14159265359 | currency }}</li>
+    <li>
+      You can {{ "make text bigger" | uppercase }}
+    </li>
+    <li>You can chain filters together like here where an array is filtered to include only values with the number 2 in them and then results are limited to give us only 3 results. {{ [1,12,13,14,25,200,1002] | filter: 2 | limitTo: 3}} </li>
+  </ul>
+</body>
+
+</html>

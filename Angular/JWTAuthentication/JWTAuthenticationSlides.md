@@ -9,6 +9,7 @@ build-lists: true
 ---
 
 # Check for Understanding
+
 1.  What is **authentication**?
 2.  What is **authorization**?
 3.  How have you previously implemented **authentication**?

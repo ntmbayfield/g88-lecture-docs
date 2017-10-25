@@ -5,12 +5,6 @@
 
 ---
 
-![](img/1_sponge.jpg)
-
-#[fit] How to be a sponge
-
----
-
 ![left](img/2_Objectives.jpg)
 
 
@@ -18,7 +12,7 @@
 
 By the end of this workshop, you will be able to...
 
-- Describe differentiated instruction.
+- Describe the 3 stage learning process.
 
 - Explain what type of learner you are?
 
@@ -34,11 +28,13 @@ By the end of this workshop, you will be able to...
 
 - Explain the purpose of Bloom's Taxonomy.
 
+- Explain how the challenge and skill influences your mental state.
+
 ---
 
 ![](img/3_Why.png)
 
-^ Quick turn and talk - why is this important?
+^ Quick turn and talk - why is L2L important?
 
 ^Learning is essential to being a programmer.
 
@@ -49,8 +45,6 @@ By the end of this workshop, you will be able to...
 ^Also, we want Galvanize to be a transformative experience for you.
 
 ^In addition to programming skills and knowledge, we want to help grow your habits and mindsets.
-
-
 
 ---
 
@@ -67,11 +61,13 @@ By the end of this workshop, you will be able to...
 ## Differentiated
 ## Instruction
 
+### Strength - Weaknesses - Threats - Opportunities for you as a learner
+
 ^Differentiation means giving students multiple options for taking in information.
 
-^Exercise: Fill out google form for their learning style.
+^Exercise: Fill out google form for with SWOT analysis as a learner
 
-^ https://goo.gl/forms/dau8QflvYKhPt0B43
+^ https://goo.gl/forms/aHhXcX0w2GO7uLot1
 
 ---
 
@@ -82,6 +78,13 @@ By the end of this workshop, you will be able to...
 ^ Introduce concept of "Cold Calling"
 
 ^ Cold call "What is differentiated instruction?"
+
+---
+
+# 3 Step Learning Process
+##[fit] 1. Set the stage
+##[fit] 2. Play
+##[fit] 3. Reflect
 
 ---
 
@@ -284,6 +287,12 @@ By the end of this workshop, you will be able to...
 ![fit](img/22_Questions.png)
 
 ^Questions
+
+---
+
+![](img/1_sponge.jpg)
+
+#[fit] Be a sponge!
 
 ---
 

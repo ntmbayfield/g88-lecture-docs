@@ -2,11 +2,18 @@
 
 ---
 
+# Objectives
+
+- Explain the purpose of using resolve
+- Explain the syntax of resolve
+
+---
+
 # Consider the following ...
 
 ---
 
-> A **dependency** **fails** to load and the user get a **broken page**.
+> A **dependency** **fails** to load and the user gets a **broken page**.
 
 ---
 
@@ -32,9 +39,11 @@
 
 ---
 
-If any of these dependencies are **promises**, they will be resolved and converted to a value **before** the controller is instantiated and the $stateChangeSuccess event is fired.
+> If any of these dependencies are **promises**, they will be resolved and converted to a value **before** the controller is instantiated and the $stateChangeSuccess event is fired.
 
 ---
+
+# Old Syntax that You May See in the Wild
 
 ```javascript
 $stateProvider
@@ -50,6 +59,23 @@ $stateProvider
 
 ---
 
+# New Syntax when Using Components
+
+```javascript
+$stateProvider
+  .state("students", {
+  url : "/students",
+  component: 'studentsComponent',
+  resolve: {
+
+  }
+});
+```
+
+---
+
+# Example Resolve Object
+
 ```javascript
 resolve {
   // Not a promise, resolves immediately
@@ -60,44 +86,31 @@ resolve {
   // Returns a promise, will resolve when promise is resolved.
   students1: function($http) {
     return $http({method: 'GET', url: '/api/students'});
-  }
-}
-```
-
----
-
-```javascript
-resolve{
+  },
+  //An example of processing the data
   students2:  function($http){
     return $http({method: 'GET', url: '/someUrl'})
       .then (function (data) {
       return doSomeStuffFirst(data);
     });
-  },     
+  }
 }
 ```
-
 ---
 
-```javascript
-resolve {
-  studentsService: 'studentsService'
-}
-```
-
----
+# Example Controller
 
 ```javascript
-studentsController(simpleObj,students,students2) {
+studentsController(simpleObj,students,students2,studentInfo) {
   vm = this;
   vm.message = simpleObj;
   vm.students = students.data;
   vm.students = students;
-  
+
   vm.studentInfo = studentsService.getInfo();
 }
 ```
 
 ---
 
-#Questions?
+# Questions?
