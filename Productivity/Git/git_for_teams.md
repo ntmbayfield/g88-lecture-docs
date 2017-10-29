@@ -2,6 +2,10 @@
 
 ---
 
+## Use a feature branch workflow and/or Pull Requests
+
+---
+
 ## Use good branch names.
 
 ^^ no spaces, no capital letters
@@ -9,6 +13,11 @@
 ---
 
 ## Keep Master clean. It should always be working.
+
+---
+
+- Rebase branches
+- Merge branches to Master
 
 ---
 
