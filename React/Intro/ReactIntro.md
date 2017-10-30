@@ -1,15 +1,21 @@
 # Front End Frameworks Intro
+## ... and not really an intro to React
 
 ---
 # Objectives
-- Understand the advantages of using a Front End Frame work
-- Describe the top problems solved by front end framework
+- Describe the concept of a Single Page App (SPA)
+- Describe the advantages of using a Front End Frame work
+- Name the key concepts in ReactJS
 
 ---
 
 # Rise of the SPA
 
 In a single-page application, all of the code needed is included in a single-page load. This includes all of the CSS, HTML, and JavaScript. The page does not reload, and it requires dynamic interaction with the Web server.
+
+---
+
+Front End Frameworks help to build SPAs.
 
 ---
 
@@ -27,29 +33,60 @@ In a single-page application, all of the code needed is included in a single-pag
 
 ---
 
-# Most Popular Frameworks in 2017
+# Most Popular Frameworks in 2017 (in order of popularity)
 
-- Angular
 - ReactJs
-- Vue
+- Angular
+- Vue (sort of)
 - Others...Ember, Meteor, Backbone
 
 ---
 
-![inline](./images.comparison.png)
+![inline](./images/comparison.png)
+
+Question: Why is React listed as a Library?
 
 ---
 
-# Research (on your own, 5 minutes)
-What problems do front end frameworks like Vue, React or Angular claim to solve?
-- Components
-- Dependancy Injection
-- Server Side Rendering
-- JSX
+# React Concepts
+
+- Web Components
+- 1 way data binding
+- Virtual DOM
+- JSX (which requires a "build" step)
+- State management (Flux or Redux)
 
 ---
 
+# React in a Nut Shell
+
+![inline](./images/React.jpg)
+
+---
+
+# Angular in a Nut Shell
+
+![inline](./images/angular-2.jpg)
+
+---
+
+## Question: How are React & Angular similar/different?
+![inline, 50%](./images/React.jpg)
+![inline, 50%](./images/angular-2.jpg)
+
+---
+
+# CFU
+
+- Describe the concept of a Single Page App (SPA)
+- Describe the advantages of using a Front End Frame work
+- Name the key concepts in React
+
+----
 
 # Resources
+- https://rubygarage.org/blog/best-javascript-frameworks-for-front-end
 - https://blog.appdynamics.com/product/comparing-the-4-most-popular-client-side-javascript-frameworks/
 - https://hackernoon.com/5-best-javascript-frameworks-in-2017-7a63b3870282
+- https://medium.com/javascript-scene/top-javascript-frameworks-topics-to-learn-in-2017-700a397b711
+
