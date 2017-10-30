@@ -8,8 +8,31 @@ slidenumbers: true
 ---
 
 ### Objectives
-- Write tests for RESTful routes in Express apps using Supertest
-- Write tests to handle errors in your Express apps
+- Explain what Mocha, Chai, Supertest do individually
+- Write tests for RESTful routes in Express apps using Mocha/Chai/Supertest
+
+---
+
+Mocha
+  - Test framework
+  - Runs all our tests for us
+  - "describe, beforeEach, afterEach, context, it" blocks
+
+Chai
+  - Assertion library
+  - everything inside "it" blocks
+  - "expects, should, assert, equal, exist" blocks
+  - defines expectations
+
+---
+
+Supertest
+  - Let's GOOOOGLE it
+
+---
+
+Supertest
+  - Allows testing of HTTP routes
 
 ---
 
@@ -38,7 +61,7 @@ module.exports = knex;
 ---
 
 ```bash
-npm install --save express pg knex body-parser
+npm install --save pg knex
 npm install --save-dev chai mocha supertest
 npm install
 ```
@@ -62,6 +85,7 @@ npm test
 ```
 
 ---
+`psql -f myfile.sql`
 
 ```sql
 \c postgres;
