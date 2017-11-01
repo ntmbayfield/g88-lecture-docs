@@ -93,7 +93,7 @@ You will be able to:
 
 ---
 
-# NPM PDF
+# [NPM PDF](NPM_Notes.pdf)
 
 ---
 
