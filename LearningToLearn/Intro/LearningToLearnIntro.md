@@ -14,7 +14,15 @@ By the end of this workshop, you will be able to...
 
 - Describe the 3 stage learning process.
 
-- Identify your personal strengths and areas of growth.
+- Explain what type of learner you are?
+
+- Discuss the 3 stage learning process.
+
+---
+
+# Objectives continued
+
+- Identify your personal strengths and areas of growth in the 3 stage learning process.
 
 - Explain the zone of proximal development.
 

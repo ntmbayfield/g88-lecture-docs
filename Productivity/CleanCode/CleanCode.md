@@ -1,10 +1,22 @@
 ![right](img/clean.gif)
 
-# [fit]Clean 
+# [fit]Clean
 
 # [fit]Code
 
 ---
+
+#Objectives
+
+By the end of this lesson you will be able to:
+
+- Explain why you should strive for clean code
+- Identify why a snippet of code is not clean
+- Choose two things you will focus on this week
+
+---
+
+#X
 
 ```javascript
 var x,y,z;
@@ -50,7 +62,7 @@ function Person (firstname, lastname, age, weight, isAlive, hairColor, height, c
 
 ---
 
-
+#X
 
 ```javascript
 function Person (firstname, lastname, age, weight, isAlive, hairColor, height, city, state, country) {
@@ -66,7 +78,7 @@ function Person (firstname, lastname, age, weight, isAlive, hairColor, height, c
 
 ---
 
-
+#√
 
 ```javascript
 // Can anyone remember the parameters and order of the many version?
@@ -77,9 +89,9 @@ function Person (spec) {
 }
 ```
 
-
-
 ------
+
+#X
 
 ```javascript
 function checkSystem (isReady, message) {var output; if (isReady) {
@@ -92,9 +104,11 @@ output = 'I can\'t let you do that.'}return output;}
 
 ![left](img/crying.gif)
 
-# Inconsistant Indentation
+# Inconsistent Indentation
 
 ------
+
+#√
 
 ```javascript
 function checkSystem (isReady, message) {
@@ -112,6 +126,7 @@ function checkSystem (isReady, message) {
 
 ------
 
+#X
 ```javascript
 function calculatePrice (retailPrice) {
     return retailPrice + retailPrice * 0.08 + retailPrice * 0.02;
@@ -126,15 +141,19 @@ function calculatePrice (retailPrice) {
 
 ---
 
+#√
+
 ```javascript
 function calculatePrice (retailPrice) {
     var salesTax = 0.08;
-    var viceTax = 0.02; 
+    var viceTax = 0.02;
     return retailPrice + retailPrice * salesTax + retailPrice * viceTax;
 }
 ```
 
 ---
+
+#X
 
 ```javascript
 function sendMessage() {
@@ -155,6 +174,7 @@ function sendMessage() {
 
 ---
 
+#√
 ```javascript
 function sendMessage() {
     var message = $("#messageBox").val();
@@ -164,6 +184,8 @@ function sendMessage() {
 ```
 
 ---
+
+#X
 
 ```javascript
 function sendMessage() {
@@ -190,6 +212,7 @@ function sendMessage() {
 
 ---
 
+#√
 ```javascript
 function sendMessage() {
     //handle errors in functions and handle complexity
@@ -200,10 +223,13 @@ function sendMessage() {
 
 ---
 
+#X
+
 ```javascript
 function checkoutBook() {
+    var maxBooks = 3;
     var book = getBook(), user = getUser(), booksOut = user.getBooksOut(), name = user.name;
-    if (booksOut.length >= 3) {
+    if (booksOut.length >= maxBooks) {
         throw new Error('Too many books checked out', user);
     }
     user.checkout(book);
@@ -219,12 +245,15 @@ function checkoutBook() {
 
 ---
 
+#√
+
 ```javascript
 function checkoutBook() {
+    var maxBooks = 3;
     var book = getBook();
     var user = getUser();
     var booksOut = user.getBooksOut();
-    if (booksOut.length >= 3) {
+    if (booksOut.length >= maxBooks) {
         throw new Error('Too many books checked out', user);
     }
     user.checkout(book);
@@ -233,6 +262,8 @@ function checkoutBook() {
 ```
 
 ---
+
+#X
 
 ```javascript
 function p(b, e) {
@@ -251,11 +282,13 @@ function p(b, e) {
 
 ![left](img/colbert.gif)
 
-# [fit] Undescriptive
+# [fit] Confusing
 
 # Names
 
 ---
+
+#√
 
 ```javascript
 function power(base, exponent) {
@@ -272,7 +305,7 @@ function power(base, exponent) {
 
 ---
 
-
+#X
 
 ```javascript
 $('div').click(function () {})
@@ -288,6 +321,8 @@ $('div').hide()
 
 ---
 
+#√
+
 ```javascript
 var $divs = $('div')
 $divs.click(function () {})
@@ -297,11 +332,12 @@ $divs.hide()
 
 ---
 
-# Not Just Javascript
-
-
+#[fit]Not Just
+#[fit]Javascript
 
 ---
+
+#X
 
 ```css
 div table tr td ul li #con, div div div div span #con {color:red;background-color:blue;margin:0 0 0 10px;
@@ -316,6 +352,8 @@ padding: 0 10px 10px 100px;}
 
 ----
 
+#√
+
 ```css
 #con {
   color: red;
@@ -325,9 +363,9 @@ padding: 0 10px 10px 100px;}
 }
 ```
 
-# 
-
 ---
+
+#X
 
 ```html
 <body><div><div><span>
@@ -346,6 +384,8 @@ puppies</span>
 
 ---
 
+#√
+
 ```html
 <body>
   <div>
@@ -356,4 +396,30 @@ puppies</span>
   <div>kittens</div>
 </body>
 ```
+---
 
+#[fit]What will you
+#[fit]focus on this week?
+
+---
+
+# Better Readability
+
+- ~~Inconsistent Indentation~~ Use proper indentation and spacing
+- ~~Long Lines~~ Use line breaks to make code more readable
+- ~~Confusing Names~~ Make names more descriptive
+
+---
+
+# Simple Clean Ups
+
+- ~~Many Parameters~~ Use fewer parameters
+- ~~Magic Numbers~~ Create descriptive variables for numbers
+- ~~Unused Variables~~ Remove unused variables
+
+---
+
+# Refactor & Make More Efficient
+
+- ~~Long Functions~~ Make functions shorter (do one thing well)
+- ~~Bad jQuery Selectors~~ Name selectors and choose smart selectors

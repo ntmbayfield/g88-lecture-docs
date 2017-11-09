@@ -2,6 +2,13 @@
 
 ---
 
+# Objectives
+
+- Explain the concept of REST
+- Explain which HTTP verbs (methods) match up to CRUD
+
+---
+
 # What is REST?
 #<br>
 ##[fit]RE**presentational** S**tate** T**ransfer**
@@ -148,7 +155,7 @@ DELETE /students/:id
 
 {
 	"count": "2",
-	"links": { 
+	"links": {
 		"self": { "href": "http://galvanize.com/students?page=1" },
 		"next": { "href": "http://galvanize.com/students?page=2" }
 	},
@@ -185,5 +192,9 @@ DELETE /students/:id
 
 ---
 
+# Objectives
 
-#❓
+- Explain the concept of REST
+- Explain which HTTP verbs (methods) match up to CRUD
+
+---

@@ -60,7 +60,7 @@ A new or original idea can often lead to innovation.
 
 * What would make your life easier?
 * What would simplify a task?
-* What would safe you time? 
+* What would save you time?
 
 ---
 
@@ -72,8 +72,8 @@ A new or original idea can often lead to innovation.
 
 ## Ask Yourself:
 
-* Can you replicate it with different theme? 
-* What can you do better? 
+* Can you replicate it with a different theme?
+* What can you do better?
 
 ---
 
@@ -130,9 +130,9 @@ Example Sites: [Reddit](https://www.reddit.com/r/SomebodyMakeThis/), [Ideas Watc
 - Come up with a list of app ideas together
   - Try to come up with as many as you can
   - Don't go into details
-  - Don't worry about feasability
+  - Don't worry about feasibility
 - Start crossing off ideas
-  - Think of limitations and time contraints
+  - Think of limitations and time constraints
   - Consider blending ideas together
 - Continue the process until you have one awesome idea!  
 

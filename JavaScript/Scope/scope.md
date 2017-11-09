@@ -7,6 +7,9 @@
 #Objectives
 
 1. Explain the three types of scope.
+  - Global
+  - Function
+  - Block
 
 ---
 
@@ -59,6 +62,16 @@ testScope();
 
 > What happens if a variable is declared without var?
 
+```javascript
+
+function testScope() {
+  scope = 'function';
+}
+
+testScope();
+console.log(scope);
+
+```
 ---
 
 #Shadowing
