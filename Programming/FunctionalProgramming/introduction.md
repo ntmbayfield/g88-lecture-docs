@@ -8,8 +8,8 @@ build-lists: true
 
 # Can it help me get a job?
 * YES
-* Isolating [side-effects](https://www.aomran.com/pure-functional-programming/) improves code
-* Immutable data has [advantages](https://redux.js.org/docs/faq/ImmutableData.html#benefits-of-immutability)
+* Isolating *side effects* [improves code](https://www.aomran.com/pure-functional-programming/)
+* *Immutable data* has [advantages](https://redux.js.org/docs/faq/ImmutableData.html#benefits-of-immutability)
 
 ![lambda 70%](https://cdn.pixabay.com/photo/2012/04/24/11/31/lambda-39473_1280.png)
 
@@ -28,7 +28,7 @@ build-lists: true
 # What is Functional Programming (FP)?
 * A programming *paradigm* like imperative, declarative, object-oriented, etc.
 * FP is *declarative* utilizing expressions rather than statements
-* *Higher-order functions* allow partial application and currying (Haskell Curry)
+* *Higher-order functions* allow partial application and currying
 
 ![lambda 70%](https://cdn.pixabay.com/photo/2012/04/24/11/31/lambda-39473_1280.png)
 
