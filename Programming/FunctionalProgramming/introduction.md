@@ -6,6 +6,25 @@ build-lists: true
 
 ---
 
+# Can it help me get a job?
+* YES
+* Isolating [side-effects](https://www.aomran.com/pure-functional-programming/) improves code
+* Immutable data has [advantages](https://redux.js.org/docs/faq/ImmutableData.html#benefits-of-immutability)
+
+![lambda 70%](https://cdn.pixabay.com/photo/2012/04/24/11/31/lambda-39473_1280.png)
+
+---
+
+# Objectives
+* Identify destructive functions, mutated state, and side effects
+* Write functions that take functions as arguments
+* Write functions that return functions as values
+* Write non-destructive versions of common destructive functions
+
+![lambda 70%](https://cdn.pixabay.com/photo/2012/04/24/11/31/lambda-39473_1280.png)
+
+---
+
 # What is Functional Programming (FP)?
 * A programming *paradigm* like imperative, declarative, object-oriented, etc.
 * FP is *declarative* utilizing expressions rather than statements
@@ -24,21 +43,12 @@ build-lists: true
 
 ---
 
-# Can it help me get a job?
-* YES
-* Pure functions are easy to test and understand
-* Immutable data has [advantages](https://auth0.com/blog/intro-to-immutable-js/)
-* JavaScript, jQuery, React / Redux
-* Libraries like Underscore, LoDash, Ramda
-
-![lambda 70%](https://cdn.pixabay.com/photo/2012/04/24/11/31/lambda-39473_1280.png)
-
----
-
 # History
 * Alan Turing (Turing machine) & Alonzo Church (Lambda Calculus)
 * Classical functional languages - Lisp, ML, Scheme, Prolog
 * Modern languages - Haskell, Scala, OCaml, Clojure, Elm, PureScript
+* JavaScript, jQuery, React / Redux
+* Libraries like Underscore, LoDash, Ramda
 
 ![lambda 70%](https://cdn.pixabay.com/photo/2012/04/24/11/31/lambda-39473_1280.png)
 
@@ -56,5 +66,3 @@ build-lists: true
 * Static and dynamic type systems
 
 ![lambda 70%](https://cdn.pixabay.com/photo/2012/04/24/11/31/lambda-39473_1280.png)
-
----
