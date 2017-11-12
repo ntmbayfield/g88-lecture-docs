@@ -18,7 +18,7 @@ You will be able to:
 # Why Use NPM?
 
 - Makes code portable
-- Manages dependancies (libraries you need to run your app)
+- Manages dependencies (libraries you need to run your app)
 - Keeps project metadata consistent
 - Access thousands of packages, so you don't have to reinvent the wheel
 - Consistent interface allows easy deployment
@@ -72,8 +72,9 @@ You will be able to:
 
 # Install a Module Locally
 ## `npm install express --save`
+## `npm install express --save-dev`
 
-^ installs a new module and saves it to package.json. If you leave off the --save then the module will not be saved to the package.json.
+^ installs a new module and saves it to package.json. Older versions of npm require --save in order to saved to the package.json. Newer versions can ommit it. --save-dev will save to dev dependencies.
 
 
 ---
@@ -89,7 +90,7 @@ You will be able to:
 
 ## `echo node_modules >> .gitignore`
 
-^Prevent node_modules from being added to source control. The package.json file contains a list of the modules that need to be installed. It is an waste of space to check node_modules into source control.
+^Prevent node_modules from being added to source control. The package.json file contains a list of the modules that need to be installed. It is a waste of space to check node_modules into source control. >> appends instead of > which replaces.
 
 ---
 
