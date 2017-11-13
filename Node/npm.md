@@ -8,7 +8,7 @@ You will be able to:
 
 - Explain the purpose of NPM
 - Install a global module (`npm -g <module>`)
-- Initialize NPM (`npm init`)
+- Initialize a Project (`npm init`)
 - Install a package using NPM (`npm <module> --save`)
 - Explain the purpose of the package.json file
 - Create a .gitignore file
@@ -39,7 +39,7 @@ You will be able to:
 
 ---
 
-# Initialize NPM
+# Initialize a Project
 ## `npm init`
 
 ^ Walks you through creating a package.json file. For now, you can just accept the default values by hitting enter or by using the -y flag.
@@ -94,7 +94,7 @@ You will be able to:
 
 ---
 
-# [NPM PDF](NPM_Notes.pdf)
+# [NPM PDF](https://github.com/gSchool/LectureDocs/blob/master/Node/NPM_Notes.pdf)
 
 ---
 
@@ -108,7 +108,7 @@ You will be able to:
 
 - Explain the purpose of NPM
 - Install a global module
-- Initialize NPM
+- Initialize a Project
 - Install a package using NPM
 - Explain the purpose of the package.json file
 - Create a .gitignore file
