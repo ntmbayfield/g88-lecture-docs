@@ -44,6 +44,17 @@
 #<br>
 ##HTTP methods map CRUD operations to HTTP Requests.
 
+
+---
+
+# CRUD
+| HTTP | CRUD | SQL  |
+| ------------- |:-------------:| -----:|
+| POST| Create | INSERT |
+| GET | Read (Retrieve) |	SELECT |
+| PUT / PATCH | Update (Modify) |	UPDATE |
+| DELETE | Delete (Destroy) | DELETE |
+
 ---
 
 #GET
@@ -120,8 +131,6 @@ GET /students/:id/grades
 #Route Practice
 
 POST /students
-
-POST /students/:id
 
 PUT /students/:id
 

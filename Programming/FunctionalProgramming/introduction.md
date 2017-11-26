@@ -25,6 +25,13 @@ build-lists: true
 
 ---
 
+# An example
+[Map Re-factor](https://github.com/gSchool/snippets/blob/master/functionalProgramming.js)
+
+![lambda 70%](https://cdn.pixabay.com/photo/2012/04/24/11/31/lambda-39473_1280.png)
+
+---
+
 # What is Functional Programming (FP)?
 * A programming *paradigm* like imperative, declarative, object-oriented, etc.
 * FP is *declarative* utilizing expressions rather than statements
