@@ -6,5 +6,5 @@
 - To play with multiple.js you will need to run the server
   - cd into the server directory
   - `npm install`
-  - `node server.js`
+  - `npm start`
   - in a new terminal window run `node multiple.js`
