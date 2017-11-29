@@ -37,13 +37,13 @@ By the end of this lesson you will be able to:
 # Primary Key
 
 ```sql
-CREATE TABLE student(
-  id    INTEGER PRIMARY KEY,
+CREATE TABLE students(
+  id INTEGER PRIMARY KEY,
   name TEXT
 );
 
-CREATE TABLE bnb(
-  bnbid    INTEGER PRIMARY KEY,
+CREATE TABLE bnbs(
+  id INTEGER PRIMARY KEY,
   name TEXT
 );
 ```
@@ -55,12 +55,12 @@ CREATE TABLE bnb(
 # Foreign Key
 
 ```sql
-CREATE TABLE bnb_student(
+CREATE TABLE bnbs_students(
   id INTEGER PRIMARY KEY
   bnb_id INTEGER,
   student_id INTEGER,
-  FOREIGN KEY(bnb_id) REFERENCES bnb(id),
-  FOREIGN KEY(student_id) REFERENCES student(id),
+  FOREIGN KEY(bnb_id) REFERENCES bnbs(id),
+  FOREIGN KEY(student_id) REFERENCES students(id),
   url TEXT
 );
 ```
@@ -171,13 +171,13 @@ ON hair.username = eyes.username;
 What if you have a join table and want to output a table that has readable information? What will the following query give us?
 
 ```sql
-SELECT bnb.name
-AS "BnB Name", student.name AS "Student Name"
-FROM student
-JOIN bnb_student
-ON bnb_student.studentid = student.studentid
-JOIN bnb
-ON bnb_student.bnbid = bnb.bnbid;
+SELECT bnbs.name AS "BnB Name",
+       students.name AS "Student Name"
+FROM students
+JOIN bnbs_students
+ON bnbs_students.student_id = students.student_id
+JOIN bnbs
+ON bnbs_students.bnb_id = bnbs.bnb_id;
 ```
 
 ---
