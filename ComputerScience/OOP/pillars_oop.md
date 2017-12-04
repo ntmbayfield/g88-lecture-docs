@@ -38,7 +38,7 @@ Define, Find an example from your group project, and Describe why this it is use
 
 # 1. Abstraction
 
-Abstraction is a process of exposing essential featurse of an entity
+Abstraction is a process of exposing essential features of an entity
 while hiding other irrelevant detail.
 
 Abstraction reduces code complexity and at the same time it makes your code aesthetically pleasant.
