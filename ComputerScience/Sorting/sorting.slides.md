@@ -4,11 +4,13 @@
 
 ## Objectives
 
-Understand the steps to implement ...
+Understand the steps to implement...
 
-1. Bubble sort algorithm
-1. Selection sort algorithm
-1. Insertion sort algorithm
+- O(n^2) sorting algorithms ...
+ Selection, Insertion & Bubble Algorithms
+
+- O(n log n) algorithms ...
+ Merge Sort & Quick Sort
 
 ---
 
@@ -18,23 +20,11 @@ Understand the steps to implement ...
 * If the list is not sorted, repeat steps 1 and 2.
 * If the list is sorted return the sorted list.
 
----
-
-## Bubble Sort
-```
-1. For each element in the list, look at the element to the right.
-2. If the value on the left is greater than the value on the right, swap the two values.
-Keep swapping until you're at the end of the array. Then move onto the next element in the array and repeat.
-```
+__Question:__ What is the Big(O) in the worst case for this algorithm?
 
 ---
 
-### Bubble Sort
-![inline](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/175/bubblesort.gif)
-
----
-
-## Selection Sort
+## Selection Sort O(n^2)
 
 ```
 1. Pick the left-most item in the "unsorted section". Call this the "current minimum".
@@ -50,9 +40,24 @@ Keep swapping until you're at the end of the array. Then move onto the next elem
 ### Selection Sort
 ![inline](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/174/selectionsort.gif)
 
+
 ---
 
-## Insertion Sort
+## Bubble Sort O(n^2)
+```
+1. For each element in the list, look at the element to the right.
+2. If the value on the left is greater than the value on the right, swap the two values.
+Keep swapping until you're at the end of the array. Then move onto the next element in the array and repeat.
+```
+
+---
+
+### Bubble Sort
+![inline](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/175/bubblesort.gif)
+
+---
+
+## Insertion Sort O(n^2)
 
 ```
 1. Select the left-most item in the "unsorted section", call this the "current item".
@@ -72,6 +77,39 @@ Keep swapping until you're at the end of the array. Then move onto the next elem
 
 ---
 
+##  Merge Sort O(n log n)
+
+```
+1. If your array has a length less than 2, congratulations! It's already sorted.
+2. Otherwise, cut your array in half, and consider the two sub-arrays separately.
+3. Sort each of your smaller subarrays using merge sort.
+4. Merge your two subarrays together, and return the merged array.
+```
+---
+
+### Merge Sort
+![inline](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/172/mergesort.gif)
+
+---
+
+## Quick Sort
+
+Research: write out the pseudo code steps to partition and sort data using quick sort
+
+---
+
+### Quick Sort
+
+![inline](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/171/quicksort.gif)
+
+---
+
 ## CFU
 
-https://www.youtube.com/watch?v=kPRA0W1kECg
+Explain how each of these algorithms work and their Big O
+
+1. Selection sort algorithm
+1. Insertion sort algorithm
+1. Bubble sort algorithm
+1. Merge Sort
+1. Quick Sort
