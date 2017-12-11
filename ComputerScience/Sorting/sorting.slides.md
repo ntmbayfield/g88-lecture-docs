@@ -104,6 +104,11 @@ Research: write out the pseudo code steps to partition and sort data using quick
 
 ---
 
+## Review
+Watch [Hungarian Dancers](https://www.youtube.com/channel/UCIqiLefbVHsOAXDAxQJH7Xw)
+
+---
+
 ## CFU
 
 Explain how each of these algorithms work and their Big O
@@ -113,3 +118,8 @@ Explain how each of these algorithms work and their Big O
 1. Bubble sort algorithm
 1. Merge Sort
 1. Quick Sort
+
+---
+
+
+
