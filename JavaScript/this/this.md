@@ -1,6 +1,6 @@
 ### [fit]What's `this`?
 
-![left](jack.gif)
+![left](img/jack.gif)
 
 ---
 
@@ -19,7 +19,7 @@
 
 # Function Invocation
 
-![](function.jpg)
+![](img/function.jpg)
 
 ^ function hello(name) {    return 'Hello ' + name + '!';}
 
@@ -33,9 +33,9 @@
 
 # Method Invocation
 
-![](lightBulb.jpg)
+![](img/lightBulb.jpg)
 
-^ A **method** is a function stored in a property of an object. 
+^ A **method** is a function stored in a property of an object.
 
 ^ `this` is the **object that owns the method** in a method invocation
 
@@ -43,7 +43,7 @@
 
 # Constructor Invocation
 
-![](construction.jpg)
+![](img/construction.jpg)
 
 ^ `this` is the **newly created object** in a constructor invocation
 
@@ -51,9 +51,9 @@
 
 # Indirect Invocation
 
-![](indirect.jpg)
+![](img/indirect.jpg)
 
-^ **Indirect invocation** is performed when a function is called using `myFun.call()` or `myFun.apply()` 
+^ **Indirect invocation** is performed when a function is called using `myFun.call()` or `myFun.apply()`
 
 ^ `this` is the **first argument** of `.call()` or `.apply()` in an indirect invocation
 
@@ -61,7 +61,7 @@
 
 # Arrow Functions
 
-![](method.jpg)
+![](img/method.jpg)
 
 ^ `this` is the **enclosing context** where the arrow function is defined
 
@@ -71,4 +71,4 @@
 
 # Questions
 
-![](head.jpg)
+![](img/head.jpg)
