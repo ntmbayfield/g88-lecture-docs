@@ -64,7 +64,7 @@ class Welcome extends React.Component {
 
 # Code Along
 
-- Clone [this repo](https://github.com/seanhelvey/react-intro-exercise/tree/practice)
+- Fork & clone [this repo](https://github.com/gSchool/react-intro-exercise)
 - We will work together to wire up these components using props, state, and setState
 - Here is [a video](https://vimeo.com/207527434) of the code along that you can refer to afterwards
 
