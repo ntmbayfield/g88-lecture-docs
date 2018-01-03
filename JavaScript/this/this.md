@@ -157,49 +157,63 @@ defaultContext.call(cat); // { name: 'Felix', furColor: 'black' }
 
 ---
 
-# Arrow Functions
+# `this` before arrow functions
 
 ```js
-function Document(name,type){
+function document(name,type){
   this.name = name;
   this.type = type;
 
-  return {
-    getName: () => {
-      console.log(this); //Document { name: 'jsNotes', type: '.js' }
-      return this.name
-    }
-  };
+  setTimeout( function() {
+      console.log(this); // Timeout object
+      console.log(this.name); //undefined
+    },3);
 }
-let myDoc = new Document("jsNotes", ".js");
-
 ```
 
 ---
 
-# Same code without Arrow Functions
+# A little of `this` and `that`
 
 ```js
-function Document(name,type){
+function document(name,type){
   this.name = name;
   this.type = type;
   let that = this;
-  return {
-    getName: function() {
-      console.log(that); //Document { name: 'jsNotes', type: '.js' }
-      console.log(this); //{ getName: [Function: getName] }
-      return this.name;
-    }
-  }
-}
-let myDoc = new Document("jsNotes", ".js");
 
+  setTimeout( function() {
+      console.log(that); // Global object
+      console.log(that.name); //myDoc
+    },3);
+}
+
+document('myDoc', 'js');
 ```
+
 ^ before arrow functions we might write the code like so. Notice `that` vs `this`
 
 ---
 
-# Objectives
+# Arrow Functions
+
+```js
+function document(name,type){
+  this.name = name;
+  this.type = type;
+
+  setTimeout( () => {
+      console.log(this); // Global object
+      console.log(this.name); //myDoc
+    },3);
+}
+
+document('myDoc', 'js');
+
+```
+
+---
+
+# Objectives - Questions?
 By the end of this lesson you should be able to:
 
 - define execution context
