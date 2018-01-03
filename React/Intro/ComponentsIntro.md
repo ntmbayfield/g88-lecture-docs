@@ -9,6 +9,7 @@
 - Explain what components are and why they are useful
 - Identify and create components
 - Pass data as props and render dynamic values in JSX
+- Differentiate between functional and class components
 - Know when to use state vs setState
 - Lift state up to the closest common ancestor
 
@@ -43,10 +44,52 @@ class Welcome extends React.Component {
 
 ---
 
+# Differentiate between functional and class components
+
+``` js
+function Welcome(props) {
+  return <h1>Hello, {props.name}</h1>;
+}
+```
+
+vs
+
+``` js
+class Welcome extends React.Component {
+  render() {
+    return <h1>Hello, {this.props.name}</h1>;
+  }
+}
+```
+
+---
+
 # Know when to use state vs setState
 
 - Use state to assign initial state in a constructor
+
+``` js
+constructor(props) {
+  super(props)
+  this.state = {
+    cards: CardData
+  }
+}
+```
+
+---
+
+# Know when to use state vs setState
+
 - Use setState to update state and re-render the component
+
+``` js
+onSubmit = (card) => {
+  this.setState({
+    cards: this.state.cards.concat(card)
+  })
+}
+```
 
 ^ Cold call
 
@@ -75,6 +118,7 @@ class Welcome extends React.Component {
 - Explain what components are and why they are useful
 - Identify and create components
 - Pass data as props and render dynamic values in JSX
+- Differentiate between functional and class components
 - Know when to use state vs setState
 - Lift state up to the closest common ancestor
 
