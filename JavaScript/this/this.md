@@ -61,6 +61,8 @@ function hello(name) {
   console.log(this); //undefined
   return 'Hello ' + name + '!';
 }
+
+hello();
 ```
 
 ---
@@ -84,7 +86,9 @@ var cat = {
     talk: function() {
       console.log(this);//{ name: 'Felix', furColor: 'black', talk: [Function: talk] }
     }
-}
+};
+
+cat.talk();
 ```
 ---
 
@@ -160,6 +164,8 @@ function document(name,type){
       console.log(this.name); //undefined
     },3000);
 }
+
+document("myDoc", ".js");
 ```
 
 ---
@@ -198,6 +204,9 @@ function document(name,type){
       console.log(this.name); //undefined
     }.bind(this),3000);
 }
+
+document('myDoc', 'js');
+
 ```
 
 ---
