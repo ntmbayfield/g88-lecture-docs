@@ -200,8 +200,8 @@ function document(name,type){
   this.type = type;
 
   setTimeout( function() {
-      console.log(this); // Timeout object
-      console.log(this.name); //undefined
+      console.log(this); // Global object
+      console.log(this.name); //myDoc
     }.bind(this),3000);
 }
 
