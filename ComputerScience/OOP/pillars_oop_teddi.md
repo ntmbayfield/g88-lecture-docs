@@ -49,7 +49,7 @@ Inheritance allows classes to be arranged in a hierarchy that represents "is-a-t
 ---
 
 ## Inheritance Example:
-A class Employee might inherit from class Person. All the data and methods available to the parent class also appear in the child class with the same names. For example, class Person might define variables "first_name" and "last_name" with method "fullName()". These will also be available in class Employee, which might add the variables "position" and "salary".
+A class Employee might inherit from class Person. All the data and methods available to the parent class also appear in the child class with the same names. For example, class Person might define variables `first_name` and `last_name` with method `fullName()`. These will also be available in class Employee, which might add the variables "position" and "salary".
 
 ^ is the concept of sharing properties and behaviors. Generally you’d have a main class that describes the general properties and behaviors of an object. The classes that inherit from it will share those properties and behaviors and will also implement more specific ones of their own.
 
