@@ -42,19 +42,31 @@ In Redux docs, focus on "Usage With React" section! Trust me.
 
 const store = createStore(reducer)
 
-Provider (react-redux) takes store
+Vanilla react = store.subscribe() & store.dispatch()
 
-Vanilla react = subscribe & dispatch
+---
+
+# What is the "shape" of our state?
+
+From reducers/todos.js
+
+`const todos = (state = [], action)`
 
 ---
 
 # Using react-redux
 
-Connect (react-redux) is alternative to avoid writing store.subscribe by hand and unnecessary renders
+Provider (react-redux) takes store
 
-To use connect, you need to define a special function called mapStateToProps()
+Connect (react-redux) is alternative to avoid writing store.subscribe() and store.dispatch() by hand and unnecessary renders
 
-mapDispatchToProps receives the dispatch() method and returns callback props that you want to inject into the presentational component
+---
+
+# More on connect (react-redux)
+
+To use connect, you need to define a special function called mapStateToProps() instead of using store.subscribe()
+
+mapDispatchToProps() receives the store.dispatch() method and returns callback props that you want to inject into the presentational component
 
 ---
 
