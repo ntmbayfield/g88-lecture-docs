@@ -61,6 +61,8 @@ function hello(name) {
   console.log(this); //undefined
   return 'Hello ' + name + '!';
 }
+
+hello();
 ```
 
 ---
@@ -84,7 +86,9 @@ var cat = {
     talk: function() {
       console.log(this);//{ name: 'Felix', furColor: 'black', talk: [Function: talk] }
     }
-}
+};
+
+cat.talk();
 ```
 ---
 
@@ -148,16 +152,7 @@ defaultContext.call(cat); // { name: 'Felix', furColor: 'black' }
 
 ---
 
-# Arrow Functions
-
-![](img/method.jpg)
-
-- `this` is the **enclosing context** where the arrow function is defined
-- Where it's __defined__, not where it's used.
-
----
-
-# `this` before arrow functions
+# A problem with `this` before arrow functions
 
 ```js
 function document(name,type){
@@ -167,13 +162,15 @@ function document(name,type){
   setTimeout( function() {
       console.log(this); // Timeout object
       console.log(this.name); //undefined
-    },3);
+    },3000);
 }
+
+document("myDoc", ".js");
 ```
 
 ---
 
-# A little of `this` and `that`
+# The solution: A little of `this` and `that`
 
 ```js
 function document(name,type){
@@ -184,7 +181,7 @@ function document(name,type){
   setTimeout( function() {
       console.log(that); // Global object
       console.log(that.name); //myDoc
-    },3);
+    },3000);
 }
 
 document('myDoc', 'js');
@@ -194,7 +191,36 @@ document('myDoc', 'js');
 
 ---
 
+# Another solution: `bind`
+### `bind` returns a function that has `this` set explicitly to the argument that you passed it
+
+```js
+function document(name,type){
+  this.name = name;
+  this.type = type;
+
+  setTimeout( function() {
+      console.log(this); // Global object
+      console.log(this.name); //myDoc
+    }.bind(this),3000);
+}
+
+document('myDoc', 'js');
+
+```
+
+---
+
 # Arrow Functions
+
+![](img/method.jpg)
+
+- `this` is the **enclosing context** where the arrow function is defined
+- Where it's __defined__, not where it's used.
+
+---
+
+# Arrow Functions Solution
 
 ```js
 function document(name,type){
@@ -204,7 +230,7 @@ function document(name,type){
   setTimeout( () => {
       console.log(this); // Global object
       console.log(this.name); //myDoc
-    },3);
+    },3000);
 }
 
 document('myDoc', 'js');
