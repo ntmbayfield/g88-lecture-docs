@@ -189,7 +189,7 @@ cal
 ssh
 find
 chmod
-whoam
+whoami
 groups
 sudo
 vim
