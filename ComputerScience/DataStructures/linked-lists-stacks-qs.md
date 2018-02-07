@@ -68,7 +68,7 @@ Linked Lists are different-- data nodes are not necessarily sequential in memory
 - Each node has some data payload
 - Each node has 1 reference to the next
 
-http://blog.benoitvallon.com/data-structures-in-javascript/the-singly-linked-list-data-structure/
+[http://blog.benoitvallon.com/data-structures-in-javascript/the-singly-linked-list-data-structure/](http://blog.benoitvallon.com/data-structures-in-javascript/the-singly-linked-list-data-structure/)
 
 ---
 
@@ -81,7 +81,7 @@ http://blog.benoitvallon.com/data-structures-in-javascript/the-singly-linked-lis
 - Each node references both next and previous
 - Uses more memory than single-linked
 
-http://blog.benoitvallon.com/data-structures-in-javascript/the-doubly-linked-list-data-structure/
+[http://blog.benoitvallon.com/data-structures-in-javascript/the-doubly-linked-list-data-structure/](http://blog.benoitvallon.com/data-structures-in-javascript/the-doubly-linked-list-data-structure/)
 
 ---
 
@@ -93,7 +93,7 @@ http://blog.benoitvallon.com/data-structures-in-javascript/the-doubly-linked-lis
 - Can be implemented atop LinkedList
   + All insertion/removal happens @ tail (or head)
 
-http://blog.benoitvallon.com/data-structures-in-javascript/the-stack-data-structure/
+[http://blog.benoitvallon.com/data-structures-in-javascript/the-stack-data-structure/](http://blog.benoitvallon.com/data-structures-in-javascript/the-stack-data-structure/)
 
 ---
 
@@ -104,14 +104,14 @@ http://blog.benoitvallon.com/data-structures-in-javascript/the-stack-data-struct
 - Can be implemented atop LinkedList
   + Insert @ tail, remove from head
 
-http://blog.benoitvallon.com/data-structures-in-javascript/the-queue-data-structure/
+[http://blog.benoitvallon.com/data-structures-in-javascript/the-queue-data-structure/](http://blog.benoitvallon.com/data-structures-in-javascript/the-queue-data-structure/)
 
 ---
 
 ### Common Data Structures in JS
 ![](https://ak8.picdn.net/shutterstock/videos/4017067/thumb/1.jpg?i10c=img.resize(height:160)
 
-https://github.com/benoitvallon/computer-science-in-javascript/tree/master/data-structures-in-javascript
+[https://github.com/benoitvallon/computer-science-in-javascript/tree/master/data-structures-in-javascript](https://github.com/benoitvallon/computer-science-in-javascript/tree/master/data-structures-in-javascript)
 
 ---
 
@@ -145,3 +145,12 @@ What's a good use case for...
   + Batch or stream processing
   + Print job "spooling"
   + Anything you can visualize as a line of ants
+
+---
+
+### Objectives
+![](https://mir-s3-cdn-cf.behance.net/project_modules/disp/a520773389308.56014b51916d7.png)
+
+- Explain what is a linked list and how it's stored in memory
+- Implement a linked list/stack/queue using JavaScript
+- Explain differences between arrays, linked lists, stacks, queues or how they are related
