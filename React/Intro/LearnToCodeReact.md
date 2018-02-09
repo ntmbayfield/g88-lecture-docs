@@ -1,23 +1,40 @@
 build-lists: true
 
-# Intro to Components
+# Learn to Code - React!
 
 ![inline center](https://wmira.gallerycdn.vsassets.io/extensions/wmira/react-playground-vscode/0.0.11/1494599205180/Microsoft.VisualStudio.Services.Icons.Default)
 
 ---
 
 # Objectives
-
-- Explain what components are and why they are useful
-- Identify and create components
-- Pass data as props and render dynamic values in JSX
-- Differentiate between functional and class components
+- Describe Single Page Applications (SPA)
+- Name the key concepts in React
+- Explain components, props, and JSX
+- Identify functional and class components
 - Know when to use state vs setState
 - Lift state up to the closest common ancestor
 
 ---
 
-# Explain what components are and why they are useful
+# Describe Single Page Applications (SPA)
+
+In a single-page application, all of the code needed is included in a single-page load. This includes all of the CSS, HTML, and JavaScript. The page does not reload, and it requires dynamic interaction with the Web server.
+
+---
+
+# Name the key concepts in React
+
+- Web Components
+- 1 way data binding
+- Virtual DOM
+- JSX (which requires a "build" step)
+- State management (Flux or Redux)
+
+
+---
+
+
+# Components
 
 - Components let you split the UI into independent, reusable pieces, and think about each piece in isolation.
 
@@ -25,10 +42,15 @@ build-lists: true
 
 ---
 
-# Identify and create components
+# Identify "container" (smart) components
 
-- See [this example](https://learn.galvanize.com/cohorts/284/units/4536/content_files/57681) in Learn
-- Split into groups by row. You have 5 minutes to pick a website and identify components.
+![inline](https://s3-us-west-2.amazonaws.com/learn.galvanize.com/learn-images/gSchool/react-curriculum/units/images/components/top-level-components.png)
+
+---
+
+# Identify "presentation" (dumb) components
+
+![inline](https://s3-us-west-2.amazonaws.com/learn.galvanize.com/learn-images/gSchool/react-curriculum/units/images/components/sub-components.png)
 
 ---
 
@@ -117,11 +139,9 @@ onSubmit = (card) => {
 
 # Objectives
 
-- Explain what components are and why they are useful
-- Identify and create components
-- Pass data as props and render dynamic values in JSX
-- Differentiate between functional and class components
+- Describe Single Page Applications (SPA)
+- Name the key concepts in React
+- Explain components, props, and JSX
+- Identify functional and class components
 - Know when to use state vs setState
 - Lift state up to the closest common ancestor
-
----
