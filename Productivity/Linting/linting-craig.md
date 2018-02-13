@@ -56,9 +56,11 @@ Linting is the process of running a program that analyzes code for potential err
 ```
 module.exports = {
   extends: [
-    'ryansobol/browser',
-    'ryansobol/jquery',
-    'ryansobol/es6'
+     'airbnb'
+  ],
+  rules: [
+    "semi": "off",
+    "no-plusplus": "off
   ]
 };
 ```
@@ -100,6 +102,13 @@ Install & Enable Packages:
 - linter-eslint
 - make sure jslint is disabled or not installed
 
+---
+
+In Linter Settings:
+- Check 'Lint on Change' if you want to lint as you go.  Lint on save is a less annoying.
+
+---
+
 In linter-eslint Settings:
 - Add ~/eslintrc.js to ".eslintrc Path"
 - Add result from ```npm get prefix``` to "Global Node Installation Path" e.g. '/usr/local'
@@ -137,3 +146,9 @@ module.exports = {
 };
 
 ```
+
+---
+
+# Resources
+[Comparison of Linting Tools](https://www.sitepoint.com/comparison-javascript-linting-tools/)
+
