@@ -110,7 +110,8 @@ In Linter Settings:
 ---
 
 In linter-eslint Settings:
-- Add ~/eslintrc.js to ".eslintrc Path"
+- Uncheck "Disable when no ESLint config is found"
+- Add ~/.eslintrc.js to ".eslintrc Path"
 - Add result from ```npm get prefix``` to "Global Node Installation Path" e.g. '/usr/local'
 - Check "Show Rule ID in Messages:
 - Check Use global ESLint Installation
