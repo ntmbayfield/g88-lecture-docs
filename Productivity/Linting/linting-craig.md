@@ -41,9 +41,9 @@ Linting is the process of running a program that analyzes code for potential err
 
 1. Install linter module ( for node or atom)
 
-1. Create a .eslintrc.js configuration file.
+1. Create a .eslintrc configuration file.
 
-1. Add language configuration and environmnent configuration to the .eslintrc.js file.
+1. Add language configuration and environmnent configuration to the .eslintrc file.
 
 1. Run eslint locally and see lots of errors
 
@@ -51,7 +51,7 @@ Linting is the process of running a program that analyzes code for potential err
 
 ---
 
-## example .eslintrc.js
+## example .eslintrc
 
 ```
 module.exports = {
@@ -80,13 +80,13 @@ npm install -g eslint eslint-config-airbnb
 ```
 
 ```
-touch ~/.eslintrc.js
+touch ~/.eslintrc
 
-atom ~/.eslintrc.js
+atom ~/.eslintrc
 
 ```
 
-add the configuration to ~/.eslintrc.js
+add the configuration to ~/.eslintrc
 
 ```
 npm get prefix
@@ -111,7 +111,7 @@ In Linter Settings:
 
 In linter-eslint Settings:
 - Uncheck "Disable when no ESLint config is found"
-- Add ~/.eslintrc.js to ".eslintrc Path"
+- Add ~/.eslintrc to ".eslintrc Path"
 - Add result from ```npm get prefix``` to "Global Node Installation Path" e.g. '/usr/local'
 - Check "Show Rule ID in Messages:
 - Check Use global ESLint Installation
@@ -125,7 +125,7 @@ Exercise:
 
 ---
 
-My preferred eslintrc.js
+My preferred eslintrc
 
 ```
 module.exports = {
