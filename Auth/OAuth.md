@@ -13,6 +13,13 @@ build-lists: true
 * Draw and explain the OAuth data flow
 * Implement OAuth using Passport
 
+----
+
+# Researching Oauth on the Internets (7 minutes)
+- What is Oauth?  What does the O stand for?
+- What are the advantages of using Oauth over managing username/passwords in your database
+- What clients/servers are involved in an Oauth authentication flow?
+
 ---
 
 # Why OAuth?
@@ -55,9 +62,9 @@ build-lists: true
 ---
 
 # The skit
-* Katie (Client)
-* Sean (Our server)
-* Teddi (Third party server)
+* Person 1 (Client)
+* Person 2 (Our server)
+* Person 3 (Third party server)
 
 ---
 
