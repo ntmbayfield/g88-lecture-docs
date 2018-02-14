@@ -81,10 +81,11 @@ By the end of this workshop, you will be able to...
 
 ---
 
-# 3 Step Learning Process
-##[fit] 1. Set the stage
-##[fit] 2. Play
-##[fit] 3. Reflect
+# Three Step Learning Process
+
+## 1. Set the stage
+## 2. Play
+## 3. Reflect
 
 ---
 
