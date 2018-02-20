@@ -1,0 +1,47 @@
+#button {
+  /*edit here*/
+}
+
+.paragraph{
+  /*edit here*/
+}
+
+.headings{
+  /*edit here*/
+}
+
+
+/*Do Not Touch These Styles Below*/
+body {
+  width: 80%;
+  margin: auto;
+}
+h1, h2 {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+#image {
+  width: 40%;
+  height: 50%;
+  display: block;
+  margin: auto;
+  justify-content: space-around;
+}
+
+button{
+  height: 50px;
+  border-radius: 5px;
+  width: 10%;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  border: 2px solid gray;
+  box-shadow: 0 2px 3px 0px;
+}
+
+p {
+  text-align: center;
+  margin: 30px;
+}
