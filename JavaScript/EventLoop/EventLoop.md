@@ -3,8 +3,8 @@
 ---
 
 # Objectives
-- Describe how the Call Stack, Event Queue and Event Loop work together to execute code or delay code
-- Describe the difference betweent "Synchronous" & "Asynchronous" code
+- Describe how the Call Stack, Event Queue and Event Loop work together to execute code or delay code execution
+- Describe the difference between "Synchronous" & "Asynchronous" code
 - Use setTimeout to delay the excution of code
 
 ---
@@ -128,11 +128,25 @@ If getData is asynchronous, why won't this code work?
 function getData() {
   var data;
   $.get("example.php", function(response) {
-    data = response; }); return data;
+    data = response;
+  });
+  return data;
 }
 
 var data = getData();
 console.log("The data is: " + data);
+```
+
+---
+
+Does the following code take about 1 second or 5 seconds?
+
+```
+setTimeout(() => { console.log("1: First timeout") }, 1000)
+setTimeout(() => { console.log("2: Second timeout") }, 1000)
+setTimeout(() => { console.log("3: Third timeout") }, 1000)
+setTimeout(() => { console.log("4: Fourth timeout") }, 1000)
+setTimeout(() => { console.log("5: Fifth timeout") }, 1000)
 ```
 
 ---
