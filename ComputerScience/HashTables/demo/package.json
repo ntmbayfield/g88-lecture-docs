@@ -1,0 +1,19 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "word-counter-cli.js",
+  "scripts": {
+    "test": "mocha uppercase-words-from-file.test.js word-counter.test.js",
+    "demo": "node word-counter-cli.js",
+    "linter": "eslint uppercase-words-from-file.js uppercase-words-from-file.test.js word-counter-cli.js word-counter.js word-counter.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.0.2",
+    "eslint": "^4.0.0",
+    "mocha": "^3.4.2"
+  }
+}

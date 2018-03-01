@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>AJAX Practice</title>
+    <!-- Link Local CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <!-- Link Bootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <!-- Link Local JavaScript -->
+    <script src="main.js" charset="utf-8"></script>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">g68</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      <div class="jumbotron">
+        <h1 class="display-3">g68's Weather App</h1>
+        <p class="lead">While we are sitting in the classroom learning AJAX, let's check what the weather is like outside!</p>
+        <hr class="my-4">
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="#" role="button">Here's a button</a>
+        </p>
+      </div>
+    </header>
+    <main class="container">
+      <!-- Build out Weather Results -->
+      <section class="row align-items-center">
+        <article class="col-sm-12 col-md-4">
+          <div class="card" style="width: 20rem;">
+            <img class="card-img-top card1Img img-fluid" src="./weather1.png" alt="Pic goes here">
+            <div class="card-body">
+              <p class="card-text">Feels like...</p>
+              <p id="feelsLike">Enter info Here</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-sm-12 col-md-4">
+          <div class="card" style="width: 20rem;">
+            <img class="card-img-top card2Img img-fluid" src="./weather2.png" alt="Pic goes here">
+            <div class="card-body">
+              <p class="card-text">But it's really...</p>
+              <p id="temperature">Enter info Here</p>
+
+            </div>
+          </div>
+        </article>
+
+        <article class="col-sm-12 col-md-4">
+          <div class="card" style="width: 20rem;">
+            <img class="card-img-top card3Img img-fluid" src="./weather3.png" alt="Pic goes here">
+            <div class="card-body">
+              <p class="card-text">Where are we?</p>
+              <p id="location">Enter info Here</p>
+
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <p class="footer">&copy Copyright Jrigz</p>
+    </footer>
+  </body>
+</html>
