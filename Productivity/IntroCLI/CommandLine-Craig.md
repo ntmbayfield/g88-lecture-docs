@@ -22,6 +22,7 @@
 
 # "Mastery of the command line will make you a faster and more powerful developer"
 
+
 ---
 
 ![](img/lego.jpg)
@@ -29,17 +30,28 @@
 #[fit]Unix Philosophy
 
 ## “Do one thing and do it well.”
+
+### Each command does one thing
+
 ---
 
 ![](img/chaining.jpg)
 
 #[fit]Chaining Commands
 
+### Commands can be put together to perform powerful sequences of commands
+
 ---
 
 ![](img/scripting.jpg)
 
 # Scripting
+
+### Commands can be saved in a file and executed later
+
+---
+
+# Let's dig in...
 
 ---
 
@@ -214,5 +226,5 @@ ps
 
 # CFU
 
-## have students put answers on slates or in Slack
+## Put answers on slates (or in Slack)
 [Assessment Slides](https://docs.google.com/presentation/d/1Jhr3uhGQcUFizWu4nTJyz37Xy9mgffrN1kyMHiVUPYE/edit#slide=id.gd034ed29d_0_144)
