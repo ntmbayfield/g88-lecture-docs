@@ -11,7 +11,7 @@
 
 ## With your Product Owner/Customer pair
 ## 15 minutes research
-- What is the Agile Manifesto?
+- What is the Agile Manifesto and the 12 principles?
 - What is Scrum?
 - What is the difference between a Scrum Master and a Product Owner
 - What is a story?
