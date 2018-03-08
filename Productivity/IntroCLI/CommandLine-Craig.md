@@ -76,6 +76,31 @@ ls -R
 
 ### Note: there are often more flags than you will have use for
 
+---
+
+
+Your File System can be thought of as tree
+
+![inline](img/files.png)
+
+```
+.
+├── cats
+│   ├── bootsy.txt
+│   └── mochi.txt
+├── dogs
+│   └── cassie.txt
+└── fish
+    ├── neptune.txt
+    └── poissidon.txt
+
+3 directories, 5 files
+```
+
+---
+
+# File System Commands to traverse the tree
+
 ```
 pwd
 ```
@@ -92,6 +117,7 @@ cd ~
 cd ../..
 pwd
 ```
+
 ---
 
 # File Manipulation
