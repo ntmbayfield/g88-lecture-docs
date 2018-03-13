@@ -1,31 +1,11 @@
-# INTRO
-
-The Galvanize Immersive programs are hard!  Sometimes people want to quit.  If you don’t know why you are there then your chances of quitting are much higher.  Come to this session to learn a four step strategy you can share with students to get through the toughest obstacles.  AND…teaching the immersive is HARD for the teacher as well, so this strategy is essential (IMO) for the instructor as well.  So, we will focus on the teacher side of the equation including 2 tools for evaluating where you are and reviewing your purpose.
-
----
-
-# PREWORK
-- At the end of your normal shower take a 10-20 second shower on full cold.  Note your internal thought process/reaction to this.
-- Spend 15-20 minutes creating a brief personal mission statement for your career.  What is your “why?”  Your mission statement is the unique intersection of what you love to do, what you value and what you can give to the world.  Your personal mission statement is different than Galvanize’s mission statement.
-
----
 
 # GRIT
 
-
 ---
 
-Thinking back to the cold shower experiment...How did you react?
-
----
-
-OBJECTIVES:
+# OBJECTIVES:
 - Describe the 20X principle
 - Name and apply the 4 Steps of Mental Toughness
-- Create a personal mission statement
-- Use PROP to help assess your priorities
-- Name the parts of the OODA Loop
-
 
 ---
 
@@ -34,7 +14,7 @@ Right down one negative thought you have had about yourself since joining Galvan
 
 ---
 
-# I don’t know how to swim
+# "I don’t know how to swim"
 
 ^ Navy Seals study, what are the qualities of the people who pass.  They have...
 ^
@@ -43,7 +23,7 @@ Right down one negative thought you have had about yourself since joining Galvan
 
 ---
 
-## Do 10 push ups (on knees is OK)
+## Do 1 push ups (on knees is OK)
 
 ## then in the comments...
 
@@ -61,19 +41,26 @@ We are capable of 20 times more than where our minds initially stops us.  That i
 
 ---
 
-# How do you develop GRIT?
-- Practice being  uncomfortable by putting yourself in uncomfortable positions
-- Use the Four Steps of Mental Toughness to push yourself past the sucky parts
+# Talk and Turn
 
-^ Everyone has a plan until they're punched in the face.
+## How do you develop GRIT whiel in a program like Galvanize?
 
 ---
 
-The Four Steps of Mental Toughness aka "GRIT"
-- Witness
-- Breath Control
-- Visualization
-- Positive Mental Attitude
+![inline](images/tyson.jpg)
+
+---
+
+- Practice being uncomfortable by putting yourself in uncomfortable positions
+- Use the Four Steps of Mental Toughness to push yourself past the sucky parts
+
+---
+
+The Four Steps of Mental Toughness
+1. Witness your thoughts
+2. Breath Control
+3. Visualization
+4. Positive Self Talk
 
 ---
 
@@ -89,6 +76,7 @@ The Four Steps of Mental Toughness aka "GRIT"
 ^ practice breathing when you're not in stressful situations
 
 ---
+
 ## Use Box breathing to practice your breath control, use 2 deep breathes when you are in a stressful situation
 
 ![inline](images/boxbreathing.jpg)
@@ -97,56 +85,28 @@ The Four Steps of Mental Toughness aka "GRIT"
 
 # 3. Visualization
 - Win in your mind
-- Pick a micro goal
+- What is the Next Action to do
+- Pick a micro goal, do it, then pick another
+
+![](images/everest.png)
 
 ---
 
 # 4. Positive Mental Attitude
 
-- It helps to have a silly mantra!
+It's essential to have a silly mantra...
 
-> "Looking Good. Feeling Good. Oughta be in Hollywood!"
+```
+"Looking Good. Feeling Good. Oughta be in Hollywood!"
 
-> "Easy Day. Piece of Cake.  You got this!"
-
----
-
-# What is your Why?
-
-Your mission statement is the unique intersection of what you love to do, what you value and what you can give to the world.
-
-- Take 5 minutes, share your mission statement in the comments as it is ready.
-
----
-
-# P.R.O.P. Rapid Planning Tool
-
-- __P__riorities
-- __R__ealities
-- __O__ptions
-- __P__lan
-
----
-
-# P.R.O.P.
-
-- __P__riorities - What's your ONE THING that you need to get done today?
-- __R__ealities - What constraints do you have?
-- __O__ptions - What are your options?
-- __P__lan - Pick a plan, get after it
-
----
-
-# OODA Loop - Rapid Assessment Tool
-
-![inline](./images/ooda.png)
+"Easy Day. Piece of Cake.  You got this!"
+```
 
 ---
 
 # CFU
 
-- What is the 20x principle
-- What are some techniques you can use in stressful situations
+- What is the 20x principle?
 - What are the four steps of mental toughness?
 
 ---
@@ -171,6 +131,7 @@ Your mission statement is the unique intersection of what you love to do, what y
 __Anything that takes you out of your comfort zone physically, mentally or emotionally are all opportunities to practice the GRIT method__
 
 - Cold Showers - work up to 60 seconds, try not to hate it
+- Learn VIM
 - Learn Something new outside your normal domains...Take Swing Dance Lessons, Learn a language, etc.
 - Sign up for a race 2x distance you have done before 5K -> 10K, 1/2 Marathon -> Marathon
 - Public Speaking (outside your classroom)...Meetups, Open Mike, Lunch and Learn for your campus
