@@ -2,7 +2,14 @@
 
 ---
 
-# Problem Solving Framework Steps
+# Objectives
+- Name the four steps of Polya's Technique
+- Apply Polya's Technique to Novel Problems
+- Use "0, 1, Many, Crazy" to determine input/output test cases
+
+---
+
+# Polya's Problem Solving Framework Steps
 
 1. Understand the Problem
 1. Devise a Plan
@@ -11,9 +18,39 @@
 
 ---
 
+![inline](./img/polya.jpg)
+
+
+---
+
+# ALL OF PROGRAMMING...
+
+INPUT -> OUTPUT
+
+---
+
 # STEP ONE: Understand the Problem
   * Identify Inputs and Outputs
   * Ask "What if" Questions
+
+---
+
+## Test Cases "0, 1, Many, Crazy"
+
+Input: Array of numbers
+
+```
+[1, 2, 3]
+```
+
+Outputs:
+
+```
+0 -> []  but also null, undefined
+1 -> [1], [3.141592]
+many -> [1, 2, 3]
+crazy -> [NaN], {}, ['one', 'two', Infinity, true, [1,2,3]]
+```
 
 ---
 
@@ -38,3 +75,11 @@
     - You could refactor https://github.com/gSchool/javascript-curriculum/blob/master/Refactoring.md
     - You could burn-and-build (delete and rewrite)
     - You could write a real test suite
+
+---
+
+Write a function that takes a camelCase string and returns
+
+```
+SCREAMING_SNAKE_CASE
+```
