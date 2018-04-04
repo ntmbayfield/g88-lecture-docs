@@ -30,7 +30,7 @@ https://docs.google.com/presentation/d/1DIN5qQlFX1P5Fn9yBtHBzvf4M0AEdt6Vkk_DbF2R
 ---
 
 Simple cookie code along
-+ make a quick express app that sets/gets a cookie
++ make a quick express app that sets/gets a cookie and tracks numbers of times a page has been visited
 
 ---
 
