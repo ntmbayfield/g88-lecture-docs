@@ -6,6 +6,8 @@ slidenumbers: true
 #Semantic
 #<HTML>
 
+![](img/meaning.jpg)
+
 ---
 
 # Objectives
@@ -19,26 +21,37 @@ slidenumbers: true
 
 ---
 
+### Meaningful tags (Paired research)
+
+- `<header>`, `<main>`, `<mark>`
+- `<nav>`, `<section>`, `<summary>`
+- `<time>`, `<article>`, `<aside>`
+- `<details>`, `<figcaption>`, `<figure>`, `<footer>`
+
+---
+
 ### Why would we do this?
+
+![fit](img/yudo.jpg)
 
 ---
 
 ## 1. Readability
-![](http://uxmastery.com/wp-content/uploads/2013/09/readability-tests.png)
+![](img/readable.png)
 
 ### Easier for developers to follow
 
 ---
 
 ## 2. Accessibility
-![](https://www.levelaccess.com/wp-content/uploads/2016/04/disability-symbols.jpg)
+![](img/access.jpg)
 
 ### Helps screen readers and other accessiblity devices.
 
 ---
 
 ## 3. Easier Consumption
-![](https://previews.123rf.com/images/stokkete/stokkete1410/stokkete141000318/32525632-Shopping-cart-detail-close-up-with-store-shelf-on-background--Stock-Photo.jpg)
+![](img/cart.jpg)
 
 ### Screen scrapers and crawlers to separate content from structure.
 
@@ -51,10 +64,21 @@ slidenumbers: true
 
 ---
 
-## Separation of Concerns
+## 5. Separation of Concerns
 
 ### Helps keep structure separate from content separate from presentation.
+#### see `<blink>`, `<marquee>`
+
+
+![fit](img/concerns.jpg)
 
 ---
 
 ![fit](img/5086.HTML5PageLayout_2.jpg)
+
+---
+
+# Objectives
+
+- Be able to explain and apply the idea of semantic HTML
+- Be able to list off a few semantic HTML elements and what they may be used for

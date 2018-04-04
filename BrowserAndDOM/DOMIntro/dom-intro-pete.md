@@ -15,6 +15,16 @@ slidenumbers: true
 
 ---
 
+## The Idea
+
+What if we took every element we find in our HTML and wrapped a JavaScript object around it? It would let us work with the HTML elements programmatically from JavaScript.
+
+---
+
+![fit](img/ele2obj.png)
+
+---
+
 ## The DOM is an API
 
 A platform and language-neutral interface that allows programs and scripts to dynamically access and update the content, structure and style of documents. These changes will be reflected on the web page.
@@ -81,6 +91,10 @@ Document as a tree object
 
 ---
 
+![fit](img/nodetree.png)
+
+---
+
 The DOM represents a document as a Tree Object
 
 - The tree has a root node **(trunk)** aka window object
@@ -116,47 +130,7 @@ Article exercise
 
 ---
 
-<break>
-
----
-
-## DOM Manipulation
 ## Objectives
-
-- Access properties of DOM elements such as text, html, value
-- Set an element’s text
-- Add/update/remove attributes on elements
-- Add/update/remove styles on elements
-- Add/update/remove classes on elements
-- Create and access data-attributes on elements
-
----
-
-Sample HTML Document
-
-```html
-<!doctype html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>All About Bears</title>
-    <style type="text/css">
-        h1 { color: blue; }
-        #mainpicture { border: 1px solid black; }
-        .bearname { font-weight: bold; }
-    </style>
-</head>
-<body>
-    <h1>BEARS!</h1>
-    <h1>More BEARS!</h1>
-    <img id="mainpicture" src="http://placebear.com/200/300">
-    <p>The No. 1 Threat To America</p>
-    <ul>
-        <li class="bearname">Smokey</li>
-        <li class="bearname">Teddy</li>
-    </ul>
-</body>
-</html>
-```
-
----
+- Explain what is the DOM and the relationship between the DOM and HTML.
+- What is the document?
+- Explore and interact with the DOM using browser dev tools.

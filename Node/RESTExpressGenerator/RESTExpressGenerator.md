@@ -58,6 +58,20 @@ Explore what files it created for us and what do they do?
 
 File|Function
 ---|---
+bin/www|
+node_modules/|
+public/|
+routes/|
+views/|
+app.js|
+package.json|
+
+---
+
+![](img/bg.png)
+
+File|Function
+---|---
 bin/www|initialize your web app
 node_modules/|npm dependencies
 public/|statically served assets (js, css, images)
