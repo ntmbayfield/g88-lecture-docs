@@ -17,6 +17,20 @@ slidenumbers: true
 - Display useful and readable error messages.
 
 ---
+
+# Talk and Turn
+
+## Where can we put input validation in a Full Stack App?
+
+---
+
+# Rule #1
+# NEVER TRUST THE USER!!!!
+
+![inline](img/spongebob.png)
+
+---
+
 ### Users will abuse your site, either intentionally or by accident
 
 - Blank fields
@@ -25,6 +39,7 @@ slidenumbers: true
 - Duplicate data
 - Malicious attempts to mess your DB or hijack your site
 - Intentional junk data to pollute your DB
+
 
 ---
 
@@ -59,13 +74,36 @@ User's can skip your UI altogether and issue mean requests to your backend with 
 
 We can use 2 NPM middleware packages to help us
 
-__express-validation__
 __joi__
+
+https://github.com/hapijs/joi
+
+__express-validation__
+
+https://www.npmjs.com/package/express-validation
 
 ---
 
-## Code Along
+# Pair Research (15 min)
+
+## Joi
++ What is a Joi schema?
++ How do you verify numbers, emails and integers with Joi?
++ What does Joi.validate return?
+
+## express-validation
++ How do you use a Joi validation schema in a route?
++ What are the steps to implement the express-validation middleware with Joi?
+
+---
+
+## Exercise (45 min)
 
 Fork + Clone
 
 [https://github.com/peternsilva/serverSideValidation](https://github.com/peternsilva/serverSideValidation)
+
++ Add validations for the registerd user to the POST route
++ Display error messages if the user already exists
++ Add one additional field and validate it (e.g. Age)
+
