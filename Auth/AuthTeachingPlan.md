@@ -4,10 +4,10 @@
 + List topics for Auth^2 ... Authentication, Authorization, Cookies, Sessions, Hashes, 1 way encryption, bcrypt, JWT, token
 + Draw Diagram of Registration, Login, Authorization and connect topics to diagram
 + Have students identify HTTP Methods & Paths for Bookshelf requests and status codes for responses
-+ Go through Authentication slides
-+ Go through Passwords 1 & 2 slides
-https://github.com/gSchool/LectureDocs/blob/master/Auth/Authentication_Part1_About_Passwords.md
-https://github.com/gSchool/LectureDocs/blob/master/Auth/Authentication_Part2_Storing_Paswords.md
++ Go through Authentication Overivew slides
+https://docs.google.com/presentation/d/1n8cLu07crWlp3arLhNjwN9mVt4LRlqc_NHFTqvbkwTo/edit#slide=id.gf41a3e02f_0_7
++ Go through Authentication Passwords slides
+https://github.com/gSchool/LectureDocs/blob/master/Auth/Authentication_Complete.md
 
 + Group in 3's and have them tackle bcrypt exercise ( 1-1.5 hours)
 https://github.com/gSchool/auth-password-hashing
@@ -30,7 +30,7 @@ https://docs.google.com/presentation/d/1DIN5qQlFX1P5Fn9yBtHBzvf4M0AEdt6Vkk_DbF2R
 ---
 
 Simple cookie code along
-+ make a quick express app that sets/gets a cookie
++ make a quick express app that sets/gets a cookie and tracks numbers of times a page has been visited
 
 ---
 
