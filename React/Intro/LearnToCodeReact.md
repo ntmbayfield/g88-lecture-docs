@@ -131,7 +131,7 @@ onSubmit = (card) => {
 
 # Code Along
 
-- Fork & clone [this repo](https://github.com/gSchool/react-intro-exercise)
+- Clone (or Download) [this repo](https://github.com/gSchool/learn-to-code-react)
 - We will work together to wire up these components using props, state, and setState
 - Here is [a video](https://vimeo.com/207527434) of the code along that you can refer to afterwards
 

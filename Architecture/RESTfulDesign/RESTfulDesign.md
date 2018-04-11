@@ -1,4 +1,7 @@
-#RESTful Design
+# RESTful Design
+
+
+![](img/frog.jpg)
 
 ---
 
@@ -6,6 +9,8 @@
 
 - Explain the concept of REST
 - Explain which HTTP verbs (methods) match up to CRUD
+
+![](img/blu-bg.png)
 
 ---
 
@@ -19,6 +24,8 @@
 ---
 
 #REST Principles
+
+![](img/bg-abstract.jpg)
 
 ---
 
@@ -40,10 +47,30 @@
 
 ---
 
-#HTTP methods
+#HTTP methods / verbs
 #<br>
 ##HTTP methods map CRUD operations to HTTP Requests.
 
+
+---
+
+# CRUD
+| HTTP | CRUD | SQL  |
+| ------------- |:-------------:| -----:|
+| POST|  |  |
+| GET |  |  |
+| PUT / PATCH |  |  |
+| DELETE |  |  |
+
+---
+
+# CRUD
+| HTTP | CRUD | SQL  |
+| ------------- |:-------------:| -----:|
+| POST| Create |  |
+| GET | Read (Retrieve) |	 |
+| PUT / PATCH | Update (Modify) |	 |
+| DELETE | Delete (Destroy) |  |
 
 ---
 
@@ -65,11 +92,15 @@
 ><br>
 >Must be *idempotent* - meaning it will produce the same results if executed one or multiple times.
 
+![right](img/dog-fetch.jpg)
+
 ---
 
 #POST
 
->Used to create a new entity.
+>Used to create a new entity. Usually provided some "body data", maybe from an HTML form for creating said entity.
+
+![right](img/dog-post.jpg)
 
 ---
 
@@ -83,6 +114,8 @@
 ><br>
 >PUT replaces an existing entity.  Missing elements will be replaced with empty or null. (Not always - check docs)
 
+![fit right](img/put.jpg)
+
 ---
 
 #PATCH
@@ -90,11 +123,17 @@
 >Used for partial updates of an entity.
 >Idempotent.
 
+
+![right](img/patch.jpg)
+
 ---
 
 #DELETE
 
 >Used to remove a resource.
+
+
+![right fit](img/dog-delete.jpg)
 
 ---
 

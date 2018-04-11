@@ -8,11 +8,11 @@
 
 #What is HTML?
 
-^HyperText Markup Language (HTML) is the standard language to create webpages.
+- HyperText Markup Language (HTML) is the standard language to create webpages.
 
-^HTML describes and applies structure to a page; it's the skeleton.
+- HTML describes and applies structure to a page; it's the skeleton.
 
-^Browsers parse and then render the HTML so that it's human-readable.
+- Browsers parse and then render the HTML so that it's human-readable.
 
 ---
 
@@ -26,13 +26,13 @@
 
 #Syntax
 
-^Tags make elements (when rendered).
+- Tags make elements (when rendered).
 
-^Tags wrap content.
+- Tags wrap content.
 
-^Some tags are self-closing
+- Some tags are self-closing
 
-^Tags have attributes.
+- Tags have attributes.
 
 ---
 
@@ -40,18 +40,18 @@
 
 #HTML Structure
 
-^HTML can be thought of as a tree.
+- HTML can be thought of as a tree.
 
-^Like a family tree.
+- Like a family tree.
 
-^Elements can have parents (or container), children and siblings.
+- Elements can have parents (or container), children and siblings.
 
-^Doctype <!DOCTYPE html> - self closing and servers to tell the browser what type of HTML the file is written in.
+- Doctype <!DOCTYPE html> - self closing and servers to tell the browser what type of HTML the file is written in.
 
-^HTML
+- HTML
 
-^HEAD -> Metadata about the document.
+- HEAD -> Metadata about the document.
 
-^title
+- title
 
-^body - the content thats displayed.
+- body - the content thats displayed.

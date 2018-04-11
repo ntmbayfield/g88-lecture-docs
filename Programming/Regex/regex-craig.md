@@ -2,6 +2,7 @@ theme: Next, 1
 autoscale: true
 slidenumbers: true
 <!-- @author: Pete Silva -->
+<!-- @author: Craig Quincy -->
 
 ![right fit](https://www.ibm.com/blogs/bluemix/wp-content/uploads/2014/12/asciiart.png)
 ## RegEx

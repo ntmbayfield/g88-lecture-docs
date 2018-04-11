@@ -8,7 +8,7 @@ slidenumbers: true
 ---
 
 ## Objectives
-- List and explain the four types of joins
+- List and explain four types of joins
 - Use correct SQL join for given problem
 - Join multiple tables in one query
 
@@ -22,9 +22,9 @@ The **JOIN** clause lets us do that, and it is more efficient than trying to do 
 
 ---
 
-## 4 Types of JOINs
+## Types of JOINs
 - INNER, LEFT, RIGHT, FULL OUTER
-- A JOIN lets you query the columns/fields from two tables, and return a result set as if they were one.
+- A JOIN lets you query the columns/fields from two tables, and return a result set as if they were one table.
 
 ---
 

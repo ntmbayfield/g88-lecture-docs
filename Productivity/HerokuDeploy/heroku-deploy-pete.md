@@ -79,7 +79,7 @@ Like Surge, but for full-stack apps. DB, backend, frontend. Way to deploy your a
     "start": "node ./bin/www",
     "knex": "knex",
     "heroku-postbuild": "knex migrate:rollback; knex migrate:latest; knex seed:run;",
-    "nodemon": "node app.js"
+    "nodemon": "nodemon ./bin/www"
   }
 }
 ```
@@ -89,7 +89,7 @@ Like Surge, but for full-stack apps. DB, backend, frontend. Way to deploy your a
 ![](http://cdn.osxdaily.com/wp-content/uploads/2011/10/NSTexturedFullScreenBackgroundColor.png)
 ### Heroku Scripts
 - Other knex migration/seed scripts can go in *"heroku-postbuild"*
-- *"node app.js"* is whichever file initializes the express server/defines initial routes. Sometimes this is *"node server.js"* instead.
+- *"nodemon ./bin/www"* is whichever file initializes the express server / entry point to your app.
 
 ---
 
@@ -99,7 +99,7 @@ Like Surge, but for full-stack apps. DB, backend, frontend. Way to deploy your a
 - A Procfile is a config file that lives in the root of your application and explicitly declares what command should be executed to start your app.
 - **echo 'web: node ./bin/www' > Procfile**
 
-- Setup session secret:
+- Setup session secret (for JWT):
 - **bash -c 'heroku config:set SESSION_SECRET=$(openssl rand -hex 64)'**
 
 ---

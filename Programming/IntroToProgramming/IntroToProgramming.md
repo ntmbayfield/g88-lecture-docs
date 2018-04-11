@@ -1,4 +1,4 @@
-#[fit]Intro to 
+#[fit]Intro to
 #[fit]**Programming**
 
 ---
@@ -7,7 +7,7 @@
 # Objectives
 
 - Explain what programming is.
-- Create a algorithm. 
+- Create a algorithm.
 - Use correct and specific language to describe code.
 - Identify Expressions
 
@@ -47,19 +47,7 @@
 
 ![left](img/4_Machine Code.png)
 
-^All computers have a native programming language that they understand, commonly referred to as machine code. 
-
----
-
-![](img/5_confused.jpg)
-
-^Difficult to follow.
-
-^Typically expressed in binary.
-
-^Unique to a particular architecture.
-
-^Two different computers could use two different versions of machine code.
+^All computers have a native programming language that they understand, commonly referred to as machine code.
 
 ---
 
@@ -81,7 +69,7 @@
 
 ![](img/7_Compiler.jpg)
 
-^A compiled program has to be modified into machine code before it is used. 
+^A compiled program has to be modified into machine code before it is used.
 
 ^An interpreted program is stored in a human-readable form. When the program is executed, an interpreter modifies the human-readable content as it is run.
 
@@ -92,8 +80,8 @@
 
 ![left](img/8_Communication.jpg)
 
-#Speaking 
-#like 
+#Speaking
+#like
 #a developer
 
 ---
@@ -179,7 +167,7 @@ var pi = 3.14
 - Different Syntax
 
 ```javascript
-var five = 2 + 2 
+var five = 2 + 2
 ```
 
 ---
@@ -204,7 +192,7 @@ var greeting = "Hello g[32]";
 - Statement
  - A block of code that does something
  - If (x === y) …
- - x = 7; 
+ - x = 7;
 
 
 ---
@@ -212,7 +200,7 @@ var greeting = "Hello g[32]";
 #Statement or Expression
 
 ```javascript
-var x = 1 + 1 
+var x = 1 + 1
 ```
 
 ---
@@ -220,7 +208,7 @@ var x = 1 + 1
 #Statement or Expression
 
 ```javascript
-var x = 1 + 1 
+var x = 1 + 1
 ```
 
 #Trick question ... both
@@ -247,7 +235,7 @@ var x = 1 + 1
 
 ^Determined by precedence
 
-^Show mdn javascript precedence 
+^Show mdn javascript precedence
 
 ^https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
 
