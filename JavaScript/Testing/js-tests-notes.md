@@ -36,6 +36,12 @@ Supertest
 
 ---
 
+# Flip to article:
+
+https://learn.galvanize.com/content/gSchool/node-curriculum/master/Express/Testing.md
+
+---
+
 ```bash
 express --git --view=hbs sloths_app
 ```

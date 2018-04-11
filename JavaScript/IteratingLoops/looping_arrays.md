@@ -1,4 +1,4 @@
-# Iterating over an Array`
+# Iterating over an Array
 
 ---
 
@@ -16,6 +16,7 @@ function iterateArray(arrOfWords){
 
 iterateArray(arr);
 ```
+---
 
 # Iterating an Array when you need index numbers
 
