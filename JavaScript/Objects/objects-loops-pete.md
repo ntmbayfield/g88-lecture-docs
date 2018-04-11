@@ -87,10 +87,14 @@ Object properties can be set to any valid expression, including functions.
 
 ```javascript
 myObj.sayHello = function(){
-  console.log("Hi! I used to be stinky!");
+  console.log("Forsooth! I hath expunged my copious stink.");
 }
 myObj.sayHello(); // What happens?
 ```
+
+---
+
+![150%](img/sloth-smile.gif)
 
 ---
 
