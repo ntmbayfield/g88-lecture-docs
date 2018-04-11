@@ -101,7 +101,7 @@ https://www.npmjs.com/package/express-validation
 
 Fork + Clone
 
-[https://github.com/peternsilva/serverSideValidation](https://github.com/peternsilva/serverSideValidation)
+[https://github.com/gSchool/serverSideValidation](https://github.com/gSchool/serverSideValidation)
 
 + Add validations for the registerd user to the POST route
 + Display error messages if the user already exists
