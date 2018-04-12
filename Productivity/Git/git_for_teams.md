@@ -2,6 +2,14 @@
 
 ---
 
+# Objectives
++ Understand Git collaboration best practices
++ Deal with merge conflicts
++ Use feature/branch workflow in a team
++ Rebase and merge branches
+
+---
+
 [Pirate Code](https://www.youtube.com/watch?v=b6kgS_AwuH0)
 
 ---
@@ -62,7 +70,6 @@ color: blue
 [Git-SCM - git bible](https://git-scm.com/)
 [Atlassian Git Tutorials](https://www.atlassian.com/git/tutorials)
 [Git Flow](https://guides.github.com/introduction/flow/)
-
 
 ---
 
