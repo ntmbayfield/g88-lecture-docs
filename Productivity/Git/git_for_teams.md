@@ -2,35 +2,19 @@
 
 ---
 
-## Use a feature branch workflow and/or Pull Requests
+[Pirate Code](https://www.youtube.com/watch?v=b6kgS_AwuH0)
 
 ---
 
-## Use good branch names.
-
-^^ no spaces, no capital letters
-
----
-
-## Keep Master clean. It should always be working.
+# Activity: Collaborate on a file (15min)
+One person per table create a repo with html, css, and js files
+Add everyone at table as collaborators
+Everyone add a section about themselves
+Merge conflicts, galore!
 
 ---
 
-## Do NOT make commit
-- Rebase branches (e.g. production)
-- Merge branches to Master
-
----
-
-## Merge conflicts should be handled frequently.
-
----
-
-## Merge conflicts should be handled on the feature branch.
-
----
-
-## What does a merge conflict look like?
+## What does a merge conflict look like? How do you resolve them?
 
 ```
 <<<<<<< HEAD
@@ -42,14 +26,43 @@ color: blue
 
 ---
 
-## Look at the changed files in the pull request on GitHub.
-
-^^ When submitting a pull request you can see all of the changes that have been made on this feature branch.
-
+# Hard rules
++ Do NOT commit directly to master EVER
++ Master should ALWAYS be in a working state
++ Create feature branches for tasks (good: book-crud, bad:craig-branch)
++ Rebase branches BEFORE merging to master
 
 ---
 
-## Communicate, communicate, communicate!
+# Other Guidelines
++ Use good branch names -- no spaces, no capital letters
++ Merge conflicts should be handled frequently.
++ Merge conflicts should be handled on the feature branch.
++ Communicate and isolate who is working in different sections of the code.
+
+---
+
+# Demo
+
+- feature branch | rebase | merge
+
+---
+
+# Repeat Activity (15 min)
++ User feature/branch work flow | rebase | merge
+
+---
+
+# Discussion
+
+---
+
+# Research a git command you haven't used before (5 min)
+
+[Git-SCM - git bible](https://git-scm.com/)
+[Atlassian Git Tutorials](https://www.atlassian.com/git/tutorials)
+[Git Flow](https://guides.github.com/introduction/flow/)
+
 
 ---
 
