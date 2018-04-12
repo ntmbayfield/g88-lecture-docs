@@ -16,7 +16,8 @@
 
 ---
 
-- Rebase branches
+## Do NOT make commit
+- Rebase branches (e.g. production)
 - Merge branches to Master
 
 ---
@@ -41,15 +42,15 @@ color: blue
 
 ---
 
-
 ## Look at the changed files in the pull request on GitHub.
 
 ^^ When submitting a pull request you can see all of the changes that have been made on this feature branch.
 
----
-
-## Don't delete the feature branches.
 
 ---
 
 ## Communicate, communicate, communicate!
+
+---
+
+[Git Team Exercises](https://github.com/gSchool/bue/wiki/Git-for-Teams---lecture-notes)
