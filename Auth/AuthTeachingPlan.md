@@ -1,5 +1,7 @@
 # Auth^2 Plan
 
+https://www.youtube.com/watch?v=3bjEpLoL0ls
+
 ## Day One:
 + List topics for Auth^2 ... Authentication, Authorization, Cookies, Sessions, Hashes, 1 way encryption, bcrypt, JWT, token
 + Draw Diagram of Registration, Login, Authorization and connect topics to diagram
@@ -15,6 +17,9 @@ https://github.com/gSchool/auth-password-hashing
 ---
 
 ## Day Two:
+
+https://www.youtube.com/watch?v=4HJ-Y8YTo8Q
+
 + Revisit Diagram from Day One
 
 + Go through Authorization Slides
