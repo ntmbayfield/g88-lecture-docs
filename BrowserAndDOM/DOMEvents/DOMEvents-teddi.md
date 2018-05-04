@@ -107,7 +107,11 @@ _Event Types_
 - Drag and Drop Events
 - Focus Events
 
-Paired research: [Event types](https://developer.mozilla.org/en-US/docs/Web/Events)
+---
+
+# Paired research: (7 min)
+Identify a half dozen event listeners that you think would be useful in a typical app.
+[Event types](https://developer.mozilla.org/en-US/docs/Web/Events)
 
 ---
 
@@ -185,3 +189,9 @@ document.addEventListener("DOMContentLoaded", function() {
 - Use _callbacks_ with methods like _addEventListener()_
 - Explain event bubbling
 - Explain the difference between _this_ and _event.target_ in callbacks
+
+---
+
+# Code Along
+
+https://github.com/gSchool/flashlight-demo
