@@ -18,7 +18,6 @@
 
 ![inline](./images/mvc_role_diagram.png)
 
-
 ---
 
 # I DO ... build Q2 assesment app
@@ -46,10 +45,19 @@ git clone https://github.com/craigquincy/rails_messages.git
 
 ---
 
-## My plan for learning RoR from 2012
+## Top reasons to use Ruby on Rails:
 
-![inline](./images/learning-rails.JPG)
+- Ruby is an elegant "english like" language
+- Easy to put together an entire application quickly
+- Opinionated MVC REST architecture
+- Perfect for larger web applications and teams
+- Generators for making models, views and controllers.  So, you can focuse on more interesting things!
+- Active Record makes assocations between models easy to build and manage
+- A very large community with production ready gems (e.g. Devise for auth)
 
+---
+
+Further exploration: [Rails Getting Started Guide](http://guides.rubyonrails.org/v3.2/getting_started.html)
 ---
 
 ## CFU
@@ -59,6 +67,3 @@ git clone https://github.com/craigquincy/rails_messages.git
 - What does an ActiveRecord model in Rails do?
 - What are some advantages/disadvantages of using RoR for a large scale application?
 - What are some advantages/disadvantages of using RoR for a Proof of Concept?
-
-
-
