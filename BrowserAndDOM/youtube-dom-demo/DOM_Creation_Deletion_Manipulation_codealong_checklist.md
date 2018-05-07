@@ -7,7 +7,7 @@
 
 2. get the body
 
-   1. `var body = document.getElementsByTagName("body")`
+   1. `var body = document.getElementsByTagName("body")[0]`
    2. look at what you got `body`. What do you see?
 
 3. create a header
@@ -37,11 +37,6 @@
    4. `body.appendChild(paragraph2)`
    5. `body` what do you see?
 
-   ## Delete an Element
-
-   1. Delete one of the paragraphs in the body `body.removeChild(paragraph1);`
-   2. Delete everything in the body `body.innerHTML = "";`
-
    ## Manipulate an Element
 
    1. change the text color of paragraph2 `paragraph2. style.color = "red"`
@@ -53,6 +48,11 @@
    3. append the li element to the ul element `ul.appendChild(li)`
    4. append the ul element to the body so it is now attached to the DOM `body.appendChild(ul);`
 
+   ## Delete an Element
+
+   1. Delete one of the paragraphs in the body `body.removeChild(paragraph1);`
+   2. Delete everything in the body `body.innerHTML = "";`
+
    ## Getting started from nothing
 
    1. Make html and js files
@@ -60,8 +60,22 @@
 
    ## Looping Over Elements
 
-   1. get the elements
-   2. iterate over the array you get back
+   1. get the elements, eg:
+
+      `var liList = document.body.getElementsByTagName("li");`
+
+   2. look at liList, what is it?
+
+   3. iterate over what you get back, eg:
+
+      ```
+      for (var i = 0; i < liList.length; i++) {
+        if (i < 2) {
+          liList[i].style.color = "red";
+        }
+      }
+      ```
+
 
    ​
 

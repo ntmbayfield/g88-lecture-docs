@@ -50,10 +50,35 @@ color: blue
 
 ---
 
+# draw this diagram and discuss
+
+![inline](images/diagram.jpg)
+
+---
+
 # Demo
 
 - feature branch | rebase | merge
 
+
+---
+
+# feature/branch workflow (with remote repository)
+```
+1. git checkout -b <branch_name> (this creates a new branch and checks out to that same branch)
+2. do work
+3. commit (add, commit)
+4. git checkout master
+5. git pull origin master
+6. git checkout <branch_name>
+7. git rebase master
+8. fix conflicts! (tells you on command line where to look in editor)
+9. git push origin <branch_name>
+10. git checkout master
+11. git merge <branch-name>
+12. git push origin master
+13. Tell teammates to git pull origin master
+```
 ---
 
 # Repeat Activity (15 min)
