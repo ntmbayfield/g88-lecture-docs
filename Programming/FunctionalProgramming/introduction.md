@@ -6,27 +6,11 @@ build-lists: true
 
 ---
 
-# Can it help me get a job?
-* YES
-* Isolating *side effects* [improves code](https://www.aomran.com/pure-functional-programming/)
-* *Immutable data* has [advantages](https://redux.js.org/docs/faq/ImmutableData.html#benefits-of-immutability)
-
-![lambda 70%](https://cdn.pixabay.com/photo/2012/04/24/11/31/lambda-39473_1280.png)
-
----
-
 # Objectives
-* Identify destructive functions, mutated state, and side effects
-* Write functions that take functions as arguments
-* Write functions that return functions as values
-* Write non-destructive versions of common destructive functions
-
-![lambda 70%](https://cdn.pixabay.com/photo/2012/04/24/11/31/lambda-39473_1280.png)
-
----
-
-# An example
-[Map Re-factor](https://github.com/gSchool/snippets/blob/master/functionalProgramming.js)
+* Define functional programming
+* Review programming language history
+* Identify and refactor destructive functions
+* Describe *immutable data* and *side effects*
 
 ![lambda 70%](https://cdn.pixabay.com/photo/2012/04/24/11/31/lambda-39473_1280.png)
 
@@ -65,11 +49,45 @@ build-lists: true
 
 ---
 
+# Identify destructive functions
+
+[Map Re-factor](https://github.com/gSchool/snippets/blob/master/functionalProgramming.js)
+
+![lambda 70%](https://cdn.pixabay.com/photo/2012/04/24/11/31/lambda-39473_1280.png)
+
+---
+
+# Immutable data
+
+* Describe the [importance](https://redux.js.org/docs/faq/ImmutableData.html#benefits-of-immutability) of *Immutable data*
+
+![lambda 70%](https://cdn.pixabay.com/photo/2012/04/24/11/31/lambda-39473_1280.png)
+
+---
+
+# Side Effects
+
+* Explain how isolating *side effects* [improves code](https://www.aomran.com/pure-functional-programming/)
+
+![lambda 70%](https://cdn.pixabay.com/photo/2012/04/24/11/31/lambda-39473_1280.png)
+
+---
+
 # Advanced topics for fun and profit
-* Algebraic Data Types (ADTs) aka sum and product types
+* Static and dynamic type systems
+* Algebraic Data Types (sum & product types)
 * Composition
 * Lazy evaluation
 * Category theory
-* Static and dynamic type systems
+
+![lambda 70%](https://cdn.pixabay.com/photo/2012/04/24/11/31/lambda-39473_1280.png)
+
+---
+
+# Objectives
+* Define functional programming
+* Review programming language history
+* Identify and refactor destructive functions
+* Describe *immutable data* and *side effects*
 
 ![lambda 70%](https://cdn.pixabay.com/photo/2012/04/24/11/31/lambda-39473_1280.png)
