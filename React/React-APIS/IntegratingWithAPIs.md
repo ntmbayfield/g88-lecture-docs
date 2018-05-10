@@ -72,11 +72,13 @@ Use the same [repo](https://github.com/gSchool/react-intro-exercise)
 
 ---
 
-# You Do
+# You Do (in pairs, 30 minutes)
 
 Add functionality to DELETE a card from the API.  Note you have to repeat all the steps for adding a card and add a button and onClick handler
 
 Use the same [repo](https://github.com/gSchool/react-intro-exercise)
+
+---
 
 # Objectives
 
