@@ -63,10 +63,10 @@ Committed
 
 ---
 
-# `git add`
+# `git add filename.js`
 ![right](./images/rocket-312767_1280.png)
 
-^ We are adding the changed files to the staging area
+^ Create a new file, then add it. We are adding the changed files to the staging area
 Almost done with 5th objective
 
 ---
@@ -83,7 +83,10 @@ Almost done with 5th objective
 # Let's Put it All Together
 - `git init`
 - `git status`
-- `git add -a`
+- `touch practice.js`
+- `git status`
+- `git add -A`
+- `git status`
 - `git commit -m "complete the lesson"`
 
 ^ Explain what is happening at each step
@@ -177,13 +180,30 @@ GitHub acts as a remote backup service for git repositories.
 
 ---
 
-# BREAK
-
-![](./images/emblem-1294453_1280.png)
+# Save for Later
+- Merging and merge conflicts
+- Feature Branch Workflow
 
 ---
 
-# Learning Strategy
+# What to Focus on Now
+## Optional - Who wants a demo?
+
+- Forking and cloning
+- Add/commit/push
+- Creating a local repo/connect to GitHub
+
+
+---
+<!--
+
+# BREAK
+
+![](./images/emblem-1294453_1280.png) -->
+
+---
+
+<!-- # Learning Strategy
 ## Jigsaw classroom
 
 - You will have a home group
@@ -199,10 +219,12 @@ GitHub acts as a remote backup service for git repositories.
 - git stash
 - git checkout -b branch_name
 - git log
+- git diff
+
 
 ^
 - decide who will do which topic
 - time to move into expert groups
 - each person will get 2 minutes to share what they know
 - 2 minutes for filling in gaps, questions, etc.
-- What do you have for your first point
+- What do you have for your first point -->
