@@ -44,28 +44,41 @@ build-lists: true
 
 ---
 
-# The best app you've never heard of:
-
-* Everything you ever wanted
-* More than just an app - This is a lifestyle
-* Such crazy deals it doesn't even make sense
-
----
-
-# CODE.PIZZA
-![pizza 80%](https://i.chzbgr.com/full/8557342464/h3F7A8A28/ "Code + Pizza")
-
----
-
-# The skit
-* Katie (Client)
-* Sean (Our server)
-* Teddi (Third party server)
-
----
 
 # Break up into groups around a whiteboard and try drawing the OAuth flow:
 * Go!
+
+---
+
+# Task: Create an express app from scratch and implement OAuth using Passport.js
+
+Resources:
+* [Passport.js](http://www.passportjs.org/docs/)
+* [Passport example with explanation](https://github.com/gSchool/oauth-express-passport-explanation)
+* [github Oauth](https://developer.github.com/apps/building-oauth-apps/creating-an-oauth-app/)
+
+---
+
+
+
+# Steps to setup Oauth2
+
+1. Register your App with the Provider including the url they should return you to if it's successful
+
+1. Set up ENV variables for you client id/secret
+
+1. Install passport
+
+1. Configure passport
+
+1. Setup callback route
+
+---
+
+# Deployment Setup
+
+- Add your production callback url to the Provider's app configuration
+- Set ENV client id/secret (e.g. using `heroku config:set`)
 
 ---
 
@@ -73,12 +86,6 @@ build-lists: true
 * What are two use cases for OAuth? Why use it?
 * What is OAuth? What are the 3 machines involved?
 * Who can explain the OAuth data flow?
-
----
-
-# Implement OAuth using Passport
-* Check out the branch "step1" from the following repo:
-* [https://github.com/seanhelvey/oauth-express-passport-explanation] (https://github.com/seanhelvey/oauth-express-passport-explanation)
 
 ---
 
@@ -90,23 +97,3 @@ http://www.passportjs.org/docs
 
 https://github.com/gSchool/oauth-express-passport-explanation
 
-
-
-# Steps to setup Oauth2
-
-1. Register your App with the Provider including the url they should return you to if it's successful
-
-1. Set up ENV variables for you client id/secret
-
-1. install passport
-
-1. configure passport
-
-1. setup callback route
-
----
-
-# Deployment Setup
-
-- add your production callback url to the Provider's app configuration
-- set ENV client id/secret
