@@ -7,10 +7,43 @@ build-lists: true
 ---
 
 # Objectives
-* Define functional programming
-* Review programming language history
+* Outline practical use cases functional programming
 * Identify and refactor destructive functions
 * Describe *immutable data* and *side effects*
+* Define functional programming
+* Review programming language history
+
+![lambda 70%](https://cdn.pixabay.com/photo/2012/04/24/11/31/lambda-39473_1280.png)
+
+---
+
+# Outline practical use cases functional programming
+* Recall writing your first tests for client side JavaScript
+* There are two entry points to your code where "side effects" need to be isolated
+* Reading from and writing to the DOM are examples of "IO" (Input / Output)
+* HTTP requests between client and server are the other entry point
+
+---
+
+# Identify destructive functions
+
+[Map Re-factor](https://github.com/gSchool/snippets/blob/master/functionalProgramming.js)
+
+![lambda 70%](https://cdn.pixabay.com/photo/2012/04/24/11/31/lambda-39473_1280.png)
+
+---
+
+# Immutable data
+
+* Describe the [importance](https://redux.js.org/docs/faq/ImmutableData.html#benefits-of-immutability) of *Immutable data*
+
+![lambda 70%](https://cdn.pixabay.com/photo/2012/04/24/11/31/lambda-39473_1280.png)
+
+---
+
+# Side Effects
+
+* Explain how isolating *side effects* [improves code](https://www.aomran.com/pure-functional-programming/)
 
 ![lambda 70%](https://cdn.pixabay.com/photo/2012/04/24/11/31/lambda-39473_1280.png)
 
@@ -49,30 +82,6 @@ build-lists: true
 
 ---
 
-# Identify destructive functions
-
-[Map Re-factor](https://github.com/gSchool/snippets/blob/master/functionalProgramming.js)
-
-![lambda 70%](https://cdn.pixabay.com/photo/2012/04/24/11/31/lambda-39473_1280.png)
-
----
-
-# Immutable data
-
-* Describe the [importance](https://redux.js.org/docs/faq/ImmutableData.html#benefits-of-immutability) of *Immutable data*
-
-![lambda 70%](https://cdn.pixabay.com/photo/2012/04/24/11/31/lambda-39473_1280.png)
-
----
-
-# Side Effects
-
-* Explain how isolating *side effects* [improves code](https://www.aomran.com/pure-functional-programming/)
-
-![lambda 70%](https://cdn.pixabay.com/photo/2012/04/24/11/31/lambda-39473_1280.png)
-
----
-
 # Advanced topics for fun and profit
 * Static and dynamic type systems
 * Algebraic Data Types (sum & product types)
@@ -85,9 +94,10 @@ build-lists: true
 ---
 
 # Objectives
-* Define functional programming
-* Review programming language history
+* Outline practical use cases functional programming
 * Identify and refactor destructive functions
 * Describe *immutable data* and *side effects*
+* Define functional programming
+* Review programming language history
 
 ![lambda 70%](https://cdn.pixabay.com/photo/2012/04/24/11/31/lambda-39473_1280.png)
