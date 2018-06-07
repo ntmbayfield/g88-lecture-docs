@@ -20,12 +20,21 @@
 
 ---
 
+# 3 principles:
+
+1. State is tracked in a single Javascript object
+2. State is READONLY. Actions manipulate state, actions have a state
+3. A pure function, called "the Reducer", calculates the next state tree based on the previous state tree and the action being dispatched.
+
+---
+
 # Why Redux?
 
 This complexity is difficult to handle as we're mixing two concepts that are very hard for the human mind to reason about: **mutation** and **asynchronicity**
 
 
 Also skim this on [why react / redux](https://jrsinclair.com/articles/2018/react-redux-javascript-architecture/ ) (from casidoo's newsletter) it is about separating state from dom and the problems with lifting state to top. Passing everything from top is a little crufty.
+
 
 ---
 

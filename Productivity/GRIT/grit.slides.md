@@ -9,8 +9,7 @@
 
 ---
 
-## In the comments...
-Right down one negative thought you have had about yourself since joining Galvanize.
+## Right down one negative thought you have had about yourself since joining Galvanize.
 
 ---
 
@@ -25,13 +24,13 @@ Right down one negative thought you have had about yourself since joining Galvan
 
 ## Do 1 push ups (on knees is OK)
 
-## then in the comments...
-
 Write down how many pushups you could do in the next hour
 
 ---
 
-# 1,000
+## An entirely possible answer...
+
+# 1,000!!!
 
 ---
 
@@ -43,7 +42,7 @@ We are capable of 20 times more than where our minds initially stops us.  That i
 
 # Talk and Turn
 
-## How do you develop GRIT whiel in a program like Galvanize?
+## How do you develop GRIT while in a program like Galvanize?
 
 ---
 
@@ -86,7 +85,7 @@ The Four Steps of Mental Toughness
 # 3. Visualization
 - Win in your mind
 - What is the Next Action to do
-- Pick a micro goal, do it, then pick another
+- Pick a __micro goal__, do it, then pick another
 
 ![](images/everest.png)
 
@@ -96,11 +95,13 @@ The Four Steps of Mental Toughness
 
 It's essential to have a silly mantra...
 
-```
-"Looking Good. Feeling Good. Oughta be in Hollywood!"
+---
+
+# "Looking Good. Feeling Good. Oughta be in Hollywood!"
+
+---
 
 "Easy Day. Piece of Cake.  You got this!"
-```
 
 ---
 
@@ -111,9 +112,24 @@ It's essential to have a silly mantra...
 
 ---
 
-# FINAL THOUGHT
+# FINAL THOUGHTS
 
 - You have to pratice these techniques in order to use them duress, however, even one piece of them will help you!
+
+- Practicing in one realm will transfer to another...
+
+physical | mental | emotional | spiritual
+
+---
+
+__Get out of your comfort zone and practice the four steps___
+
+- Cold Showers - work up to 1-2 minutes, try not to hate it
+- Learn Something new outside your normal domains...Take Swing Dance Lessons, Learn a language, etc.
+- Sign up for a race 2x distance you have done before 5K -> 10K, 1/2 Marathon -> Marathon
+- Public Speaking ... Meetups, Open Mike, Lunch and Learn for your campus
+- Intro to Cross Fit
+
 
 ---
 
@@ -125,14 +141,3 @@ It's essential to have a silly mantra...
 - Visualization: practice OODA Loop or PROP depending on how dire the circumstance
 - Positive Attitude: Pick a silly mantra, practice it often
 
----
-
-## Suggestions for Practicing
-__Anything that takes you out of your comfort zone physically, mentally or emotionally are all opportunities to practice the GRIT method__
-
-- Cold Showers - work up to 60 seconds, try not to hate it
-- Learn VIM
-- Learn Something new outside your normal domains...Take Swing Dance Lessons, Learn a language, etc.
-- Sign up for a race 2x distance you have done before 5K -> 10K, 1/2 Marathon -> Marathon
-- Public Speaking (outside your classroom)...Meetups, Open Mike, Lunch and Learn for your campus
-- Intro to Cross Fit
