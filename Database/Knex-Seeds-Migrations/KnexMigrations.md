@@ -24,7 +24,7 @@
 - Ensures all changes to the Schema are reproducible
 	- Prevents inconsistencies from user error
 	- Team can have same schema
-	- Can make a change once and team will have it 
+	- Can make a change once and team will have it
 - Manages incremental changes in a schema
 	-You can add, remove and change columns to existing databases
 	-You don’t have to blow away a production database to change the schema
@@ -148,8 +148,8 @@ Lastly
 ![inline](./keyreferences.png)
 
 ^ In your schema you are referencing foreign keys. The keyword in your table migration is .reference.
-^ If you are join one or multiple table remember the order. The primary key needs to be created before referencing the foreign key. 
-^In other words, the value of the primary key needs to be present before you can reference in another table. 
+^ If you are join one or multiple table remember the order. The primary key needs to be created before referencing the foreign key.
+^In other words, the value of the primary key needs to be present before you can reference in another table.
 ^So if you were to create a many to many relationship, your join table needs to be created after all the tables you are referencing have been created
 
 ---
@@ -171,12 +171,3 @@ heroku create:addons heroku-postgresql
 - Create seeds for a single table
 - Create seeds for 1 to many tables
 - Create seeds for many to many tables
-
----
-
-# Exercise
-
-- Will be split into pairs
-- Fork and Clone Repo
-- Work through skit and creating migrations and seeds
-- [GitHub](https://github.com/gSchool/knex-migration-seed-music-script)
