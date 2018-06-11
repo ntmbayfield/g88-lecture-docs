@@ -56,7 +56,7 @@ From reducers/todos.js
 
 # It's called README for a reason
 
-Go over [counter example](https://redux.js.org/) together
+Go over [counter example](https://redux.js.org/#the-gist) together
 
 ---
 
@@ -65,27 +65,6 @@ Go over [counter example](https://redux.js.org/) together
 ---
 
 ### *buckyroberts/React-Redux-Boilerplate*. (2017). *GitHub*. Retrieved 18 July 2017, from https://github.com/buckyroberts/React-Redux-Boilerplate
-
----
-
-# Quick Skit
-
-User - Actually using the app on the screen adding todos as we act it out.
-
-Container - Managing the dumb component, dispatching actions, subscribing to changes in state.
-
-Component - Between me and the class. Must be really dumb. Asking dumb questions, while container component is being really condescending and giving orders.
-
----
-
-# Quick Skit (Continued)
-
-Action - Dispatched to the store in the middle of the room. “Ok he wants to add a todo this time, something about taking out the trash, says it is urgent” or whatever.
-
-Store - Receives actions dispatched to update state, uses the reducer to make new copy of state with update, and notifies subscribers when the state has been updated.
-
-Reducer - Takes old state and action, producing a new state. May want to talk about doing this immutably, so like making a copy of the old state and adding to it, or using concat. Something like that.
-
 
 ---
 
