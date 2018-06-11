@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="fullstacktheatercode.js" charset="utf-8"></script>
+    <style media="screen">
+      #result {
+        font-size: 100px;
+        color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <form class="" action="index.html" method="post">
+      <label for="murderer">Murderer</label>
+      <input type="text"
+             name="murderer_input"
+             id="murderer"
+             required
+             placeholder="murderer name">
+
+      <label for="room">Room</label>
+      <input type="text"
+             name="room_input"
+             id="room"
+             required
+             placeholder="room name">
+
+      <label for="weapon">Weapon</label>
+      <input type="text"
+             name="weapon_input"
+             id="weapon"
+             required
+             placeholder="weapon name">
+
+      <input type="submit"
+             name="Submit"
+             value="Submit">
+    </form>
+    <div id="result">
+
+    </div>
+  </body>
+</html>
