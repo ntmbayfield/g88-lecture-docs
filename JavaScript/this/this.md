@@ -36,7 +36,7 @@ By the end of this lesson you should be able to:
 
 - function invocation
 - method invocation
-- constructor invocation
+- constructor/class invocation
 - indirect invocation
 
 ^ Let's explore the invocation types
@@ -56,13 +56,13 @@ By the end of this lesson you should be able to:
 # Function Invocation
 
 ```js
-'use strict';
+'use strict'
 function hello(name) {
-  console.log(this); //undefined
-  return 'Hello ' + name + '!';
+  console.log(this) //undefined
+  return 'Hello ' + name + '!'
 }
 
-hello();
+hello()
 ```
 
 ---
@@ -84,16 +84,16 @@ var cat = {
     name: "Felix",
     furColor: "black",
     talk: function() {
-      console.log(this);//{ name: 'Felix', furColor: 'black', talk: [Function: talk] }
+      console.log(this)//{ name: 'Felix', furColor: 'black', talk: [Function: talk] }
     }
-};
+}
 
-cat.talk();
+cat.talk()
 ```
 ---
 
 
-# Constructor Invocation
+# Constructor/Class Invocation
 
 ![](img/construction.jpg)
 
@@ -102,19 +102,22 @@ cat.talk();
 ---
 
 
-# Constructor Invocation
+# Constructor/Class Invocation
 
 ```js
-function Document(name,type){
-  this.name = name;
-  this.type = type;
-  this.getName = function (){
-      console.log(this);//Document { name: 'jsNotes', type: '.js', getName: [Function] }
-      return this.name;
-    }
+class MainDocument {
+
+  constructor(name,type){
+    this.name = name
+    this.type = type
+  }
+  getName(){
+    return this.name
+  }
 }
 
-let myDoc = new Document("jsNotes", ".js")
+let myDoc = new MainDocument("jsNotes", ".js")
+console.log(myDoc.getName())
 ```
 
 
@@ -133,80 +136,48 @@ let myDoc = new Document("jsNotes", ".js")
 # Indirect Invocation
 
 ```js
-'use strict';
+'use strict'
 
-function defaultContext () {
-    console.log(this);
+function myAwesomeFunction (greet) {
+    console.log(`${greet} ${this.name}`)
 }
 
 var cat = {
     name: "Felix",
     furColor: "black"
-};
+}
+var dog = {
+    name: "Snoopy",
+    furColor: "black and white"
+}
 
-defaultContext(); //undefined
-defaultContext.call(cat); // { name: 'Felix', furColor: 'black' }
+myAwesomeFunction.call(cat, "meow") //invoke the fn with cat set as this
 ```
 
-^^ we will be exploring call/apply/bind in more detail in the near future
+^^ we will be exploring call/apply/bind in more detail in the future
 
 ---
 
 # A problem with `this` before arrow functions
 
 ```js
-function document(name,type){
-  this.name = name;
-  this.type = type;
+class MainDocument {
+  constructor(name,type){
+    this.name = name
+    this.type = type
+  }
 
-  setTimeout( function() {
-      console.log(this); // Timeout object
-      console.log(this.name); //undefined
-    },3000);
+  greet(greeting) {
+    return function() {
+      console.log(`${greeting}, the doc is named ${this.name}.${this.type}`)
+    }
+  }
+
 }
 
-document("myDoc", ".js");
-```
-
----
-
-# The solution: A little of `this` and `that`
-
-```js
-function document(name,type){
-  this.name = name;
-  this.type = type;
-  let that = this;
-
-  setTimeout( function() {
-      console.log(that); // Global object
-      console.log(that.name); //myDoc
-    },3000);
-}
-
-document('myDoc', 'js');
-```
-
-^ before arrow functions we might write the code like so. Notice `that` vs `this`
-
----
-
-# Another solution: `bind`
-### `bind` returns a function that has `this` set explicitly to the argument that you passed it
-
-```js
-function document(name,type){
-  this.name = name;
-  this.type = type;
-
-  setTimeout( function() {
-      console.log(this); // Global object
-      console.log(this.name); //myDoc
-    }.bind(this),3000);
-}
-
-document('myDoc', 'js');
-
+let doc = new MainDocument('notes', 'pdf')
+let helloGreeting = doc.greet("hello")
+helloGreeting()
 ```
 
 ---
@@ -223,17 +194,22 @@ document('myDoc', 'js');
 # Arrow Functions Solution
 
 ```js
-function document(name,type){
-  this.name = name;
-  this.type = type;
+class MainDocument {
+  constructor(name,type){
+    this.name = name
+    this.type = type
+  }
 
-  setTimeout( () => {
-      console.log(this); // Global object
-      console.log(this.name); //myDoc
-    },3000);
+  greet(greeting) {
+    return (()=> {
+      console.log(`${greeting}, the doc is named ${this.name}.${this.type}`)
+    }
+  }
 }
 
-document('myDoc', 'js');
+let doc = new MainDocument('notes', 'pdf')
+let helloGreeting = doc.greet("hello")
+helloGreeting()
 
 ```
 
