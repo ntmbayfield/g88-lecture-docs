@@ -62,6 +62,7 @@ build-lists: true
 
 # Why is Big-O important?
 - Application performance
+- We are going to talk about searching and sorting next
 - Interviews
 - Interesting and fun
 
@@ -74,26 +75,85 @@ build-lists: true
 ---
 
 # We need 8 volunteers in front of the class with their name on whiteboards!
-- Unsorted linear searching
+- Unsorted linear searching O(n)
 - Finding person, not finding person
+- Graph inputs and outputs
 - How can we make this easier?
+
+---
+
+### Big O searching / sorting table with _unsorted_ linear search:
+
+| name | big O | input size | output time |
+| --------- | -------- | --- | --- |
+| Linear search | O(n) |  8 | 8 |
+
+*NOTE* That input size is "n"!
+
+---
+
+# Sorting makes searching faster
 - Sorted linear searching
 - Can "short-circuit" now, but still worst case is O(n)
 
 ---
 
-# Sorting allows us to search more efficiently!
-- Binary search
-- Finding person, not finding person
-- Graph inputs and outputs
-- Discuss worst case for binary search being O(log (n))
+### Big O searching / sorting table with _sorted_ linear search:
+
+| name | big O | input size | output time |
+| --------- | -------- | --- | --- |
+| Unsorted linear search | O(n) |  8 | 8 |
+| Sorted linear search | O(n) |  8 | 8 |
+
+*NOTE* That input size is "n"!
 
 ---
 
-# The simplest sort: bubble sort
+# Binary search
+- Finding person, not finding person
+- Discuss worst case for binary search being O(log(n))
+- Remember, log is the inverse of an exponent
+- Base 2 because we cut the input in half each iteration
+- 2 to the what power equals 8?
+
+---
+
+### Big O searching / sorting table with binary search:
+
+| name | big O | input size | output time |
+| --------- | -------- | --- | --- |
+| Binary search | O(log(n)) | 8 | 3 |
+| Linear search | O(n) |  8 | 8 |
+
+*NOTE* That input size is "n"!
+
+---
+
+# The simplest sort: bubble sort O(n^2)
 - Illustrate swap with students in chair
 - Show nested for loop style bubble sort
 - Discuss highest "bubbling" to top
+
+---
+
+### Big O searching / sorting table with bubble sort:
+
+| name | big O | input size | output time |
+| --------- | -------- | --- | --- |
+| Binary search | O(log(n)) | 8 | 3 |
+| Linear search | O(n) |  8 | 8 |
+| Bubble sort | O(n^2) |8 | ? |
+
+*NOTE* That input size is "n"!
+
+---
+
+# CFU
+
+- Remember that "n" is input size and bubble sort is O(n^2)
+- Turn and talk with your neighbor
+- Q: How many comparisons would take place using bubble sort with an input size of 8?
+- A: Bubble sort is order n^2, so if n is 8, it would take 8^2 or 64 comparisons
 
 ---
 
@@ -108,14 +168,6 @@ build-lists: true
 ---
 
 ![](https://www.youtube.com/watch?v=lyZQPjUT5B4)
-
----
-
-# CFU
-
-- Q: How many comparisons would take place using bubble sort with an input size of 8?
-- Turn and talk with your neighbor
-- A: Bubble sort is order n^2, so if n is 8, it would take 64 comparisons.
 
 ---
 
